@@ -1,14 +1,19 @@
 import React from "react";
 import CardPalestrante from "./CardPalestrante";
 
-function SecoesDoCronograma({ assunto }) {
+function SecoesDoCronograma({ assunto, reverse = false }) {
   return (
     <div className="my-32">
-      <div className="flex gap-10 justify-center w-fit ">
+      {/* Tirei a angulação 90º pq tava cagando a posição do resto */}
+      <h3 className="h-min mb-5 uppercase text-center md:text-left text-2xl font-semibold ">
+        {assunto}
+      </h3>
+      <div
+        className={`flex justify-center gap-10 flex-wrap md:flex-nowrap ${
+          reverse && "flex-row-reverse"
+        }`}
+      >
         <div className="flex justify-center">
-          <h3 className="-rotate-90 h-min relative mx-2 left-2 uppercase top-24 text-2xl font-semibold ">
-            {assunto}
-          </h3>
           <div className="relative">
             <div className="bg-white w-[350px] aspect-video rounded-sm absolute top-3 right-3 "></div>
             <div className="bg-orange-400 w-[350px] aspect-video rounded-sm absolute -top-3 left-3"></div>
@@ -18,8 +23,8 @@ function SecoesDoCronograma({ assunto }) {
           </div>
         </div>
 
-        <div>
-          <p className="max-w-1/2">
+        <div className={`${!reverse && "flex flex-col items-end"}`}>
+          <p className={`max-w-1/2 ${!reverse && "text-right"}`}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam
             quisquam unde adipisci ratione qui quas impedit tempore ab
             recusandae dolore facilis quaerat illo aliquam repellat dolor, amet
@@ -34,12 +39,13 @@ function SecoesDoCronograma({ assunto }) {
         </div>
       </div>
 
-      <div className="w-3/5 m-auto mt-16">
+      {/* PALESTRANTES */}
+      <div className="mt-16">
         <h2 className="font-semibold text-2xl">
           Palestrantes de {assunto} confirmados!
         </h2>
 
-        <div className="flex gap-6 mt-2 justify-between  m-auto">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mt-2 m-auto">
           <CardPalestrante />
           <CardPalestrante />
           <CardPalestrante />

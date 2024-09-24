@@ -5,9 +5,8 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
-      <Header />
-      <Outlet />
-      <Footer />
+      <Header className="font-Inter" />
+      <Outlet className="font-Inter" />
     </div>
   );
 }

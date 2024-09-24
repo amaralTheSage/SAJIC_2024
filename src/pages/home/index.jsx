@@ -2,7 +2,7 @@ import Carrossel from "../../Components/Carrossel";
 import Cronograma from "../../Components/Cronograma";
 import Empresas from "../../Components/Empresas";
 import Patrocinadores from "../../Components/Patrocinadores";
-import Apresentacao from "../../Components/Apresentacao"
+import Apresentacao from "../../Components/Apresentacao";
 
 const carrossel_imgs = [
   "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg",

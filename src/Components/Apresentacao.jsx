@@ -1,7 +1,7 @@
 export default function Apresentacao(){
     return (
         <section className="bg-[url('logo_senac_section2.png')] bg-cover h-[80vh] m-auto flex justify-center">
-            <div className="w-3/5 m-auto text-lg">
+            <div className="md:w-3/5 w-11/12 m-auto text-lg">
                 <h2
                     className="uppercase font-semibold
                     "

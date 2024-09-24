@@ -19,7 +19,7 @@ function Header() {
 
             <a
               href=""
-              className="bg-blue-600 rounded-md h-min py-1 md:relative bottom-1 px-3"
+              className="bg-blue-600 rounded-md h-min py-1 sm:relative bottom-1 px-3"
             >
               Inscreva-se
             </a>
@@ -37,7 +37,7 @@ function Header() {
       </div>
 
       {isOpen && (
-        <nav className="flex justify-evenly gap-4 h-full font-medium mt-2 items-top">
+        <nav className="sm:hidden flex justify-evenly gap-4 h-full font-medium mt-2 items-top">
           <a href="" className="border-b-[12px] pb-1 border-white h-full">
             Home
           </a>

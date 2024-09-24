@@ -4,8 +4,8 @@ import Header from './Components/Header';
 function App() {
   return (
     <div>
-      <Header />
-      <Outlet />
+      <Header className="font-Inter" />
+      <Outlet className="font-Inter" />
     </div>
   );
 }

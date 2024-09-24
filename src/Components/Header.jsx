@@ -1,9 +1,8 @@
 import { Menu } from "react-feather";
-import Hamburguer from "./Hamburguer";
 import { useState } from "react";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="bg-[#313131]   text-white shadow-md">

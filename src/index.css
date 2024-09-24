@@ -28,6 +28,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+
 .embla__dot {
   -webkit-tap-highlight-color: rgb(65, 65, 65);
   -webkit-appearance: none;
@@ -47,6 +48,7 @@ body {
   justify-content: center;
   border-radius: 50%;
 }
+
 .embla__dot:after {
   border: 1px solid white;
   background: rgb(211, 201, 201);
@@ -57,6 +59,7 @@ body {
   align-items: center;
   content: "";
 }
+
 .embla__dot--selected:after {
   background: rgb(255, 255, 255);
 }

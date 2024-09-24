@@ -1,4 +1,5 @@
-import React, { useCallback } from "react";
+import { useEffect } from "react";
+import PropTypes from "prop-types";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { DotButton, useDotButton } from "./DotButton";
@@ -8,24 +9,32 @@ export default function Carrossel({ imgs }) {
     Autoplay({ delay: 7000 }),
   ]);
 
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi);
+  const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
+
+  // Adicionando o useEffect para lidar com a limpeza da emblaApi
+  useEffect(() => {
+    if (emblaApi) {
+      // Suas interações com emblaApi, se necessário
+    }
+
+    return () => {
+      // Certificando-se de que a API do Embla é destruída corretamente ao desmontar
+      emblaApi && emblaApi.destroy();
+    };
+  }, [emblaApi]);
 
   return (
     <div className="embla m-auto relative ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container h-[90vh]">
-          {imgs.map((img) => {
-            return (
-              <>
-                <img
-                  key={img.id}
-                  src={img}
-                  className="embla__slide w-full object-cover aspect-video shadow"
-                />
-              </>
-            );
-          })}
+          {imgs.map((img, index) => (
+            <img
+              key={index} // Corrigido o key para usar o índice
+              src={img}
+              className="embla__slide w-full object-cover aspect-video shadow"
+              alt={`Slide ${index}`}
+            />
+          ))}
         </div>
       </div>
 
@@ -44,3 +53,8 @@ export default function Carrossel({ imgs }) {
     </div>
   );
 }
+
+// PropTypes para validar as props
+Carrossel.propTypes = {
+  imgs: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

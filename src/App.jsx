@@ -1,4 +1,11 @@
+import Carrossel from "./Components/Carrossel";
 import Header from "./Components/Header";
+
+const carrossel_imgs = [
+  "https://www.travelandleisure.com/thmb/KTIha5CLifSoUD3gx0YP51xc3rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/blue0517-4dfc85cb0200460ab717b101ac07888f.jpg",
+  "https://t4.ftcdn.net/jpg/07/04/20/19/360_F_704201907_r03FpXUhQG4habHGtuq0hlITtRMbaHfx.jpg",
+  "https://paintspot.ca/wp-content/uploads/2023/07/666-Pastel-Green.jpg",
+];
 
 export default function App() {
   return (
@@ -6,9 +13,8 @@ export default function App() {
       <Header />
       <main className="">
         {/* CARROSSEL */}
-        <section className="bg-gray-600 min-h-[85vh] flex items-center justify-center">
-          <img src="hero_img_1_text.png" alt="" className="w-1/2" />
-        </section>
+
+        <Carrossel imgs={carrossel_imgs} />
 
         {/* SEÇAO 2 */}
         <section className="bg-[url('logo_senac_section2.png')] bg-cover h-[80vh] m-auto flex justify-center">

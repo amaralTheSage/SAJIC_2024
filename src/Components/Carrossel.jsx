@@ -12,9 +12,9 @@ export default function Carrossel({ imgs }) {
     useDotButton(emblaApi);
 
   return (
-    <div className="embla m-auto relative">
+    <div className="embla m-auto relative ">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container ">
+        <div className="embla__container h-[90vh]">
           {imgs.map((img) => {
             return (
               <>
@@ -30,7 +30,7 @@ export default function Carrossel({ imgs }) {
       </div>
 
       {/* DOTS */}
-      <div className="embla__dots m-auto w-fit relative bottom-16">
+      <div className="embla__dots m-auto w-fit relative bottom-20">
         {imgs.map((_, index) => (
           <DotButton
             key={index}

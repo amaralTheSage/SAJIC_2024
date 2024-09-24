@@ -1,4 +1,5 @@
 import Carrossel from "./Components/Carrossel";
+import Cronograma from "./Components/Cronograma";
 import Header from "./Components/Header";
 
 const carrossel_imgs = [
@@ -36,6 +37,8 @@ export default function App() {
             </p>
           </div>
         </section>
+
+        <Cronograma />
       </main>
     </>
   );

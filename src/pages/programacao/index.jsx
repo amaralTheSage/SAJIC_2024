@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Footer from "../../Components/Footer";
 
 function Programacao() {
@@ -40,52 +41,54 @@ function Programacao() {
           </div>
         </section>
 
-        {/* Section 2 */}
-        <div className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
-          <section className="flex flex-col items-center justify-center text-3xl mt-20  py-40 bg-[url('predio_lines.svg')]  m-auto   bg-no-repeat bg-cover text-white">
-            <div className="">
-              <div className="w-4/5 m-auto flex flex-col items-center mt-32">
-                <p className="font-bold text-4xl">16/10</p>
-                <p className="">Manhã</p>
-                <div className="flex gap-32 justify-around mt-20">
-                  <div>
-                    <p className="text-3xl">Credenciamento</p>
-                    <p>
-                      Horário: <span>9:00 as 9:40</span>
-                    </p>
-                  </div>
-                  <div>
-                    <p>Coffee Break/Networking</p>
-                    <p>
-                      Horário: <span>9:40 as 10:00</span>
-                    </p>
-                  </div>
+        <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
+          <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+              <p className="font-bold text-8xl">16/10</p>
+              <p className="text-6xl">Manhã</p>
+              <div className="flex gap-32 justify-around mt-20">
+                <div>
+                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
+                  <p className="text-[1.75rem] font-light">
+                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-light">
+                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="">
-              <div className="w-4/5 m-auto flex flex-col items-center mt-32">
-                <p className="font-bold text-4xl">16/10</p>
-                <p className="">Manhã</p>
-                <div className="flex gap-32 justify-around mt-20">
-                  <div>
-                    <p className="text-3xl">Credenciamento</p>
-                    <p>
-                      Horário: <span>9:00 as 9:40</span>
-                    </p>
-                  </div>
-                  <div>
-                    <p>Coffee Break/Networking</p>
-                    <p>
-                      Horário: <span>9:40 as 10:00</span>
-                    </p>
-                  </div>
+            <NavLink
+              to="/inscricao"
+              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
+            >
+              Quero Participar
+            </NavLink>
+
+            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+              <p className="font-bold text-8xl">17/10</p>
+              <p className="text-6xl">Manhã</p>
+              <div className="flex gap-32 justify-around mt-20">
+                <div>
+                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
+                  <p className="text-[1.75rem] font-light">
+                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-light">
+                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                  </p>
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

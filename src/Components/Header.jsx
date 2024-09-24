@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="bg-[#313131] flex justify-between items-end  px-14 text-white shadow-md">
+    <header className="bg-[#313131] flex items-center flex-col md:flex-row gap-4 md:justify-between md:items-end  px-14 text-white shadow-md">
       <img src="LOGOBRANCA.png" alt="" className="w-24 my-2" />
 
       <nav className="flex gap-4 h-full items-top">

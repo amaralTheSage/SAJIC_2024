@@ -1,5 +1,6 @@
 import Carrossel from "./Components/Carrossel";
 import Cronograma from "./Components/Cronograma";
+import Empresas from "./Components/Empresas";
 import Header from "./Components/Header";
 
 const carrossel_imgs = [
@@ -39,6 +40,7 @@ export default function App() {
         </section>
 
         <Cronograma />
+        <Empresas />
       </main>
     </>
   );

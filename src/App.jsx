@@ -7,6 +7,7 @@ function App() {
     <div>
       <Header className="font-Inter" />
       <Outlet className="font-Inter" />
+      <Footer />
     </div>
   );
 }

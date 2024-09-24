@@ -39,7 +39,7 @@ function SecoesDoCronograma({ assunto }) {
           Palestrantes de {assunto} confirmados!
         </h2>
 
-        <div className="flex gap-4 justify-between  m-auto">
+        <div className="flex gap-6 mt-2 justify-between  m-auto">
           <CardPalestrante />
           <CardPalestrante />
           <CardPalestrante />

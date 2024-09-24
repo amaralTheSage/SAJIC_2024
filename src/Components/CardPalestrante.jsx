@@ -4,7 +4,7 @@ function CardPalestrante() {
   return (
     <div className="">
       <p>Data</p>
-      <div className="bg-blue-200 w-40 h-52">[imagem]</div>
+      <div className="bg-blue-200 w-44 h-56">[imagem]</div>
       <div>
         <p>nome</p>
         <p>empresa</p>

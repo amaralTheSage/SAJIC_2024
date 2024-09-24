@@ -1,6 +1,7 @@
 import Carrossel from "./Components/Carrossel";
 import Cronograma from "./Components/Cronograma";
 import Empresas from "./Components/Empresas";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Patrocinadores from "./Components/Patrocinadores";
 
@@ -44,6 +45,8 @@ export default function App() {
         <Empresas />
         <Patrocinadores />
       </main>
+
+      <Footer />
     </>
   );
 }

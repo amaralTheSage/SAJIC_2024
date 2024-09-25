@@ -10,12 +10,16 @@ function EventoPalestra({
   nome_2,
   sala_2,
   horario_2,
+  isBackgroundWhite,
 }) {
   return (
-    <div>
-      <div className="flex items-center mr-[-29rem]">
+    <>
+      <div className="flex items-center mr-[-32rem]">
         <p className="transform -rotate-90">Simultâneo</p>
-        <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
+        {/* Modificando a classe do hr dinamicamente */}
+        <hr
+          className={`border-1 ${isBackgroundWhite ? "border-[#0056B2]" : "border-white"} w-72 transform -rotate-90 ml-[-12rem]`}
+        />
       </div>
       <div className="flex flex-col gap-4">
         <p className="font-bold capitalize">{tipo}</p>
@@ -46,7 +50,7 @@ function EventoPalestra({
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

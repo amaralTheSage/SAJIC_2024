@@ -121,7 +121,6 @@ function Programacao() {
               </div>
             </div>
 
-         
             <div className="w-full flex gap-32 mt-32 justify-around">
               <EventoPalestra
                 prof_1={"Gladimir Catarino"}
@@ -133,7 +132,7 @@ function Programacao() {
                 sala_2={404}
                 horario_2={"10:00 às 10:50"}
               />
-
+              
               <EventoPalestra
                 tipo="palestras"
                 nome_1="Mercado de Trabalho"
@@ -181,56 +180,30 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-[#0056B2] w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Gladimir Catarino, Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-[#0056B2] w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Eduardo Roveré (ATLAS), Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+                isBackgroundWhite={true}
+              />
+              
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+                isBackgroundWhite={true}
+              />
             </div>
 
             <NavLink
@@ -263,56 +236,30 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-[#0056B2] w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Gladimir Catarino, Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-[#0056B2] w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Eduardo Roveré (ATLAS), Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+                isBackgroundWhite={true}
+              />
+              
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+                isBackgroundWhite={true}
+              />
             </div>
 
             <NavLink
@@ -349,56 +296,28 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Gladimir Catarino, Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Eduardo Roveré (ATLAS), Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+              />
+              
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+              />
             </div>
 
             <NavLink
@@ -431,56 +350,28 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Gladimir Catarino, Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">10:00 as 10:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">
-                    Eduardo Roveré (ATLAS), Sala Ex: 203
-                  </span>
-                </p>
-                <p>
-                  Horário: <span className="font-bold">11:00 as 11:50</span>
-                </p>
-                <p className="font-bold">Oficina 2</p>
-                <p>
-                  Com{" "}
-                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
-                </p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+              />
+              
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+              />
             </div>
 
             <NavLink

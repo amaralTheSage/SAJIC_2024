@@ -9,7 +9,9 @@ function Header() {
   return (
     <header className="bg-[#313131] text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
-        <img src="LOGOBRANCA.png" alt="" className="w-24 my-2" />
+        <NavLink to="/">
+          <img src="LOGOBRANCA.png" alt="" className="w-24 my-2" />
+        </NavLink>
 
         <div className="flex gap-4 max-md:items-center">
           <nav className="hidden sm:flex gap-4 h-full items-top">
@@ -73,7 +75,9 @@ function Header() {
           <NavLink
             to="/programacao"
             className={`border-b-[12px] pb-2 h-full ${
-              pathname === "/programacao" ? "border-white" : "border-transparent"
+              pathname === "/programacao"
+                ? "border-white"
+                : "border-transparent"
             }`}
           >
             Programacão
@@ -81,7 +85,9 @@ function Header() {
           <NavLink
             to="/palestrantes"
             className={`border-b-[12px] pb-2 h-full ${
-              pathname === "/palestrantes" ? "border-white" : "border-transparent"
+              pathname === "/palestrantes"
+                ? "border-white"
+                : "border-transparent"
             }`}
           >
             Palestrantes

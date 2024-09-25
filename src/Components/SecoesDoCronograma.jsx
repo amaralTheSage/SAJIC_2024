@@ -19,7 +19,12 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
               <img
-                src="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
+                src={
+                  (assunto.toLowerCase() == "tecnologia" &&
+                    "tecnologia_thumb.png") ||
+                  (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
+                  (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
+                }
                 alt=""
                 className="h-full w-full object-cover"
               />
@@ -50,10 +55,52 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
         </h2>
 
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mt-2 m-auto">
-          <CardPalestrante />
-          <CardPalestrante />
-          <CardPalestrante />
-          <CardPalestrante />
+          {/* TECNOLOGIA */}
+          {assunto.toLowerCase() == "tecnologia" && (
+            <>
+              {/* teste */}
+              <CardPalestrante
+                prof="Gladimir Catarino"
+                data="16/10, das 10:00 às 10:50"
+                empresa="UniSenac"
+                tema="IoT (Workshop)"
+                image="https://avatars.githubusercontent.com/u/26561092?v=4"
+              />
+              <CardPalestrante
+                prof="Débora Carvalho"
+                data="17/10, das 10:40 às 11:40"
+                empresa="UniSenac"
+                tema="Desenvolvimento de Games"
+              />
+              <CardPalestrante />
+              <CardPalestrante />
+            </>
+          )}
+
+          {/* GESTÃO */}
+          {assunto.toLowerCase() == "gestão" && (
+            <>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </>
+          )}
+
+          {/* MERCADO */}
+          {assunto.toLowerCase() == "mercado" && (
+            <>
+              <CardPalestrante
+                prof="Eduardo Roveré "
+                data="16/10, das 10:50 às 11:50"
+                empresa="Atlas"
+                tema="Mercado de Trabalho"
+              />
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </>
+          )}
         </div>
       </div>
     </div>

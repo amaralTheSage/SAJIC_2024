@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import EventoPalestra from "../../Components/EventoPalestra";
 
 function Programacao() {
   return (
@@ -43,6 +44,7 @@ function Programacao() {
 
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+            {/* 16/10 Manhã */}
             <div className="w-4/5 m-auto flex flex-col items-center mt-32">
               <p className="font-bold text-8xl">16/10</p>
               <p className="text-6xl">Manhã</p>
@@ -55,7 +57,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -64,32 +68,28 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
-                <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
-                <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+              />
+
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+              />
             </div>
 
             <NavLink
@@ -111,7 +111,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -119,33 +121,30 @@ function Programacao() {
               </div>
             </div>
 
+         
             <div className="w-full flex gap-32 mt-32 justify-around">
-            <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
-                <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
-                <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
-              </div>
-              <div className="flex items-center mr-[-29rem]">
-                <p className="transform -rotate-90">Simultâneo</p>
-                <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
-              </div>
-              <div className="flex flex-col gap-4">
-                <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
-                <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
-                <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
-              </div>
+              <EventoPalestra
+                prof_1={"Gladimir Catarino"}
+                nome_1={"Workshop IoT"}
+                sala_1={203}
+                horario_1={"10:00 às 10:50"}
+                nome_2={"Oficina 2"}
+                prof_2={"[PROFESSOR]"}
+                sala_2={404}
+                horario_2={"10:00 às 10:50"}
+              />
+
+              <EventoPalestra
+                tipo="palestras"
+                nome_1="Mercado de Trabalho"
+                prof_1="Eduardo Roveré (ATLAS)"
+                sala_1={203}
+                horario_1="11:00 às 11:50"
+                nome_2="Oficina 2"
+                prof_2="[PROFESSOR]"
+                sala_2={404}
+                horario_2="10:00 às 10:50"
+              />
             </div>
 
             <NavLink
@@ -154,7 +153,6 @@ function Programacao() {
             >
               Quero Participar
             </NavLink>
-
           </div>
         </section>
 
@@ -172,7 +170,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -187,12 +187,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Gladimir Catarino, Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
               <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
@@ -200,12 +212,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Eduardo Roveré (ATLAS), Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
             </div>
 
@@ -228,7 +252,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -237,18 +263,30 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-            <div className="flex items-center mr-[-29rem]">
+              <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
                 <hr className="border-1 border-[#0056B2] w-72 transform -rotate-90 ml-[-12rem]" />
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Gladimir Catarino, Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
               <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
@@ -256,12 +294,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Eduardo Roveré (ATLAS), Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
             </div>
 
@@ -271,7 +321,6 @@ function Programacao() {
             >
               Quero Participar
             </NavLink>
-
           </div>
         </section>
 
@@ -289,7 +338,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -304,12 +355,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Gladimir Catarino, Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
               <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
@@ -317,12 +380,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Eduardo Roveré (ATLAS), Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
             </div>
 
@@ -345,7 +420,9 @@ function Programacao() {
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">Coffee Break/Networking</p>
+                  <p className="text-[1.75rem] font-bold">
+                    Coffee Break/Networking
+                  </p>
                   <p className="text-[1.75rem] font-light">
                     Horário: <span className="font-bold">9:40 as 10:00</span>
                   </p>
@@ -354,18 +431,30 @@ function Programacao() {
             </div>
 
             <div className="w-full flex gap-32 mt-32 justify-around">
-            <div className="flex items-center mr-[-29rem]">
+              <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
                 <hr className="border-1 border-white w-72 transform -rotate-90 ml-[-12rem]" />
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Oficinas</p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Workshop IOT</p>
-                <p>Com <span className="font-bold">Gladimir Catarino, Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">10:00 as 10:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Gladimir Catarino, Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">10:00 as 10:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
               <div className="flex items-center mr-[-29rem]">
                 <p className="transform -rotate-90">Simultâneo</p>
@@ -373,12 +462,24 @@ function Programacao() {
               </div>
               <div className="flex flex-col gap-4">
                 <p className="font-bold">Palestras</p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Mercado de Trabalho</p>
-                <p>Com <span className="font-bold">Eduardo Roveré (ATLAS), Sala Ex: 203</span></p>
-                <p>Horário: <span className="font-bold">11:00 as 11:50</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">
+                    Eduardo Roveré (ATLAS), Sala Ex: 203
+                  </span>
+                </p>
+                <p>
+                  Horário: <span className="font-bold">11:00 as 11:50</span>
+                </p>
                 <p className="font-bold">Oficina 2</p>
-                <p>Com <span className="font-bold">(PROFESSOR), Sala Ex: 205</span></p>
+                <p>
+                  Com{" "}
+                  <span className="font-bold">(PROFESSOR), Sala Ex: 205</span>
+                </p>
               </div>
             </div>
 
@@ -388,7 +489,6 @@ function Programacao() {
             >
               Quero Participar
             </NavLink>
-
           </div>
         </section>
       </main>

@@ -39,7 +39,7 @@ function Footer() {
       </div>
 
       {/* Qualidade paia */}
-      <img src="/footer_logos.png" alt="" className="w-80 m-auto" />
+      <img src="/footer_logos.png" alt="" className="w-[380px] m-auto" />
     </footer>
   );
 }

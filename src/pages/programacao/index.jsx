@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Footer from "../../Components/Footer";
 
 function Programacao() {
   return (
@@ -393,7 +392,6 @@ function Programacao() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }

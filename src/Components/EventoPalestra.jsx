@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 function EventoPalestra({
   tipo = "oficinas",
@@ -53,5 +53,18 @@ function EventoPalestra({
     </>
   );
 }
+
+EventoPalestra.propTypes = {
+  tipo: PropTypes.string,
+  nome_1: PropTypes.string.isRequired,
+  prof_1: PropTypes.string.isRequired,
+  sala_1: PropTypes.string.isRequired,
+  horario_1: PropTypes.string.isRequired,
+  nome_2: PropTypes.string.isRequired,
+  prof_2: PropTypes.string.isRequired,
+  sala_2: PropTypes.string.isRequired,
+  horario_2: PropTypes.string.isRequired,
+  isBackgroundWhite: PropTypes.bool.isRequired,
+};
 
 export default EventoPalestra;

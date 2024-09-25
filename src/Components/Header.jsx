@@ -31,7 +31,7 @@ function Header() {
                 "border-b-[12px] pb-2 border-white h-full"
               }
             >
-              Programacão
+              Programação
             </NavLink>
             <NavLink
               to="/palestrantes"

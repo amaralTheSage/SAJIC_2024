@@ -52,7 +52,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
@@ -61,34 +61,29 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-4/5 flex gap-32 mt-32 justify-evenly items-center">
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
-                sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
+                prof_1={"William Machado"}
+                nome_1={"Palestra: As implicações éticas nas tecnologias digitais"}
+                sala_1={'a definir'}
+                horario_1={"9:20"}
+                nome_2={"Palestra: Do Conceito ao Lançamento - Gestão Ágil de Projetos de Jogos Digitais"}
+                prof_2={"Adriana Silva da Silva"}
+                sala_2={'a definir'}
+                horario_2={"10:00"}
               />
 
               <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
+                nome_1={"Palestra: Mercado de Trabalho"}
+                prof_1={"Eduardo Roveré"}
+                sala_1={'a definir'}
+                horario_1={"10:40"}
               />
             </div>
 
@@ -106,7 +101,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">19:00 às 19:30</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
@@ -115,34 +110,21 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">19:30 às 20:00</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-full flex gap-32 mt-32 justify-around items-center">
+
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
-                sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
-              />
-              
-              <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
+                nome_1={"Abertura"}
+                horario_1={"20:00"}
+                nome_2={`Conversa com empresas - TI e Gestão 2`}
+                prof_2={"Nath?? na mediação"}
+                sala_2={'a definir'}
+                horario_2={"20:30"}
               />
             </div>
 
@@ -164,7 +146,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
@@ -173,36 +155,29 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-full flex gap-32 mt-32 justify-around items-center">
               <EventoPalestra
                 prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
+                nome_1={"Oficina: Workshop IoT"}
                 sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
-                isBackgroundWhite={true}
+                horario_1={"9:20"}
+                nome_2={"Oficina: Git e GitHub"}
+                prof_2={"Karol"}
+                sala_2={'a definir'}
+                horario_2={"9:20"}
               />
               
               <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
-                isBackgroundWhite={true}
+                nome_1="Palestra: Desenvolvimento de Games"
+                prof_1="Débora Carvalho"
+                sala_1={'a definir'}
+                horario_1="10:40"
               />
             </div>
 
@@ -220,7 +195,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">19:00 às 19:10</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
@@ -229,36 +204,22 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">20:15 às 20:30</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-center">
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
-                sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
-                isBackgroundWhite={true}
-              />
-              
-              <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
-                isBackgroundWhite={true}
+                prof_1={"Léo"}
+                nome_1={"Oficina de Canva"}
+                sala_1={'a definir'}
+                horario_1={"19:15"}
+                nome_2={"Palestra: Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?"}
+                prof_2={"Thiago Nunes Batista"}
+                sala_2={'a definir'}
+                horario_2={"20:40"}
               />
             </div>
 
@@ -280,7 +241,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
@@ -289,35 +250,20 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-center">
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
-                sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
+                prof_1={"Thiago Nunes Batista"}
+                nome_1={"Palestra: Web APIs, O Front-end além de botões coloridos"}
+                sala_1={'a definir'}
+                horario_1={"10:40"}
               />
               
-              <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
-              />
             </div>
 
             <NavLink
@@ -334,7 +280,7 @@ function Programacao() {
                 <div>
                   <p className="text-[1.75rem] font-bold">Credenciamento</p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:00 as 9:40</span>
+                    Horário: <span className="font-bold">19:00 às 19:10</span>
                   </p>
                 </div>
                 <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
@@ -343,34 +289,40 @@ function Programacao() {
                     Coffee Break/Networking
                   </p>
                   <p className="text-[1.75rem] font-light">
-                    Horário: <span className="font-bold">9:40 as 10:00</span>
+                    Horário: <span className="font-bold">20:15 às 20:30</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-center">
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Workshop IoT"}
-                sala_1={203}
-                horario_1={"10:00 às 10:50"}
-                nome_2={"Oficina 2"}
-                prof_2={"[PROFESSOR]"}
-                sala_2={404}
-                horario_2={"10:00 às 10:50"}
+                prof_1={"Pablo Chiaro"}
+                nome_1={"Workshop: Agentes de IA: aplicações além do Chat com LLM e Langchain"}
+                sala_1={'a definir'}
+                horario_1={"19:15"}
+                nome_2={"Palestra: AINDA NÃO SEI"}
+                prof_2={"Flávio Badia"}
+                sala_2={'a definir'}
+                horario_2={"19:15"}
               />
               
               <EventoPalestra
-                tipo="palestras"
-                nome_1="Mercado de Trabalho"
-                prof_1="Eduardo Roveré (ATLAS)"
-                sala_1={203}
-                horario_1="11:00 às 11:50"
-                nome_2="Oficina 2"
-                prof_2="[PROFESSOR]"
-                sala_2={404}
-                horario_2="10:00 às 10:50"
+                nome_1="Palestra: O Futuro da Carreira de TI"
+                prof_1="Régis Neves Machado"
+                sala_1={'a definir'}
+                horario_1="19:15"
+                nome_2="Palestra: Era hiperconectada: O Direito Digital e crimes digitais"
+                prof_2="Andréa Barros Augé"
+                sala_2={'a definir'}
+                horario_2="20:40"
+              />
+
+              <EventoPalestra
+                nome_1="Palestra: Neuromarketing - comece por aqui"
+                prof_1="Nanda Fersula"
+                sala_1={'a definir'}
+                horario_1="20:40"
               />
             </div>
 

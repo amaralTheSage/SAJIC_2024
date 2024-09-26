@@ -73,7 +73,9 @@ function Header() {
           <NavLink
             to="/programacao"
             className={`border-b-[12px] pb-2 h-full ${
-              pathname === "/programacao" ? "border-white" : "border-transparent"
+              pathname === "/programacao"
+                ? "border-white"
+                : "border-transparent"
             }`}
           >
             Programacão
@@ -81,7 +83,9 @@ function Header() {
           <NavLink
             to="/palestrantes"
             className={`border-b-[12px] pb-2 h-full ${
-              pathname === "/palestrantes" ? "border-white" : "border-transparent"
+              pathname === "/palestrantes"
+                ? "border-white"
+                : "border-transparent"
             }`}
           >
             Palestrantes

@@ -1,4 +1,4 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,9 +10,9 @@ function Footer() {
         <div>
           <h3 className="font-semibold text-lg mb-2 uppercase">Mapa do Site</h3>
           <nav className="flex flex-col gap-1">
-            <a href="">Home</a>
-            <a href="">Programação</a>
-            <a href="">Palestrantes</a>
+            <NavLink to="/"> Home</NavLink>
+            <NavLink to="/programacao"> Programação</NavLink>
+            <NavLink to="/palestrantes"> Palestrantes</NavLink>
           </nav>
         </div>
         <div>
@@ -20,8 +20,12 @@ function Footer() {
             Redes Sociais
           </h3>
           <nav className="flex flex-col gap-1">
-            <a href="">@sajica_unisenac</a>
-            <a href="">@unisenacpelotas</a>
+            <a href="https://www.instagram.com/sajic_unisenac/">
+              @sajic_unisenac
+            </a>
+            <a href="https://www.instagram.com/unisenacpelotas/">
+              @unisenacpelotas
+            </a>
           </nav>
         </div>
         <div>
@@ -34,7 +38,7 @@ function Footer() {
       </div>
 
       {/* Qualidade paia */}
-      <img src="/footer_logos.png" alt="" className="w-80 m-auto" />
+      <img src="/footer_logos.png" alt="" className="w-[380px] m-auto" />
     </footer>
   );
 }

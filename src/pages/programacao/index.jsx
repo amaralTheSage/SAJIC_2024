@@ -67,23 +67,23 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-evenly items-start">
+            <div className="w-4/5 flex gap-32 mt-32 justify-evenly items-start text-xl">
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={"Palestra: As implicações éticas nas tecnologias digitais"}
                 sala_1={'a definir'}
                 horario_1={"9:20"}
-                nome_2={"Palestra: Do Conceito ao Lançamento - Gestão Ágil de Projetos de Jogos Digitais"}
-                prof_2={"Adriana Silva da Silva"}
+                nome_2={"Oficina: NextJS 14 - Estrutura de uma aplicação profissional"}
+                prof_2={"Ítalo Nolasco Ramos"}
                 sala_2={'a definir'}
-                horario_2={"10:00"}
+                horario_2={"9:20"}
               />
 
               <EventoPalestra
-                nome_1={"Palestra: Mercado de Trabalho"}
-                prof_1={"Eduardo Roveré"}
+                nome_1={"Palestra: Do Conceito ao Lançamento - Gestão Ágil de Projetos de Jogos Digitais"}
+                prof_1={"Adriana Silva da Silva"}
                 sala_1={'a definir'}
-                horario_1={"10:40"}
+                horario_1={"10:00"}
               />
             </div>
 
@@ -116,11 +116,11 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around items-start">
+            <div className="w-full flex gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
-                nome_2={`Conversa com empresas - TI e Gestão 2`}
+                nome_2={`Conversa com empresas - TI e Gestão`}
                 prof_2={"Nath?? na mediação"}
                 sala_2={'a definir'}
                 horario_2={"20:30"}
@@ -160,7 +160,7 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around items-start">
+            <div className="w-full flex gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Gladimir Catarino"}
                 nome_1={"Oficina: Workshop IoT"}
@@ -177,6 +177,10 @@ function Programacao() {
                 prof_1="Débora Carvalho"
                 sala_1={'a definir'}
                 horario_1="10:40"
+                nome_2={"Palestra: Mercado de Trabalho"}
+                prof_2={"Eduardo Roveré"}
+                sala_2={'a definir'}
+                horario_2={"10:40"}
               />
             </div>
 
@@ -209,7 +213,7 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Léo"}
                 nome_1={"Oficina de Canva"}
@@ -255,12 +259,16 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Thiago Nunes Batista"}
                 nome_1={"Palestra: Web APIs, O Front-end além de botões coloridos"}
                 sala_1={'a definir'}
                 horario_1={"10:40"}
+                prof_2={"Ítalo Nolasco Ramos"}
+                nome_2={"Palestra: Construindo e validando um MVP: Gerar valor mitigando riscos"}
+                sala_2={'a definir'}
+                horario_2={"10:40"}
               />
               
             </div>
@@ -294,7 +302,7 @@ function Programacao() {
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start">
+            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Pablo Chiaro"}
                 nome_1={"Workshop: Agentes de IA: aplicações além do Chat com LLM e Langchain"}

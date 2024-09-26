@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="bg-[#313131] text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
-        <img src="sajic_branco.png" alt="" className="w-24 my-2" />
+        <img src="sajic_branco.png" alt="" className="w-24 my-4" />
 
         <div className="flex gap-4 max-md:items-center">
           <nav className="hidden sm:flex gap-4 h-full items-top">

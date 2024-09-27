@@ -15,11 +15,11 @@ function PalestranteSelecionado({ p }) {
       col-span-2"
         >
           <img
-            className="mb-6 w-2/3 m-auto aspect-square rounded-full"
+            className="mb-6 w-2/3 m-auto aspect-square rounded-full object-cover"
             src={p.foto}
             alt=""
           />
-          <p className="border-2 w-fit m-auto p-1 px-12 rounded-md text-xl ">
+          <p className="border-2 w-fit text-center m-auto p-1 px-12 rounded-md text-xl ">
             {p.tema}
           </p>
         </div>

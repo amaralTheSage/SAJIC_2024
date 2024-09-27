@@ -1,11 +1,6 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
 
-function PalestranteSelecionado({
-  prof = "professor",
-  palestra = "palestra",
-  desc = "desc",
-  img = "Foto-Palestrante.png",
-}) {
+function PalestranteSelecionado({ p }) {
   return (
     <section className="bg-[url('background_senc.png')] p-24 bg-top bg-cover">
       <div
@@ -18,18 +13,18 @@ function PalestranteSelecionado({
         >
           <img
             className="mb-6 w-2/3 m-auto aspect-square rounded-full"
-            src={img}
+            src={p.foto}
             alt=""
           />
           <p className="border-2 w-fit m-auto p-1 px-12 rounded-md text-xl ">
-            {palestra}
+            {p.tema}
           </p>
         </div>
 
         <div className="m-auto w-full  font-light col-span-3">
           <p className="">Palestrante</p>
-          <h2 className="font-bold text-2xl ">{prof}</h2>
-          <p className="">{desc}</p>
+          <h2 className="font-bold text-2xl ">{p.prof}</h2>
+          <p className="">{p.desc}</p>
 
           {/* <div className="flex mt-9 justify-between ">
           <p className="text-[1.5rem] font-light">
@@ -55,6 +50,15 @@ function PalestranteSelecionado({
             <img className="w-full" src="ElipseRedesS.png" alt="" />
           </div>
         </div> */}
+
+          <NavLink
+            to="/programacao"
+            className="w-full flex justify-end mt-6 md:mt-20 "
+          >
+            <button className="border-2 px-3 py-1 rounded-md mr-16">
+              Programação
+            </button>
+          </NavLink>
         </div>
       </div>
     </section>

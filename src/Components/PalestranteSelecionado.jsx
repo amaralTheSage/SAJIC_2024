@@ -1,0 +1,64 @@
+import React from "react";
+
+function PalestranteSelecionado({
+  prof = "professor",
+  palestra = "palestra",
+  desc = "desc",
+  img = "Foto-Palestrante.png",
+}) {
+  return (
+    <section className="bg-[url('background_senc.png')] p-24 bg-top bg-cover">
+      <div
+        className="flex flex-col items-center lg:grid grid-cols-5   m-auto
+       text-white gap-6 md:gap-12 "
+      >
+        <div
+          className="m-auto w-full h-min
+      col-span-2"
+        >
+          <img
+            className="mb-6 w-2/3 m-auto aspect-square rounded-full"
+            src={img}
+            alt=""
+          />
+          <p className="border-2 w-fit m-auto p-1 px-12 rounded-md text-xl ">
+            {palestra}
+          </p>
+        </div>
+
+        <div className="m-auto w-full  font-light col-span-3">
+          <p className="">Palestrante</p>
+          <h2 className="font-bold text-2xl ">{prof}</h2>
+          <p className="">{desc}</p>
+
+          {/* <div className="flex mt-9 justify-between ">
+          <p className="text-[1.5rem] font-light">
+            Data: <span className="text-[1.5rem] font-bold">18/10</span>
+          </p>
+          <p className="text-[1.5rem] font-light">
+            Hora:{" "}
+            <span className="text-[1.5rem] font-bold">
+              10:40 as 11:40 (Manhã)
+            </span>
+          </p>
+        </div>
+        
+        <hr /> */}
+
+          {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
+          <p className="font-bold text-lg">Redes Sociais:</p>
+
+          <div className="grid grid-cols-4 gap-3 w-[160px]">
+            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            <img className="w-full" src="ElipseRedesS.png" alt="" />
+          </div>
+        </div> */}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default PalestranteSelecionado;

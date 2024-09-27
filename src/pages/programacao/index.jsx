@@ -151,7 +151,7 @@ function Programacao() {
                 sala_2={'a definir'}
                 horario_2={"9:20"}
               />
-              
+
               <EventoPalestra
                 nome_1="Palestra: Desenvolvimento de Games"
                 prof_1="Débora Carvalho"
@@ -250,7 +250,7 @@ function Programacao() {
                 sala_2={'a definir'}
                 horario_2={"10:40"}
               />
-              
+
             </div>
 
             <NavLink
@@ -293,7 +293,7 @@ function Programacao() {
                 sala_2={'a definir'}
                 horario_2={"19:15"}
               />
-              
+
               <EventoPalestra
                 nome_1="Palestra: O Futuro da Carreira de TI"
                 prof_1="Régis Neves Machado"

@@ -11,7 +11,6 @@ function ErrorPage() {
         </p>
         <a
           href="/"
-          // tabIndex={1}
           className="font-semibold"
         >
           Voltar ao início

@@ -1,10 +1,9 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
     <footer
-      className="bg-gradient-to-b from-[#004B9D] to-[#00254C] text-white p-24 flex flex-col items-start  gap-24
+      className="bg-gradient-to-b from-[#004B9D] to-[#00254C] text-white p-24 flex flex-col items-center md:items-start gap-24
     "
     >
       <div className="sm:text-left text-center justify-center flex gap-8 flex-wrap md:flex-nowrap sm:justify-between md:w-3/5 lg:w-2/5 w-5/6 ">
@@ -38,8 +37,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Qualidade paia */}
-      <img src="/footer_logos.png" alt="" className="w-80 m-auto" />
+      <img src="/footer_logos.png" alt="" className="w-[380px] m-auto" />
     </footer>
   );
 }

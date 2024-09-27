@@ -2,7 +2,10 @@ import { NavLink } from "react-router-dom";
 
 function PalestranteSelecionado({ p }) {
   return (
-    <section className="bg-[url('background_senc.png')] p-24 bg-top bg-cover">
+    <section
+      className="bg-[url('/background_senc.png')] p-24 bg-top bg-cover"
+      id="palestrante-selecionado"
+    >
       <div
         className="flex flex-col items-center lg:grid grid-cols-5   m-auto
        text-white gap-6 md:gap-12 "
@@ -12,11 +15,11 @@ function PalestranteSelecionado({ p }) {
       col-span-2"
         >
           <img
-            className="mb-6 w-2/3 m-auto aspect-square rounded-full"
+            className="mb-6 w-2/3 m-auto aspect-square rounded-full object-cover"
             src={p.foto}
             alt=""
           />
-          <p className="border-2 w-fit m-auto p-1 px-12 rounded-md text-xl ">
+          <p className="border-2 w-fit text-center m-auto p-1 px-12 rounded-md text-xl ">
             {p.tema}
           </p>
         </div>

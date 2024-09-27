@@ -11,7 +11,7 @@ function EventoPalestra({
   horario_2,
 }) {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 md:w-1/3">
       {/* Primeiro evento */}
       {nome_1 && (
         <div className="flex flex-col gap-2 w-[90%] items-start">

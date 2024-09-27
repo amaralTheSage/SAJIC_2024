@@ -1,0 +1,48 @@
+export const palestrantes = [
+  {
+    prof: "Gladimir Catarino",
+    empresa: "UniSenac",
+    tema: "Internet of Things",
+    foto: "https://avatars.githubusercontent.com/u/26561092?v=4",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum enim excepturi perferendis distinctio voluptatibus.",
+  },
+  {
+    prof: "Pablo Chiaro de Rosa",
+    empresa: "UniSenac",
+    tema: "Inteligência Artificial",
+    foto: "/pablo.png",
+    desc: "Doutorando e Mestre em Ciência da Computação, com especialização em gerenciamento de projetos. Desde 2018, foca seus estudos em inteligência artificial, acumulando mais de 12 anos de experiência em programação e tecnologias. Além disso, atua como docente de graduação em tecnologia.",
+    instagram: "https://www.instagram.com/chiarorosa/",
+  },
+  {
+    prof: "William Machado",
+    empresa: "Colégio Tiradentes",
+    tema: "As Implicações Éticas nas Tecnologias Digitais",
+    foto: "/william_machado.png",
+    desc: "Doutor em Educação, mestrado em Educação e Tecnologias. Atuação como professor com pesquisas voltadas à Educomunicação, Tecnologias, Ética, Sociologia e Jornalismo. ",
+    instagram: "https://www.instagram.com/willmachad/",
+  },
+  {
+    prof: "Eduardo Roveré",
+    empresa: "ATLAS",
+    tema: "Mercado de Trabalho",
+    foto: "https://avatars.githubusercontent.com/u/7376289?v=4",
+    desc: "null",
+    instagram: "https://www.instagram.com/willmachad/dudurovere",
+  },
+  // {
+  //     prof: ,
+  //     empresa: ,
+  //     tema:,
+  //     foto: ,
+  //     desc: ,
+  //     instagram: ,
+  //   },  {
+  //     prof: ,
+  //     empresa: ,
+  //     tema:,
+  //     foto: ,
+  //     desc: ,
+  //     instagram: ,
+  //   },
+];

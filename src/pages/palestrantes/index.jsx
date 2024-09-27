@@ -1,25 +1,9 @@
 import { useState } from "react";
 import PalestranteFoto from "../../Components/PalestranteFoto";
 import PalestranteSelecionado from "../../Components/PalestranteSelecionado";
+import { palestrantes } from "./palestrantes";
 
 function Palestrantes() {
-  const palestrantes = [
-    {
-      prof: "Gladimir Catarino",
-      empresa: "UniSenac",
-      tema: "Internet of Things",
-      foto: "https://avatars.githubusercontent.com/u/26561092?v=4",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum enim excepturi perferendis distinctio voluptatibus.",
-    },
-    {
-      prof: "Pablo Chiaro de Rosa",
-      empresa: "UniSenac",
-      tema: "Inteligência Artificial",
-      foto: "",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum enim excepturi perferendis distinctio voluptatibus.",
-    },
-  ];
-
   const [palestrante, setPalestrante] = useState();
 
   return (

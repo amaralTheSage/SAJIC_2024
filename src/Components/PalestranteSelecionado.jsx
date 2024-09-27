@@ -2,7 +2,10 @@ import { NavLink } from "react-router-dom";
 
 function PalestranteSelecionado({ p }) {
   return (
-    <section className="bg-[url('/background_senc.png')] p-24 bg-top bg-cover">
+    <section
+      className="bg-[url('/background_senc.png')] p-24 bg-top bg-cover"
+      id="palestrante-selecionado"
+    >
       <div
         className="flex flex-col items-center lg:grid grid-cols-5   m-auto
        text-white gap-6 md:gap-12 "

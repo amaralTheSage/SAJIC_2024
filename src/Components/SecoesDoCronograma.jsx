@@ -4,10 +4,6 @@ import CardPalestrante from "./CardPalestrante";
 function SecoesDoCronograma({ assunto, reverse = false }) {
   return (
     <div className="my-32">
-      {/* Tirei a angulação 90º pq tava cagando a posição do resto */}
-      <h3 className="h-min mb-5 uppercase text-center md:text-left text-2xl font-semibold ">
-        {assunto}
-      </h3>
       <div
         className={`flex justify-center gap-10 flex-wrap md:flex-nowrap ${
           reverse && "flex-row-reverse"
@@ -19,7 +15,8 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
 
-              <figure className="flex">
+              {/* Senhoras e senhores, o nome vertical responsivo é real */}
+              <figure className="flex w-full h-full items-center relative">
                 <img
                   src={
                     (assunto.toLowerCase() == "tecnologia" &&
@@ -30,9 +27,15 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
                   alt=""
                   className="h-full w-full object-cover"
                 />
-                <figcaption className="rotate-90 text-2xl uppercase">
-                  {assunto}
-                </figcaption>
+                {reverse ?
+                  <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:left-60 sm:rotate-90">
+                      {assunto}
+                  </figcaption>
+                :
+                  <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:-left-60 sm:-rotate-90">
+                      {assunto}
+                  </figcaption>
+                }
               </figure>
 
             </div>

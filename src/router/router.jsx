@@ -23,10 +23,6 @@ const router = createBrowserRouter([
         path: "/palestrantes",
         element: <Palestrantes />,
       },
-      {
-        path: "/inscricao",
-        element: <ErrorPage />,
-      },
     ],
   },
 ]);

@@ -41,12 +41,14 @@ function Header() {
             >
               Palestrantes
             </NavLink>
-            <NavLink
-              to="/inscricao"
-              className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
-            >
-              Inscreva-se
-            </NavLink>
+            <a
+            href="https://www.sympla.com.br/eventos"
+            className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+            target="_blank"  // Opens the link in a new tab
+            rel="noopener noreferrer"  // Security best practice
+          >
+            Inscreva-se
+          </a>
           </nav>
 
           <div
@@ -90,7 +92,6 @@ function Header() {
           >
             Palestrantes
           </NavLink>
-          <NavLink to="/inscricao">Inscrição</NavLink>
         </nav>
       )}
     </header>

@@ -1,184 +1,61 @@
+import PalestranteFoto from "../../Components/PalestranteFoto";
+
 function Palestrantes() {
   return (
     <>
       <main>
-        <section className="w-4/5 m-auto mt-28">
-          <h1 className="font-bold text-6xl text-center ">Palestrantes</h1>
-          <p className="font-extralight text-[2.8125rem] text-center">
-            Tecnologia
-          </p>
-          <div className="grid w-4/5 sm:grid-cols-2 md:grid-cols-4 m-auto gap-x-20 gap-y-12 mt-24">
-            {" "}
-            {/*--div que contém os palestrantes--*/}
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-          </div>
+
+        <section>
+
+          <h2 className="text-center font-bold md:text-5xl text-3xl">Palestrantes</h2>
+          <h3 className="text-center font-light md:text-xl text-lg">Tecnologia</h3>
+
+          <section className="flex flex-wrap justify-center py-10 gap-[10vw]">
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+            <PalestranteFoto
+              foto="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2019_05/2733926/190129-sherri-davidoff-white-hat-hacker-se-529p.jpg"
+              nome="Um nome maior do que deveria"
+              empresa="Empresa com nome grande"
+              tema="tema enorme jesus ahhhhhhhh"
+            />
+          </section>
         </section>
-        <section className="w-4/5 m-auto mb-28 mt-28">
-          <h1 className="font-bold text-6xl text-center">Palestrantes</h1>
-          <p className="font-extralight text-[2.8125rem] text-center">Gestão</p>
-          <div className="grid w-4/5 sm:grid-cols-2 md:grid-cols-4 m-auto gap-x-20 gap-y-12 mt-24">
-            {/*--div que contém os palestrantes--*/}
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-            <div className="m-auto text-center">
-              <img
-                className="w-[10.9375rem] h-[11rem] rounded-full"
-                src="Foto-Palestrante.png"
-                alt=""
-              />
-              <h2 className="text-[1.875rem] font-bold">Nome</h2>
-              <p className="text-[1.875rem] font-light">Empresa</p>
-              <p className="text-[1.875rem] font-light">Tema/assunto</p>
-            </div>
-          </div>
-        </section>
+
         <section className="bg-[url('background_senc.png')] bg-center h-[76.25rem] flex">
           <div className="m-auto text-center">
             <img

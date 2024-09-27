@@ -23,31 +23,33 @@ function Programacao() {
         <Circulos/>
 
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
-          <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
             {/* 16/10 Manhã */}
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+            <div className="w-full m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">16/10</p>
               <p className="text-6xl">Manhã</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
-                <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
-                <div>
-                  <p className="text-[1.75rem] font-bold">
+
+                <hr className="border-white w-20 md:-rotate-90 m-auto" />
+
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-evenly items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={"Palestra: As implicações éticas nas tecnologias digitais"}
@@ -69,34 +71,34 @@ function Programacao() {
 
             <NavLink
               to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
+              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-32 md:mt-40"
             >
               Quero Participar
             </NavLink>
 
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">16/10</p>
               <p className="text-6xl">Noite</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
-                <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">19:00 às 19:30</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
-                <div>
-                  <p className="text-[1.75rem] font-bold">
+                <hr className="border-white w-20 md:-rotate-90 m-auto" />
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">19:30 às 20:00</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
@@ -117,30 +119,30 @@ function Programacao() {
         </section>
 
         <section>
-          <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
+            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">17/10</p>
               <p className="text-6xl">Manhã</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
-                <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
-                <div>
-                  <p className="text-[1.75rem] font-bold">
+                <hr className="border-[#0056B2] w-20 md:-rotate-90 m-auto" />
+                <div className="text-xl md:text-2xl">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-full flex gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 prof_1={"Gladimir Catarino"}
                 nome_1={"Oficina: Workshop IoT"}
@@ -171,29 +173,29 @@ function Programacao() {
               Quero Participar
             </NavLink>
 
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">17/10</p>
               <p className="text-6xl">Noite</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text:2xl">
                 <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">19:00 às 19:10</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-[#0056B2] w-20 transform -rotate-90 m-auto" />
+                <hr className="border-[#0056B2] w-20 md:-rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">20:15 às 20:30</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Léo"}
                 nome_1={"Oficina de Canva"}
@@ -217,29 +219,29 @@ function Programacao() {
 
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">18/10</p>
               <p className="text-6xl">Manhã</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text-2xl">
                 <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">9:00 às 9:15</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
+                <hr className="border-white w-20 md:-rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">10:20 às 10:35</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Thiago Nunes Batista"}
                 nome_1={"Palestra: Web APIs, O Front-end além de botões coloridos"}
@@ -260,29 +262,29 @@ function Programacao() {
               Quero Participar
             </NavLink>
 
-            <div className="w-4/5 m-auto flex flex-col items-center mt-32">
+            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
               <p className="font-bold text-8xl">18/10</p>
               <p className="text-6xl">Noite</p>
-              <div className="flex gap-8 justify-center items-center mt-20 ml-16">
+              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text-2xl">
                 <div>
-                  <p className="text-[1.75rem] font-bold">Credenciamento</p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-bold">Credenciamento</p>
+                  <p className="font-light">
                     Horário: <span className="font-bold">19:00 às 19:10</span>
                   </p>
                 </div>
-                <hr className="flex items-center justify-center border-1 border-white w-20 transform -rotate-90 m-auto" />
+                <hr className="border-white w-20 md:-rotate-90 m-auto" />
                 <div>
-                  <p className="text-[1.75rem] font-bold">
+                  <p className="font-bold">
                     Coffee Break/Networking
                   </p>
-                  <p className="text-[1.75rem] font-light">
+                  <p className="font-light">
                     Horário: <span className="font-bold">20:15 às 20:30</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="w-4/5 flex gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Pablo Chiaro"}
                 nome_1={"Workshop: Agentes de IA: aplicações além do Chat com LLM e Langchain"}

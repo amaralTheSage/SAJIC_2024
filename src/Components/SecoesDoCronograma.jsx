@@ -18,16 +18,23 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
-              <img
-                src={
-                  (assunto.toLowerCase() == "tecnologia" &&
-                    "tecnologia_thumb.png") ||
-                  (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
-                  (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
-                }
-                alt=""
-                className="h-full w-full object-cover"
-              />
+
+              <figure className="flex">
+                <img
+                  src={
+                    (assunto.toLowerCase() == "tecnologia" &&
+                      "tecnologia_thumb.png") ||
+                      (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
+                      (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
+                  }
+                  alt=""
+                  className="h-full w-full object-cover"
+                />
+                <figcaption className="rotate-90 text-2xl uppercase">
+                  {assunto}
+                </figcaption>
+              </figure>
+
             </div>
           </div>
         </div>

@@ -15,36 +15,34 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
-
               {/* Senhoras e senhores, o nome vertical responsivo é real */}
               <figure className="flex w-full h-full items-center relative">
                 <img
                   src={
                     (assunto.toLowerCase() == "tecnologia" &&
                       "tecnologia_thumb.png") ||
-                      (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
-                      (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
+                    (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
+                    (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
                   }
                   alt=""
                   className="h-full w-full object-cover"
                 />
-                {reverse ?
+                {reverse ? (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:left-60 sm:rotate-90">
-                      {assunto}
+                    {assunto}
                   </figcaption>
-                :
+                ) : (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:-left-60 sm:-rotate-90">
-                      {assunto}
+                    {assunto}
                   </figcaption>
-                }
+                )}
               </figure>
-
             </div>
           </div>
         </div>
 
-        <div className={`${!reverse && "flex flex-col items-end"}`}>
-          <p className={`max-w-1/2 ${!reverse && "text-right"}`}>
+        <div className={`${!reverse && "flex flex-col items-end"} `}>
+          <p className={`max-w-1/2  ${!reverse && "text-right"}`}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam
             quisquam unde adipisci ratione qui quas impedit tempore ab
             recusandae dolore facilis quaerat illo aliquam repellat dolor, amet

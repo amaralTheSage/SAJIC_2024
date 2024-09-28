@@ -1,10 +1,14 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { Menu } from "react-feather";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Header() {
   const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <header className="bg-[#313131] text-sm sm:text-base text-white shadow-md">

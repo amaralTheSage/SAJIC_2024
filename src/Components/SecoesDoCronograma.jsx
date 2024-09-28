@@ -88,7 +88,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           )}
           {/* GESTÃO */}
           {assunto.toLowerCase() == "gestão" && (
-            <CarrosselPalestrantes>
+            <CarrosselPalestrantes reverse={true}>
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />

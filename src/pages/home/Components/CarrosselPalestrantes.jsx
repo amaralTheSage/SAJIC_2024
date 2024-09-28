@@ -4,9 +4,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import AutoScroll from "embla-carousel-auto-scroll";
 
-function CarrosselPalestrantes({ children }) {
+function CarrosselPalestrantes({ children, reverse = false }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({
+      active: !reverse && true,
       delay: 3000,
       stopOnInteraction: false,
       stopOnFocusIn: false,
@@ -14,7 +15,8 @@ function CarrosselPalestrantes({ children }) {
       stopOnLastSnap: false,
     }),
     AutoScroll({
-      active: false,
+      active: reverse && true,
+      direction: reverse && "backward",
       speed: 1,
       stopOnInteraction: false,
       stopOnFocusIn: false,

@@ -5,16 +5,13 @@ import Autoplay from "embla-carousel-autoplay";
 import AutoScroll from "embla-carousel-auto-scroll";
 
 function CarrosselPalestrantes({ children }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, dragFree: true },
-    [
-      AutoScroll({
-        speed: 1,
-        stopOnMouseEnter: false,
-        stopOnInteraction: false,
-      }),
-    ]
-  );
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    AutoScroll({
+      speed: 1,
+      stopOnMouseEnter: false,
+      stopOnInteraction: false,
+    }),
+  ]);
 
   return (
     <div className="embla relative h-[60vh]">

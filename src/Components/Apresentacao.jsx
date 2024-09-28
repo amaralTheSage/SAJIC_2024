@@ -4,7 +4,7 @@ export default function Apresentacao(){
 
       <article className="xl:px-[25vw] lg:px-[15vw] sm:px-[10vw] px-[5vw] gap-5 flex justify-center flex-col h-full">
         <h2 className="uppercase font-semibold 2xl:text-2xl" >
-          Sajic 4ª Edição | 17, 18 e 19 de outubro de 2024
+          Sajic 4ª Edição | 16, 17 e 18 de outubro de 2024
         </h2>
 
         <p className="font-light text-base 2xl:text-xl">

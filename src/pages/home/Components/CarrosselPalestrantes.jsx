@@ -81,7 +81,7 @@ function CarrosselPalestrantes({ children }) {
   }, [emblaApi, tweenOpacity]);
 
   return (
-    <div className="embla relative h-[60vh]">
+    <div className="embla relative">
       <div className="embla__viewport " ref={emblaRef}>
         <div className="embla__container ">{children}</div>
       </div>

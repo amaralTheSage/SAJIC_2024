@@ -58,7 +58,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
 
       {/* PALESTRANTES */}
       <div className="mt-16 ">
-        <h2 className="font-semibold text-2xl mx-[10vw]">
+        <h2 className="font-semibold text-2xl mx-[5vw] sm:mx-[10vw]">
           Palestrantes de {assunto} confirmados!
         </h2>
 

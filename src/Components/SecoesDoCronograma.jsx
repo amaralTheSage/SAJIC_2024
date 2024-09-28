@@ -65,7 +65,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
         <div className="mt-2">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <CarrosselPalestrantes>
+            <CarrosselPalestrantes reverse={true}>
               <CardPalestrante
                 prof="Gladimir Catarino"
                 data="16/10, das 10:00 às 10:50"
@@ -88,7 +88,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           )}
           {/* GESTÃO */}
           {assunto.toLowerCase() == "gestão" && (
-            <CarrosselPalestrantes reverse={true}>
+            <CarrosselPalestrantes>
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
@@ -100,7 +100,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           )}
           {/* MERCADO */}
           {assunto.toLowerCase() == "mercado" && (
-            <CarrosselPalestrantes>
+            <CarrosselPalestrantes mercado={true}>
               <CardPalestrante
                 prof="Eduardo Roveré "
                 data="16/10, das 10:50 às 11:50"

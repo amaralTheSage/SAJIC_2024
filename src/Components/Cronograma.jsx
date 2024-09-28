@@ -10,7 +10,7 @@ function Cronograma() {
       </h2>
 
       {/* TECNOLOGIA */}
-      <div className="w-4/5 m-auto">
+      <div className=" m-auto">
         <SecoesDoCronograma assunto={"tecnologia"} />
         <SecoesDoCronograma assunto={"gestão"} reverse={true} />
         <SecoesDoCronograma assunto={"mercado"} />

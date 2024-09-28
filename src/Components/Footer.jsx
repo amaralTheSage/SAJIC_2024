@@ -38,7 +38,17 @@ function Footer() {
         </div>
       </div>
 
-      <img src="/footer_logos.png" alt="" className="w-[380px] m-auto" />
+      <div className="flex w-full">
+        <div className="w-[99%]">
+        </div>
+        <div className="flex items-end justify-center w-full">
+          <p>&copy; 2024. Todos os direitos reservados. Idealizado por alunos do curso de ADS, do 2º, 3º e 5º semestres.</p>
+        </div>
+
+        <div className="flex items-center justify-end w-full">
+          <img src="/sajic_branco.png" alt="" className="w-[18rem]" />
+        </div>
+      </div>
     </footer>
   );
 }

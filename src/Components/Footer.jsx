@@ -39,10 +39,10 @@ function Footer() {
       </div>
 
       <div className="flex w-full">
-        <div className="w-[99%]">
+        <div className="w-[98%]">
         </div>
         <div className="flex items-end justify-center w-full">
-          <p>&copy; 2024. Todos os direitos reservados. Idealizado por alunos do curso de ADS, do 2º, 3º e 5º semestres.</p>
+          <p>&copy; 2024. Todos os direitos reservados. Projeto idealizado por estudantes dos 2º, 3º e 5º semestres do curso de Análise e Desenvolvimento de Sistemas.</p>
         </div>
 
         <div className="flex items-center justify-end w-full">

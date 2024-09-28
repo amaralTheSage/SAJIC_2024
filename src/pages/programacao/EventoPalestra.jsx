@@ -58,11 +58,11 @@ function EventoPalestra({
 EventoPalestra.propTypes = {
   nome_1: PropTypes.string,
   prof_1: PropTypes.string,
-  sala_1: PropTypes.string,
+  sala_1: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   horario_1: PropTypes.string,
   nome_2: PropTypes.string,
   prof_2: PropTypes.string,
-  sala_2: PropTypes.string,
+  sala_2: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   horario_2: PropTypes.string,
 };
 

@@ -19,7 +19,7 @@ function Participar({ isWhiteBackground }) {
 
 // PropTypes validation
 Participar.propTypes = {
-  isWhiteBackground: PropTypes.bool.isRequired,
+  isWhiteBackground: PropTypes.bool,
 };
 
 export default Participar;

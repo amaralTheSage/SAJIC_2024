@@ -29,19 +29,12 @@ function Footer() {
             </a>
           </nav>
         </div>
-        <div>
-          <h3 className="font-semibold text-lg mb-2 uppercase">Contato</h3>
-          <nav className="flex flex-col gap-1">
-            <a href="">Telefone</a>
-            <a href="">Email</a>
-          </nav>
-        </div>
       </div>
 
-      <div className="flex w-full">
-        <div className="w-[98%]">
+      <div className="flex sm:flex-row flex-col gap-12 w-full">
+        <div className="sm:flex hidden md:w-[81%]">
         </div>
-        <div className="flex items-end justify-center w-full">
+        <div className="sm:flex items-end justify-center w-full">
           <p>&copy; 2024. Todos os direitos reservados. Projeto idealizado por estudantes dos 2º, 3º e 5º semestres do curso de Análise e Desenvolvimento de Sistemas.</p>
         </div>
 

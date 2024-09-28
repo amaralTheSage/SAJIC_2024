@@ -63,29 +63,31 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
         </h2>
 
         {/* grid grid-cols-2 gap-4 md:grid-cols-4 */}
-        <div className="mt-2 relative">
+        <div className="mt-2">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <CarrosselPalestrantes>
-              <CardPalestrante
-                prof="Gladimir Catarino"
-                data="16/10, das 10:00 às 10:50"
-                empresa="UniSenac"
-                tema="IoT (Workshop)"
-                image="https://avatars.githubusercontent.com/u/26561092?v=4"
-              />
-              <CardPalestrante
-                prof="Débora Carvalho"
-                data="17/10, das 10:40 às 11:40"
-                empresa="UniSenac"
-                tema="Desenvolvimento de Games"
-              />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
-            </CarrosselPalestrantes>
+            <div className="relative h-[50vh]">
+              <CarrosselPalestrantes>
+                <CardPalestrante
+                  prof="Gladimir Catarino"
+                  data="16/10, das 10:00 às 10:50"
+                  empresa="UniSenac"
+                  tema="IoT (Workshop)"
+                  image="https://avatars.githubusercontent.com/u/26561092?v=4"
+                />
+                <CardPalestrante
+                  prof="Débora Carvalho"
+                  data="17/10, das 10:40 às 11:40"
+                  empresa="UniSenac"
+                  tema="Desenvolvimento de Games"
+                />
+                <CardPalestrante />
+                <CardPalestrante />
+                <CardPalestrante />
+                <CardPalestrante />
+                <CardPalestrante />
+              </CarrosselPalestrantes>
+            </div>
           )}
           {/* 
           {/* GESTÃO }

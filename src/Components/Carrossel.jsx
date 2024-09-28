@@ -24,17 +24,21 @@ export default function Carrossel({ imgs }) {
   }, [emblaApi]);
 
   return (
-    <div className="embla m-auto relative ">
+
+    <div className="embla relative ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container h-[90vh]">
           {imgs.map((img, index) => (
             <img
               key={index} // Corrigido o key para usar o índice
               src={img}
-              className="embla__slide w-full object-cover aspect-video shadow"
+              className="embla__slide w-full object-cover aspect-video shadow filter brightness-50 contrast-50"
               alt={`Slide ${index}`}
             />
           ))}
+        </div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img className="md:w-[50vw] w-[90vw]" src="/unisenacLogo.svg" />
         </div>
       </div>
 

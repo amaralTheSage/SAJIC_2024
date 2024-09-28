@@ -1,6 +1,7 @@
 import React from "react";
 import CardPalestrante from "./CardPalestrante";
 import VerProgramacao from "../pages/home/VerProgramacao";
+import CarrosselPalestrantes from "../pages/home/Components/CarrosselPalestrantes";
 
 function SecoesDoCronograma({ assunto, reverse = false }) {
   return (
@@ -11,7 +12,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
         }`}
       >
         <div className="flex justify-center">
-          <div className="relative">
+          <div className="relative ">
             <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
@@ -56,16 +57,16 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
       </div>
 
       {/* PALESTRANTES */}
-      <div className="mt-16">
+      <div className="mt-16 ">
         <h2 className="font-semibold text-2xl">
           Palestrantes de {assunto} confirmados!
         </h2>
 
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mt-2 m-auto">
+        {/* grid grid-cols-2 gap-4 md:grid-cols-4 */}
+        <div className="mt-2 relative">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <>
-              {/* teste */}
+            <CarrosselPalestrantes>
               <CardPalestrante
                 prof="Gladimir Catarino"
                 data="16/10, das 10:00 às 10:50"
@@ -81,10 +82,13 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
-
-          {/* GESTÃO */}
+          {/* 
+          {/* GESTÃO }
           {assunto.toLowerCase() == "gestão" && (
             <>
               <CardPalestrante />
@@ -94,7 +98,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             </>
           )}
 
-          {/* MERCADO */}
+          {/* MERCADO }
           {assunto.toLowerCase() == "mercado" && (
             <>
               <CardPalestrante
@@ -108,6 +112,9 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               <CardPalestrante />
             </>
           )}
+          
+          
+           */}
         </div>
       </div>
     </div>

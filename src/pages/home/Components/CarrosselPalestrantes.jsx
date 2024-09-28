@@ -6,12 +6,20 @@ import AutoScroll from "embla-carousel-auto-scroll";
 
 function CarrosselPalestrantes({ children }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 3000 }),
+    Autoplay({
+      delay: 3000,
+      stopOnInteraction: false,
+      stopOnFocusIn: false,
+      stopOnMouseEnter: false,
+      stopOnLastSnap: false,
+    }),
     AutoScroll({
       active: false,
       speed: 1,
-      stopOnMouseEnter: false,
       stopOnInteraction: false,
+      stopOnFocusIn: false,
+      stopOnMouseEnter: false,
+      stopOnLastSnap: false,
     }),
   ]);
   const tweenFactor = useRef(0);

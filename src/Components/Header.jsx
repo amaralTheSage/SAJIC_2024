@@ -7,7 +7,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#313131] text-white shadow-md">
+    <header className="bg-[#313131] text-sm sm:text-base text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
         <img src="sajic_branco.png" alt="" className="w-24 my-4" />
 
@@ -42,13 +42,13 @@ function Header() {
               Palestrantes
             </NavLink>
             <a
-            href="https://www.sympla.com.br/eventos"
-            className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
-            target="_blank"  // Opens the link in a new tab
-            rel="noopener noreferrer"  // Security best practice
-          >
-            Inscreva-se
-          </a>
+              href="https://www.sympla.com.br/eventos"
+              className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security best practice
+            >
+              Inscreva-se
+            </a>
           </nav>
 
           <div
@@ -95,8 +95,8 @@ function Header() {
           <a
             href="https://www.sympla.com.br/eventos"
             className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
-            target="_blank"  // Opens the link in a new tab
-            rel="noopener noreferrer"  // Security best practice
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Security best practice
           >
             Inscreva-se
           </a>

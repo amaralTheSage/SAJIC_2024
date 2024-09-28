@@ -11,9 +11,22 @@ function Cronograma() {
 
       {/* TECNOLOGIA */}
       <div className=" m-auto">
-        <SecoesDoCronograma assunto={"tecnologia"} />
-        <SecoesDoCronograma assunto={"gestão"} reverse={true} />
-        <SecoesDoCronograma assunto={"mercado"} />
+        <SecoesDoCronograma assunto={"tecnologia"}>
+          Palestras onde especialistas do setor compartilharão insights
+          inovadores e tendências emergentes. Ideal para estudantes, o evento
+          promoverá discussões interativas e networking, proporcionando uma
+          oportunidade única de aprendizado e troca de experiências. Não perca a
+          chance de se atualizar e se inspirar com os líderes da tecnologia!
+        </SecoesDoCronograma>
+        <SecoesDoCronograma assunto={"gestão"} reverse={true}>
+          Junte-se a nós para uma série de palestras sobre gestão, onde
+          especialistas renomados compartilharão estratégias e melhores práticas
+          para liderança eficaz, gestão de equipes e inovação organizacional.
+          Este evento é perfeito para estudantes que prentendem se tornar
+          líderes e gestores profissionais. Venha se inspirar e conectar-se com
+          profissionais do setor!
+        </SecoesDoCronograma>
+        <SecoesDoCronograma assunto={"mercado"}> teste</SecoesDoCronograma>
       </div>
     </section>
   );

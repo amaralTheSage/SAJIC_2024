@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Participar({ isWhiteBackground }) {
   const className = isWhiteBackground
     ? "border-2 bg-[#0056B2] text-white rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
@@ -14,5 +16,10 @@ function Participar({ isWhiteBackground }) {
     </a>
   );
 }
+
+// PropTypes validation
+Participar.propTypes = {
+  isWhiteBackground: PropTypes.bool.isRequired,
+};
 
 export default Participar;

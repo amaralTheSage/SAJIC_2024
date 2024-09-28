@@ -1,6 +1,6 @@
 import EventoPalestra from "./EventoPalestra";
 import Circulos from "./Circulos";
-import ProgramacaoHorario from "../../Components/ProgramacaoHorario";
+import ProgramacaoHorario from "./ProgramacaoHorario";
 import Participar from "./Participar";
 
 function Programacao() {

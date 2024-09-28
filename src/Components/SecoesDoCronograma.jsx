@@ -1,5 +1,6 @@
 import React from "react";
 import CardPalestrante from "./CardPalestrante";
+import VerProgramacao from "../pages/home/VerProgramacao";
 
 function SecoesDoCronograma({ assunto, reverse = false }) {
   return (
@@ -52,9 +53,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
             alias animi libero?
           </p>
 
-          <button className="mt-3 uppercase bg-white text-blue-600 rounded-xl p-3">
-            Ver a programação
-          </button>
+          <VerProgramacao />
         </div>
       </div>
 

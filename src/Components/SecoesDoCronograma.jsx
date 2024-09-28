@@ -7,7 +7,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-10 flex-wrap md:flex-nowrap ${
+        className={`flex justify-center gap-10 flex-wrap mx-[10vw] md:flex-nowrap ${
           reverse && "flex-row-reverse"
         }`}
       >
@@ -58,7 +58,7 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
 
       {/* PALESTRANTES */}
       <div className="mt-16 ">
-        <h2 className="font-semibold text-2xl">
+        <h2 className="font-semibold text-2xl mx-[10vw]">
           Palestrantes de {assunto} confirmados!
         </h2>
 
@@ -66,28 +66,26 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
         <div className="mt-2">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <div className="relative h-[50vh]">
-              <CarrosselPalestrantes>
-                <CardPalestrante
-                  prof="Gladimir Catarino"
-                  data="16/10, das 10:00 às 10:50"
-                  empresa="UniSenac"
-                  tema="IoT (Workshop)"
-                  image="https://avatars.githubusercontent.com/u/26561092?v=4"
-                />
-                <CardPalestrante
-                  prof="Débora Carvalho"
-                  data="17/10, das 10:40 às 11:40"
-                  empresa="UniSenac"
-                  tema="Desenvolvimento de Games"
-                />
-                <CardPalestrante />
-                <CardPalestrante />
-                <CardPalestrante />
-                <CardPalestrante />
-                <CardPalestrante />
-              </CarrosselPalestrantes>
-            </div>
+            <CarrosselPalestrantes>
+              <CardPalestrante
+                prof="Gladimir Catarino"
+                data="16/10, das 10:00 às 10:50"
+                empresa="UniSenac"
+                tema="IoT (Workshop)"
+                image="https://avatars.githubusercontent.com/u/26561092?v=4"
+              />
+              <CardPalestrante
+                prof="Débora Carvalho"
+                data="17/10, das 10:40 às 11:40"
+                empresa="UniSenac"
+                tema="Desenvolvimento de Games"
+              />
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
           {/* 
           {/* GESTÃO }

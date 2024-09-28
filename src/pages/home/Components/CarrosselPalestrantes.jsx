@@ -17,9 +17,9 @@ function CarrosselPalestrantes({ children }) {
   );
 
   return (
-    <div className="embla ">
-      <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container absolute ">{children}</div>
+    <div className="embla relative h-[60vh]">
+      <div className="embla__viewport " ref={emblaRef}>
+        <div className="embla__container ">{children}</div>
       </div>
     </div>
   );

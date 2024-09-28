@@ -24,10 +24,10 @@ function PalestranteSelecionado({ p }) {
           </p>
         </div>
 
-        <div className="m-auto text font-light col-span-3 bg-red-400">
+        <div className="m-auto text font-light col-span-3 ">
           <p className="">Palestrante</p>
           <h2 className="font-bold text-2xl ">{p.prof}</h2>
-          <p className="w-fit bg-red-800 ">{p.desc}</p>
+          <p className="w-fit  ">{p.desc}</p>
 
           {/* <div className="flex mt-9 justify-between ">
           <p className="text-[1.5rem] font-light">

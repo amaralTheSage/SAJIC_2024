@@ -54,7 +54,7 @@ function Programacao() {
               />
             </div>
 
-            <Participar/>
+            <Participar />
 
             <ProgramacaoHorario
               data="16/10"
@@ -74,7 +74,7 @@ function Programacao() {
               />
             </div>
 
-            <Participar/>
+            <Participar />
 
           </div>
         </section>
@@ -113,7 +113,7 @@ function Programacao() {
               />
             </div>
 
-            <Participar/>
+            <Participar isWhiteBackground />
 
             <ProgramacaoHorario
               data="17/10"
@@ -135,7 +135,7 @@ function Programacao() {
               />
             </div>
 
-            <Participar/>
+            <Participar isWhiteBackground />
 
           </div>
         </section>

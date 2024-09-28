@@ -3,11 +3,11 @@ import CardPalestrante from "./CardPalestrante";
 import VerProgramacao from "../pages/home/VerProgramacao";
 import CarrosselPalestrantes from "../pages/home/Components/CarrosselPalestrantes";
 
-function SecoesDoCronograma({ assunto, reverse = false }) {
+function SecoesDoCronograma({ assunto, reverse = false, children }) {
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-10 flex-wrap mx-[10vw] md:flex-nowrap ${
+        className={`flex justify-center gap-16 flex-wrap mx-[10vw] md:flex-nowrap ${
           reverse && "flex-row-reverse"
         }`}
       >
@@ -43,13 +43,12 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
         </div>
 
         <div className={`${!reverse && "flex flex-col items-end"} `}>
-          <p className={`max-w-1/2  ${!reverse && "text-right"}`}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam
-            quisquam unde adipisci ratione qui quas impedit tempore ab
-            recusandae dolore facilis quaerat illo aliquam repellat dolor, amet
-            ad porro tenetur consectetur aliquid totam quasi vitae reiciendis.
-            Enim mollitia delectus et itaque? Officia voluptas vel odit sunt
-            alias animi libero?
+          <p
+            className={`max-w-1/2 text-lg font-medium ${
+              !reverse && "text-right"
+            }`}
+          >
+            {children}
           </p>
 
           <VerProgramacao />
@@ -87,20 +86,21 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               <CardPalestrante />
             </CarrosselPalestrantes>
           )}
-          {/* 
-          {/* GESTÃO }
+          {/* GESTÃO */}
           {assunto.toLowerCase() == "gestão" && (
-            <>
+            <CarrosselPalestrantes>
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
-
-          {/* MERCADO }
+          {/* MERCADO */}
           {assunto.toLowerCase() == "mercado" && (
-            <>
+            <CarrosselPalestrantes>
               <CardPalestrante
                 prof="Eduardo Roveré "
                 data="16/10, das 10:50 às 11:50"
@@ -110,11 +110,11 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
-          
-          
-           */}
         </div>
       </div>
     </div>

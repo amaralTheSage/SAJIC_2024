@@ -4,7 +4,7 @@ import PalestranteSelecionado from "../../Components/PalestranteSelecionado";
 import { palestrantes } from "./palestrantes";
 
 function Palestrantes() {
-  const [palestrante, setPalestrante] = useState();
+  const [palestrante, setPalestrante] = useState(palestrantes[0]);
 
   return (
     <>

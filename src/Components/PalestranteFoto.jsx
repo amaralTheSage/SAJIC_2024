@@ -1,6 +1,12 @@
 export default function PalestranteFoto({ p }) {
   return (
-    <figure className="flex justify-center items-center flex-col cursor-pointer">
+    <figure
+      className="flex justify-center items-center flex-col cursor-pointer"
+      onClick={() => {
+        const pSelecionado = document.getElementById("palestrante-selecionado");
+        pSelecionado.scrollIntoView({ behavior: "smooth" });
+      }}
+    >
       <img
         src={p.foto}
         alt={p.prof}

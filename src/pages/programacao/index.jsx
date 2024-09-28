@@ -1,5 +1,5 @@
-import EventoPalestra from "../../Components/EventoPalestra";
-import Circulos from "../../Components/Circulos";
+import EventoPalestra from "./EventoPalestra";
+import Circulos from "./Circulos";
 import ProgramacaoHorario from "../../Components/ProgramacaoHorario";
 import Participar from "./Participar";
 

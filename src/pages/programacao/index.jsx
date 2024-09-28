@@ -68,7 +68,7 @@ function Programacao() {
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
                 nome_2={`Conversa com empresas - TI e Gestão`}
-                prof_2={"Nath?? na mediação"}
+                prof_2={"Nathalia na mediação"}
                 sala_2={'a definir'}
                 horario_2={"20:30"}
               />

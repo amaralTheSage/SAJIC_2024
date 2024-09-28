@@ -1,4 +1,3 @@
-// import { NavLink } from "react-router-dom";
 import EventoPalestra from "../../Components/EventoPalestra";
 import Circulos from "../../Components/Circulos";
 import ProgramacaoHorario from "../../Components/ProgramacaoHorario";

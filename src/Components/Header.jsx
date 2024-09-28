@@ -80,7 +80,7 @@ function Header() {
                 : "border-transparent"
             }`}
           >
-            Programacão
+            Programação
           </NavLink>
           <NavLink
             to="/palestrantes"

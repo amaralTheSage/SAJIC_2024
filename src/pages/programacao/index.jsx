@@ -1,7 +1,8 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import EventoPalestra from "../../Components/EventoPalestra";
 import Circulos from "../../Components/Circulos";
 import ProgramacaoHorario from "../../Components/ProgramacaoHorario";
+import Participar from "./Participar";
 
 function Programacao() {
   return (
@@ -54,12 +55,7 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-32 md:mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
 
             <ProgramacaoHorario
               data="16/10"
@@ -79,12 +75,8 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
+
           </div>
         </section>
 
@@ -122,12 +114,7 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 bg-[#0056B2] text-white rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
 
             <ProgramacaoHorario
               data="17/10"
@@ -149,12 +136,8 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 bg-[#0056B2] text-white rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
+
           </div>
         </section>
 
@@ -182,12 +165,7 @@ function Programacao() {
 
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
 
             <ProgramacaoHorario
               data="18/10"
@@ -227,12 +205,7 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
           </div>
         </section>
       </main>

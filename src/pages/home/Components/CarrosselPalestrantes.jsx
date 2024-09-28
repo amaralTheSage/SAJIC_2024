@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import useEmblaCarousel from "embla-carousel-react";
-// import Autoplay from "embla-carousel-autoplay";
-// import AutoScroll from "embla-carousel-auto-scroll";
+import Autoplay from "embla-carousel-autoplay";
+import AutoScroll from "embla-carousel-auto-scroll";
 
 function CarrosselPalestrantes({ children }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [

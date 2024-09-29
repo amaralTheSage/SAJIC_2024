@@ -102,9 +102,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 data="17/10, das 20:30 às 21:30"
                 empresa="ATLAS"
                 image="tiago_batista.jpg"
-                tema="Web Vitals: como a experiência do usuário vai afetar o SEO do seu site?"
+                tema="Web Vitals: Como a experiência do usuário vai afetar o SEO do seu site?"
               />
-              <CardPalestrante />
             </CarrosselPalestrantes>
           )}
           {/* GESTÃO */}
@@ -131,6 +130,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 empresa="ATLAS"
                 tema="Mercado de Trabalho"
                 image="https://avatars.githubusercontent.com/u/7376289?v=4"
+              />
+              <CardPalestrante
+                prof="Andréa Barros Augé"
+                tema="Era hiperconectada: O Direito Digital e crimes digitais"
+                data="18/10, das 20:30 às 21:30"
+                empresa="Andréa Augé Advocacia"
+                image="andrea_auge.jpeg"
               />
               <CardPalestrante
                 prof="Régis Neves Machado"

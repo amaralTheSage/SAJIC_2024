@@ -5,9 +5,8 @@ function Footer() {
     <footer
       className="bg-gradient-to-b from-[#004B9D] to-[#00254C] text-white p-24 flex flex-col items-center md:items-start gap-24
     "
-      id="footer"
     >
-      <div className="sm:text-left text-center justify-center flex gap-8 flex-wrap md:flex-nowrap sm:justify-between md:w-3/5 lg:w-2/5 w-5/6 ">
+      <div className="lg:text-left text-center justify-center flex gap-12 flex-wrap md:flex-nowrap sm:justify-between w-fit">
         <div>
           <h3 className="font-semibold text-lg mb-2 uppercase">Mapa do Site</h3>
           <nav className="flex flex-col gap-1">
@@ -16,6 +15,7 @@ function Footer() {
             <NavLink to="/palestrantes"> Palestrantes</NavLink>
           </nav>
         </div>
+
         <div>
           <h3 className="font-semibold text-lg mb-2 uppercase">
             Redes Sociais
@@ -31,16 +31,18 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex sm:flex-row flex-col gap-12 w-full">
-        <div className="sm:flex hidden md:w-[81%]">
-        </div>
-        <div className="sm:flex items-end justify-center w-full">
-          <p>&copy; 2024. Todos os direitos reservados. Projeto idealizado por estudantes dos 2º, 3º e 5º semestres do curso de Análise e Desenvolvimento de Sistemas.</p>
-        </div>
+      <div className="grid max-md:text-center md:grid-cols-4 m-auto gap-12 lg:gap-28 bg">
+        <p className="md:col-span-3">
+          &copy; 2024. Todos os direitos reservados.
+          <br /> Projeto idealizado por estudantes dos 2º, 3º e 5º semestres do
+          curso de Análise e Desenvolvimento de Sistemas.
+        </p>
 
-        <div className="flex items-center justify-end w-full">
-          <img src="/sajic_branco.png" alt="" className="w-[18rem]" />
-        </div>
+        <img
+          src="/sajic_branco.png"
+          alt=""
+          className="md:w-full w-1/2 m-auto"
+        />
       </div>
     </footer>
   );

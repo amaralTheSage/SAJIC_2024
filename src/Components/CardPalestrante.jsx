@@ -9,21 +9,26 @@ function CardPalestrante({
 }) {
   return (
     <div className="embla_palestrantes_slide  aspect-video mx-4 ">
-      <p className="text-md md:text-[1.5vw] lg:text-[1.3vw] mb-1 w-fit">
-        {data}
-      </p>
-      <div className="w-fit">
+      <p className="text-lg mb-1 w-fit">{data}</p>
+      <div>
         <img
           src={image}
           alt=""
-          className="aspect-[3/4] object-cover rounded-sm border border-white"
+          className="aspect-[3/4] w-full object-cover rounded-md "
         />
       </div>
       <div className="">
         <p className="font-semibold capitalize text-lg">
           {prof} - {empresa}
         </p>
-        <p className="font-medium capitalize">{tema}</p>
+        <p className="font-medium capitalize">
+          {tema.split(":").map((parte, index, array) => (
+            <>
+              {parte}
+              {index === 0 && array.length > 1 && ":"} <br />
+            </>
+          ))}
+        </p>
       </div>
     </div>
   );

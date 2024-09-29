@@ -27,7 +27,7 @@ function CarrosselPalestrantes({ children, reverse = false, mercado = false }) {
   const tweenFactor = useRef(0);
 
   const setTweenFactor = useCallback((emblaApi) => {
-    tweenFactor.current = 0.45 * emblaApi.scrollSnapList().length;
+    tweenFactor.current = 0.3 * emblaApi.scrollSnapList().length;
   }, []);
 
   const tweenOpacity = useCallback((emblaApi, eventName) => {

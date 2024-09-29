@@ -19,21 +19,13 @@ function Cronograma() {
         </SecoesDoCronograma>
 
         <SecoesDoCronograma assunto={"gestão"} reverse={true}>
-          Junte-se a nós para uma série de palestras sobre gestão, onde
-          especialistas renomados compartilharão estratégias e melhores práticas
-          para liderança eficaz, gestão de equipes e inovação organizacional.
-          Este evento é perfeito para estudantes que prentendem se tornar
-          líderes e gestores profissionais. Venha se inspirar e conectar-se com
-          profissionais do setor!
-        </SecoesDoCronograma>
-        <SecoesDoCronograma assunto={"mercado"}>
-          Participe das nossas palestras sobre o mercado de trabalho, onde
-          especialistas discutirão as tendências atuais, as habilidades mais
-          demandadas e as oportunidades emergentes na área. As sessões abordarão
-          tópicos como desenvolvimento de carreira e preparação para
-          entrevistas. Este evento é perfeito para profissionais, estudantes e
-          aqueles que buscam se inserir ou se destacar no mercado de trabalho
-          atual. Venha e conecte-se com profissionais!
+          Junte-se a nós para uma série de palestras sobre gestão e o mercado de
+          trabalho, onde especialistas renomados compartilharão estratégias e
+          melhores práticas para desenvolvimento de carreira, gestão de equipes
+          e networking. Este evento é perfeito para estudantes que prentendem se
+          inserir no mercado de trabalho ou se tornar líderes e gestores
+          profissionais. Venha se inspirar e conectar-se com profissionais do
+          setor!
         </SecoesDoCronograma>
       </div>
     </section>

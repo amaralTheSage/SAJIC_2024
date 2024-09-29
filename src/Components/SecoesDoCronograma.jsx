@@ -14,9 +14,9 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
         {/* IMAGEM */}
         <div className="flex justify-center">
           <div className="relative ">
-            <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
-            <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
-            <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
+            <div className="w-[250px] minusculo:w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 bg-white"></div>
+            <div className="w-[250px] minusculo:w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3 bg-orange-400"></div>
+            <div className="w-[250px] minusculo:w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
               {/* Senhoras e senhores, o nome vertical responsivo é real */}
               <figure className="flex w-full h-full items-center relative">
                 <img
@@ -49,7 +49,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
             ${!reverse && "flex flex-col items-end"}`}
         >
           <p
-            className={`max-w-1/2 text-lg max-lg:text-center mb-4 font-medium ${
+            className={`text-lg font-light max-lg:text-center mb-4 ${
               !reverse && "text-right"
             }`}
           >

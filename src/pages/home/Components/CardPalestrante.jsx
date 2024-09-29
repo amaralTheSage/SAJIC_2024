@@ -9,15 +9,16 @@ function CardPalestrante({
 }) {
   return (
     <div className="embla_palestrantes_slide  aspect-video mx-8 ">
-      <p className="text-sm font-light mb-1 w-fit">{data}</p>
+      <p className="text-lg font-light mb-1 w-fit">{data}</p>
       <div>
         <img
           src={image}
           alt=""
-          className="aspect-[3/4] w-full object-cover rounded-md "
+          className="aspect-[3/4] w-full object-cover rounded-md mb-1 "
         />
       </div>
-      <div className="">
+
+      <div>
         <p className="font-bold capitalize text-lg">
           {prof} - {empresa}
         </p>

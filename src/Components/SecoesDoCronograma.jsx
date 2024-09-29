@@ -7,10 +7,11 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-16 flex-wrap mx-[10vw] md:flex-nowrap ${
+        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${
           reverse && "flex-row-reverse"
         }`}
       >
+        {/* IMAGEM */}
         <div className="flex justify-center">
           <div className="relative ">
             <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
@@ -42,9 +43,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           </div>
         </div>
 
-        <div className={`${!reverse && "flex flex-col items-end"} `}>
+        {/* TEXTO */}
+        <div
+          className={`
+            ${!reverse && "flex flex-col items-end"}`}
+        >
           <p
-            className={`max-w-1/2 text-lg font-medium ${
+            className={`max-w-1/2 text-lg max-lg:text-center mb-4 font-medium ${
               !reverse && "text-right"
             }`}
           >

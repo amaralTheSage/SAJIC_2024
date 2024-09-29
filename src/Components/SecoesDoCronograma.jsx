@@ -79,24 +79,66 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="https://avatars.githubusercontent.com/u/26561092?v=4"
               />
               <CardPalestrante
+                data="18/10, das 10:30 às 11:30"
+                prof="Pablo Chiaro de Rosa"
+                empresa="UniSenac"
+                tema="Agentes de IA: aplicações além do Chat com LLM e Langchain"
+                image="/pablo.png"
+              />
+              <CardPalestrante
                 prof="Débora Carvalho"
                 data="17/10, das 10:40 às 11:40"
                 empresa="UniSenac"
                 tema="Desenvolvimento de Games"
               />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
+
+              {/*  {
+
+  {
+    prof: "William Machado",
+    empresa: "Colégio Tiradentes",
+    tema: "As Implicações Éticas nas Tecnologias Digitais",
+    foto: "/william_machado.png",
+    desc: "Doutor em Educação, mestrado em Educação e Tecnologias. Atuação como professor com pesquisas voltadas à Educomunicação, Tecnologias, Ética, Sociologia e Jornalismo. ",
+    instagram: "https://www.instagram.com/willmachad/",
+  },
+ */}
+              <CardPalestrante
+                prof="William Machado"
+                data="16/10, das 9:20 às 10:20"
+                empresa="Colégio Tiradentes"
+                image="/william_machado.png"
+                tema="As Implicações Éticas nas Tecnologias Digitais"
+              />
               <CardPalestrante />
               <CardPalestrante />
             </CarrosselPalestrantes>
           )}
           {/* GESTÃO */}
+
           {assunto.toLowerCase() == "gestão" && (
             <CarrosselPalestrantes>
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
+              <CardPalestrante
+                prof="Nanda Fersula"
+                data="18/10, das 19:10 às 20:00"
+                empresa="Instituto Sigales"
+                image="/nanda_fersula.jpg"
+                tema="Neuromarketing - Comece por Aqui"
+              />
+              <CardPalestrante
+                prof="Adriana Silva da Silva"
+                data="16/10, das 10:40 às 11:40"
+                empresa="Main Leaf"
+                image="/adriana_silva.jpg"
+                tema="Do Conceito ao Lançamento: Gestão Ágil de Projetos de Jogos Digitais"
+              />
+              <CardPalestrante
+                data="16/10, das 10:50 às 11:50"
+                prof="Eduardo Roveré"
+                empresa="ATLAS"
+                tema="Mercado de Trabalho"
+                image="https://avatars.githubusercontent.com/u/7376289?v=4"
+              />
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />

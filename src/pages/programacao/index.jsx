@@ -1,6 +1,7 @@
-import { NavLink } from "react-router-dom";
-import EventoPalestra from "../../Components/EventoPalestra";
-import Circulos from "../../Components/Circulos";
+import EventoPalestra from "./EventoPalestra";
+import Circulos from "./Circulos";
+import ProgramacaoHorario from "./ProgramacaoHorario";
+import Participar from "./Participar";
 
 function Programacao() {
   return (
@@ -23,31 +24,15 @@ function Programacao() {
         <Circulos/>
 
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
-          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
             {/* 16/10 Manhã */}
-            <div className="w-full m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">16/10</p>
-              <p className="text-6xl">Manhã</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">9:00 às 9:15</span>
-                  </p>
-                </div>
 
-                <hr className="border-white w-20 md:-rotate-90 m-auto" />
-
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">10:20 às 10:35</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ProgramacaoHorario
+              data="16/10"
+              turno="Manhã"
+              horarioCreden="9:00 às 9:15"
+              horarioCoffe="10:20 às 10:35"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
               <EventoPalestra
@@ -69,78 +54,40 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-32 md:mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar />
 
-            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">16/10</p>
-              <p className="text-6xl">Noite</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">19:00 às 19:30</span>
-                  </p>
-                </div>
-                <hr className="border-white w-20 md:-rotate-90 m-auto" />
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">19:30 às 20:00</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ProgramacaoHorario
+              data="16/10"
+              turno="Noite"
+              horarioCreden="19:00 às 19:30"
+              horarioCoffe="19:30 às 20:00"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
                 nome_2={`Conversa com empresas - TI e Gestão`}
-                prof_2={"Nath?? na mediação"}
+                prof_2={"Nathalia na mediação"}
                 sala_2={'a definir'}
                 horario_2={"20:30"}
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar />
+
           </div>
         </section>
 
         <section>
-          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
-            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">17/10</p>
-              <p className="text-6xl">Manhã</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20">
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">9:00 às 9:15</span>
-                  </p>
-                </div>
-                <hr className="border-[#0056B2] w-20 md:-rotate-90 m-auto" />
-                <div className="text-xl md:text-2xl">
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">10:20 às 10:35</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
+
+            <ProgramacaoHorario
+              data="17/10"
+              turno="Manhã"
+              horarioCreden="9:00 às 9:15"
+              horarioCoffe="10:20 às 10:35"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
@@ -166,34 +113,14 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 bg-[#0056B2] text-white rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar isWhiteBackground />
 
-            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">17/10</p>
-              <p className="text-6xl">Noite</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text:2xl">
-                <div>
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">19:00 às 19:10</span>
-                  </p>
-                </div>
-                <hr className="border-[#0056B2] w-20 md:-rotate-90 m-auto" />
-                <div>
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">20:15 às 20:30</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ProgramacaoHorario
+              data="17/10"
+              turno="Noite"
+              horarioCreden="19:00 às 19:10"
+              horarioCoffe="20:15 às 20:30"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
@@ -208,38 +135,20 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 bg-[#0056B2] text-white rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar isWhiteBackground />
+
           </div>
         </section>
 
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
-          <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
-            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">18/10</p>
-              <p className="text-6xl">Manhã</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text-2xl">
-                <div>
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">9:00 às 9:15</span>
-                  </p>
-                </div>
-                <hr className="border-white w-20 md:-rotate-90 m-auto" />
-                <div>
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">10:20 às 10:35</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+
+            <ProgramacaoHorario
+              data="18/10"
+              turno="Manhã"
+              horarioCreden="9:00 às 9:15"
+              horarioCoffe="10:20 às 10:35"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
@@ -255,34 +164,14 @@ function Programacao() {
 
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
 
-            <div className="w-4/5 m-auto flex flex-col items-center justify-center mt-32">
-              <p className="font-bold text-8xl">18/10</p>
-              <p className="text-6xl">Noite</p>
-              <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text-2xl">
-                <div>
-                  <p className="font-bold">Credenciamento</p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">19:00 às 19:10</span>
-                  </p>
-                </div>
-                <hr className="border-white w-20 md:-rotate-90 m-auto" />
-                <div>
-                  <p className="font-bold">
-                    Coffee Break/Networking
-                  </p>
-                  <p className="font-light">
-                    Horário: <span className="font-bold">20:15 às 20:30</span>
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ProgramacaoHorario
+              data="18/10"
+              turno="Noite"
+              horarioCreden="19:00 às 19:10"
+              horarioCoffe="20:15 às 20:30"
+            />
 
             <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
@@ -315,12 +204,7 @@ function Programacao() {
               />
             </div>
 
-            <NavLink
-              to="/inscricao"
-              className="border-2 border-white bg-[#313131] rounded-3xl text-[1.75rem] font-bold h-min py-1 relative bottom-1 px-3 mt-40"
-            >
-              Quero Participar
-            </NavLink>
+            <Participar/>
           </div>
         </section>
       </main>

@@ -4,7 +4,6 @@ export default function PalestranteFoto({ p }) {
       className="flex justify-center items-center flex-col cursor-pointer"
       onClick={() => {
         const pSelecionado = document.getElementById("palestrante-selecionado");
-
         pSelecionado.scrollIntoView({ behavior: "smooth" });
       }}
     >

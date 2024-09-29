@@ -1,74 +1,76 @@
 import React from "react";
 import CardPalestrante from "./CardPalestrante";
+import VerProgramacao from "../pages/home/VerProgramacao";
+import CarrosselPalestrantes from "../pages/home/Components/CarrosselPalestrantes";
 
-function SecoesDoCronograma({ assunto, reverse = false }) {
+function SecoesDoCronograma({ assunto, reverse = false, children }) {
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-10 flex-wrap md:flex-nowrap ${
+        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${
           reverse && "flex-row-reverse"
         }`}
       >
+        {/* IMAGEM */}
         <div className="flex justify-center">
-          <div className="relative">
+          <div className="relative ">
             <div className="bg-white w-[340px] sm:w-[400px] aspect-video rounded-sm absolute top-3 right-3 "></div>
             <div className="bg-orange-400 w-[340px] sm:w-[400px] aspect-video rounded-sm absolute -top-3 left-3"></div>
             <div className="w-[340px] sm:w-[400px] aspect-video rounded-sm relative z-10">
-
               {/* Senhoras e senhores, o nome vertical responsivo é real */}
               <figure className="flex w-full h-full items-center relative">
                 <img
                   src={
                     (assunto.toLowerCase() == "tecnologia" &&
                       "tecnologia_thumb.png") ||
-                      (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
-                      (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
+                    (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
+                    (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
                   }
                   alt=""
                   className="h-full w-full object-cover"
                 />
-                {reverse ?
+                {reverse ? (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:left-60 sm:rotate-90">
-                      {assunto}
+                    {assunto}
                   </figcaption>
-                :
+                ) : (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:-left-60 sm:-rotate-90">
-                      {assunto}
+                    {assunto}
                   </figcaption>
-                }
+                )}
               </figure>
-
             </div>
           </div>
         </div>
 
-        <div className={`${!reverse && "flex flex-col items-end"}`}>
-          <p className={`max-w-1/2 ${!reverse && "text-right"}`}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam
-            quisquam unde adipisci ratione qui quas impedit tempore ab
-            recusandae dolore facilis quaerat illo aliquam repellat dolor, amet
-            ad porro tenetur consectetur aliquid totam quasi vitae reiciendis.
-            Enim mollitia delectus et itaque? Officia voluptas vel odit sunt
-            alias animi libero?
+        {/* TEXTO */}
+        <div
+          className={`
+            ${!reverse && "flex flex-col items-end"}`}
+        >
+          <p
+            className={`max-w-1/2 text-lg max-lg:text-center mb-4 font-medium ${
+              !reverse && "text-right"
+            }`}
+          >
+            {children}
           </p>
 
-          <button className="mt-3 uppercase bg-white text-blue-600 rounded-xl p-3">
-            Ver a programação
-          </button>
+          <VerProgramacao />
         </div>
       </div>
 
       {/* PALESTRANTES */}
-      <div className="mt-16">
-        <h2 className="font-semibold text-2xl">
+      <div className="mt-16 ">
+        <h2 className="font-semibold text-2xl mx-[5vw] sm:mx-[10vw]">
           Palestrantes de {assunto} confirmados!
         </h2>
 
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mt-2 m-auto">
+        {/* grid grid-cols-2 gap-4 md:grid-cols-4 */}
+        <div className="mt-2">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <>
-              {/* teste */}
+            <CarrosselPalestrantes reverse={true}>
               <CardPalestrante
                 prof="Gladimir Catarino"
                 data="16/10, das 10:00 às 10:50"
@@ -84,22 +86,26 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
-
           {/* GESTÃO */}
           {assunto.toLowerCase() == "gestão" && (
-            <>
+            <CarrosselPalestrantes>
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
-
           {/* MERCADO */}
           {assunto.toLowerCase() == "mercado" && (
-            <>
+            <CarrosselPalestrantes mercado={true}>
               <CardPalestrante
                 prof="Eduardo Roveré "
                 data="16/10, das 10:50 às 11:50"
@@ -109,7 +115,10 @@ function SecoesDoCronograma({ assunto, reverse = false }) {
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
-            </>
+              <CardPalestrante />
+              <CardPalestrante />
+              <CardPalestrante />
+            </CarrosselPalestrantes>
           )}
         </div>
       </div>

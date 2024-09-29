@@ -1,15 +1,21 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { Menu } from "react-feather";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Header() {
   const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
-    <header className="bg-[#313131] text-white shadow-md">
+    <header className="bg-[#313131] text-sm sm:text-base text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
-        <img src="sajic_branco.png" alt="" className="w-24 my-4" />
+        <NavLink to="/">
+          <img src="sajic_branco.png" alt="" className="w-24 my-4" />
+        </NavLink>
 
         <div className="flex gap-4 max-md:items-center">
           <nav className="hidden sm:flex gap-4 h-full items-top">
@@ -41,12 +47,14 @@ function Header() {
             >
               Palestrantes
             </NavLink>
-            <NavLink
-              to="/inscricao"
+            <a
+              href="https://www.sympla.com.br/eventos"
               className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security best practice
             >
               Inscreva-se
-            </NavLink>
+            </a>
           </nav>
 
           <div
@@ -78,7 +86,7 @@ function Header() {
                 : "border-transparent"
             }`}
           >
-            Programacão
+            Programação
           </NavLink>
           <NavLink
             to="/palestrantes"
@@ -90,7 +98,14 @@ function Header() {
           >
             Palestrantes
           </NavLink>
-          <NavLink to="/inscricao">Inscrição</NavLink>
+          <a
+            href="https://www.sympla.com.br/eventos"
+            className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Security best practice
+          >
+            Inscreva-se
+          </a>
         </nav>
       )}
     </header>

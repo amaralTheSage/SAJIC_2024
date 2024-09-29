@@ -3,19 +3,19 @@ import { NavLink } from "react-router-dom";
 function PalestranteSelecionado({ p }) {
   return (
     <section
-      className="bg-[url('/background_senc.png')] p-24 bg-top bg-cover"
+      className="bg-[url('/background_senc.png')] py-24 bg-top bg-cover"
       id="palestrante-selecionado"
     >
       <div
-        className="flex flex-col items-center lg:grid grid-cols-5   m-auto
-       text-white gap-6 md:gap-12 "
+        className="flex flex-col items-center md:grid grid-cols-5 m-auto
+       text-white gap-6 md:gap-12 sm:w-4/5 w-[90%]"
       >
         <div
           className="m-auto w-full h-min
       col-span-2"
         >
           <img
-            className="mb-6 w-2/3 m-auto aspect-square rounded-full object-cover"
+            className="mb-6 w-3/4 lg:w-2/3 m-auto  aspect-square rounded-full object-cover"
             src={p.foto}
             alt=""
           />
@@ -24,10 +24,10 @@ function PalestranteSelecionado({ p }) {
           </p>
         </div>
 
-        <div className="m-auto w-full  font-light col-span-3">
+        <div className="m-auto text font-light col-span-3 ">
           <p className="">Palestrante</p>
           <h2 className="font-bold text-2xl ">{p.prof}</h2>
-          <p className="">{p.desc}</p>
+          <p className="w-fit  ">{p.desc}</p>
 
           {/* <div className="flex mt-9 justify-between ">
           <p className="text-[1.5rem] font-light">

@@ -97,7 +97,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/william_machado.png"
                 tema="As Implicações Éticas nas Tecnologias Digitais"
               />
-              <CardPalestrante />
+              <CardPalestrante
+                prof="Thiago Nunes Batista"
+                data="17/10, das 20:30 às 21:30"
+                empresa="ATLAS"
+                image="tiago_batista.jpg"
+                tema="Web Vitals: como a experiência do usuário vai afetar o SEO do seu site?"
+              />
               <CardPalestrante />
             </CarrosselPalestrantes>
           )}
@@ -126,7 +132,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema="Mercado de Trabalho"
                 image="https://avatars.githubusercontent.com/u/7376289?v=4"
               />
-              <CardPalestrante />
+              <CardPalestrante
+                prof="Régis Neves Machado"
+                data="18/10, das 19:10 às 20:00"
+                empresa="Globo"
+                tema="O Futuro da Carreira de TI"
+                image="regis_machado.jpg"
+              />
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />

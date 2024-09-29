@@ -80,7 +80,7 @@ function CarrosselPalestrantes({ children, gestao = false }) {
       .on("reInit", tweenOpacity)
       .on("scroll", tweenOpacity)
       .on("slideFocus", tweenOpacity);
-  }, [emblaApi, tweenOpacity]);
+  }, [emblaApi, tweenOpacity, setTweenFactor]);
 
   return (
     <div className="embla relative">

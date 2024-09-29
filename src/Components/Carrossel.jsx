@@ -11,20 +11,7 @@ export default function Carrossel({ imgs }) {
 
   const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
 
-  // Adicionando o useEffect para lidar com a limpeza da emblaApi
-  useEffect(() => {
-    if (emblaApi) {
-      // Suas interações com emblaApi, se necessário
-    }
-
-    return () => {
-      // Certificando-se de que a API do Embla é destruída corretamente ao desmontar
-      emblaApi && emblaApi.destroy();
-    };
-  }, [emblaApi]);
-
   return (
-
     <div className="embla relative ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container h-[90vh]">
@@ -58,7 +45,6 @@ export default function Carrossel({ imgs }) {
   );
 }
 
-// PropTypes para validar as props
 Carrossel.propTypes = {
   imgs: PropTypes.arrayOf(PropTypes.string).isRequired,
 };

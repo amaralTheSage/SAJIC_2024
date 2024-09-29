@@ -23,19 +23,18 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                   src={
                     (assunto.toLowerCase() == "tecnologia" &&
                       "tecnologia_thumb.png") ||
-                    (assunto.toLowerCase() == "gestão" && "gestão_thumb.png") ||
-                    (assunto.toLowerCase() == "mercado" && "mercado_thumb.png")
+                    (assunto.toLowerCase() == "gestão" && "gestão_thumb.png")
                   }
                   alt=""
                   className="h-full w-full object-cover"
                 />
                 {reverse ? (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:left-60 sm:rotate-90">
-                    {assunto}
+                    {assunto === "gestão" ? "Gestão e Mercado" : assunto}
                   </figcaption>
                 ) : (
                   <figcaption className="text-2xl uppercase font-bold text-center absolute w-full sm:top-[initial] -top-12 sm:-left-60 sm:-rotate-90">
-                    {assunto}
+                    {assunto === "gestão" ? "Gestão e Mercado" : assunto}
                   </figcaption>
                 )}
               </figure>
@@ -49,7 +48,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
             ${!reverse && "flex flex-col items-end"}`}
         >
           <p
-            className={`max-w-1/2 text-lg max-lg:text-center mb-4 font-medium ${
+            className={`max-w-1/2 text-xl max-lg:text-center mb-6 font-medium ${
               !reverse && "text-right"
             }`}
           >
@@ -61,8 +60,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
       </div>
 
       {/* PALESTRANTES */}
-      <div className="mt-16 ">
-        <h2 className="font-semibold text-2xl mx-[5vw] sm:mx-[10vw]">
+      <div className="mt-24">
+        <h2 className="font-semibold text-3xl mx-[5vw] sm:mx-[10vw]">
           Palestrantes de {assunto} confirmados!
         </h2>
 
@@ -70,7 +69,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
         <div className="mt-2">
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
-            <CarrosselPalestrantes reverse={true}>
+            <CarrosselPalestrantes>
               <CardPalestrante
                 prof="Gladimir Catarino"
                 data="16/10, das 10:00 às 10:50"
@@ -91,18 +90,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 empresa="UniSenac"
                 tema="Desenvolvimento de Games"
               />
-
-              {/*  {
-
-  {
-    prof: "William Machado",
-    empresa: "Colégio Tiradentes",
-    tema: "As Implicações Éticas nas Tecnologias Digitais",
-    foto: "/william_machado.png",
-    desc: "Doutor em Educação, mestrado em Educação e Tecnologias. Atuação como professor com pesquisas voltadas à Educomunicação, Tecnologias, Ética, Sociologia e Jornalismo. ",
-    instagram: "https://www.instagram.com/willmachad/",
-  },
- */}
               <CardPalestrante
                 prof="William Machado"
                 data="16/10, das 9:20 às 10:20"
@@ -117,7 +104,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           {/* GESTÃO */}
 
           {assunto.toLowerCase() == "gestão" && (
-            <CarrosselPalestrantes>
+            <CarrosselPalestrantes gestao={true}>
               <CardPalestrante
                 prof="Nanda Fersula"
                 data="18/10, das 19:10 às 20:00"
@@ -139,23 +126,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema="Mercado de Trabalho"
                 image="https://avatars.githubusercontent.com/u/7376289?v=4"
               />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
-              <CardPalestrante />
-            </CarrosselPalestrantes>
-          )}
-          {/* MERCADO */}
-          {assunto.toLowerCase() == "mercado" && (
-            <CarrosselPalestrantes mercado={true}>
-              <CardPalestrante
-                prof="Eduardo Roveré "
-                data="16/10, das 10:50 às 11:50"
-                empresa="Atlas"
-                tema="Mercado de Trabalho"
-              />
-              <CardPalestrante />
-              <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />
               <CardPalestrante />

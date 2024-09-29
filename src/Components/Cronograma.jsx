@@ -1,11 +1,10 @@
 import React from "react";
-import CardPalestrante from "./CardPalestrante";
 import SecoesDoCronograma from "./SecoesDoCronograma";
 
 function Cronograma() {
   return (
     <section className="bg-[#0056B3] bg-[url('/predio_lines.svg')] bg-center bg-no-repeat bg-contain py-16 text-white">
-      <h2 className="w-4/5 lg:w-1/2 text-center mb-24 m-auto font-semibold text-3xl">
+      <h2 className="w-11/12 sm:w-4/5 lg:w-1/2 text-center mb-24 m-auto font-semibold text-2xl md:text-3xl">
         Prepare-se para Oficinas, Networking e Palestras Imperdíveis!
       </h2>
 

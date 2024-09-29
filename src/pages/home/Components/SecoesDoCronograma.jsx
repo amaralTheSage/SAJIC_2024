@@ -1,7 +1,6 @@
-import React from "react";
 import CardPalestrante from "./CardPalestrante";
-import VerProgramacao from "../pages/home/VerProgramacao";
-import CarrosselPalestrantes from "../pages/home/Components/CarrosselPalestrantes";
+import VerProgramacao from "./VerProgramacao";
+import CarrosselPalestrantes from "./CarrosselPalestrantes";
 
 function SecoesDoCronograma({ assunto, reverse = false, children }) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import PatrocinadoresImgs from "../pages/home/Components/PatrocinadoresImgs";
+import PatrocinadoresImgs from "./PatrocinadoresImgs";
 
 function Patrocinadores() {
 

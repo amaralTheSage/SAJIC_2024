@@ -1,5 +1,5 @@
 import React from "react";
-import EmpresasImgs from "../pages/home/Components/EmpresasImgs";
+import EmpresasImgs from "./EmpresasImgs";
 
 function Empresas() {
   return (

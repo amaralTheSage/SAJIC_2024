@@ -61,12 +61,12 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
 
       {/* PALESTRANTES */}
       <div className="mt-24">
-        <h2 className="font-semibold text-3xl mx-[5vw] sm:mx-[10vw]">
+        <h2 className="font-semibold text-center mb-5 text-3xl mx-[5vw] sm:mx-[10vw]">
           Palestrantes de {assunto} confirmados!
         </h2>
 
         {/* grid grid-cols-2 gap-4 md:grid-cols-4 */}
-        <div className="mt-2">
+        <div>
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
             <CarrosselPalestrantes>

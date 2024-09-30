@@ -34,7 +34,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center">
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={"Palestra: As implicações éticas nas tecnologias digitais"}
@@ -63,7 +63,7 @@ function Programacao() {
               horarioCoffe="19:30 às 20:00"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
@@ -89,7 +89,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start">
               <EventoPalestra
                 prof_1={"Gladimir Catarino"}
                 nome_1={"Oficina: Workshop IoT"}
@@ -122,7 +122,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start">
               <EventoPalestra
                 prof_1={"Léo"}
                 nome_1={"Oficina de Canva"}
@@ -150,7 +150,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start">
               <EventoPalestra
                 prof_1={"Thiago Nunes Batista"}
                 nome_1={"Palestra: Web APIs, O Front-end além de botões coloridos"}
@@ -173,7 +173,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start">
               <EventoPalestra
                 prof_1={"Pablo Chiaro"}
                 nome_1={"Workshop: Agentes de IA: aplicações além do Chat com LLM e Langchain"}

@@ -1,5 +1,5 @@
 import React from "react";
-import EmpresasImgs from "./EmpresasImgs";
+import EmpresaCard from "./EmpresaCard";
 
 function Empresas() {
   return (
@@ -7,33 +7,15 @@ function Empresas() {
       <h2 className="text-3xl font-semibold md:w-3/5 w-11/12 text-center m-auto">
         Conheça as empresas que marcarão presença no evento!
       </h2>
-      <div className="grid w-4/5 sm:grid-cols-2 md:grid-cols-3 m-auto gap-x-20 gap-y-12">
-
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
+      <div className="w-4/5 flex bg-blue-300 items-center grow-0 justify-evenly flex-wrap m-auto gap-x-20 gap-y-12">
+        <EmpresaCard img="/empresas/atlas.png" alt="Atlas Technologies" />
+        <EmpresaCard img="/empresas/main_leaf.png" alt="Main Leaf" />
+        <EmpresaCard img="/empresas/globo.png" alt="Globo" />
+        <EmpresaCard img="/empresas/sigales.png" alt="Instituto Sigales" />
+        <EmpresaCard
+          img="/empresas/andrea_auge.png"
+          alt="Andréa Augé Advocacia"
         />
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
-        />
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
-        />
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
-        />
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
-        />
-        <EmpresasImgs
-          img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
-          alt="Empresa"
-        />
-
       </div>
     </section>
   );

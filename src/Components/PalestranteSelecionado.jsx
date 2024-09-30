@@ -29,25 +29,25 @@ function PalestranteSelecionado({ p }) {
           <h2 className="font-bold text-2xl ">{p.prof}</h2>
           <p className="w-fit  ">{p.desc}</p>
 
-          {/* <div className="flex mt-9 justify-between ">
+          <div className="flex mt-9 justify-between ">
           <p className="text-[1.5rem] font-light">
-            Data: <span className="text-[1.5rem] font-bold">18/10</span>
+            Data: <span className="text-[1.5rem] font-bold">{p.data}</span>
           </p>
           <p className="text-[1.5rem] font-light">
             Hora:{" "}
             <span className="text-[1.5rem] font-bold">
-              10:40 as 11:40 (Manhã)
+              {p.hora}
             </span>
           </p>
         </div>
         
-        <hr /> */}
+        <hr />
 
           {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
           <p className="font-bold text-lg">Redes Sociais:</p>
 
           <div className="grid grid-cols-4 gap-3 w-[160px]">
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            <img className="w-full" src="ElipseRedesS.png" alt={p.instagram} />
             <img className="w-full" src="ElipseRedesS.png" alt="" />
             <img className="w-full" src="ElipseRedesS.png" alt="" />
             <img className="w-full" src="ElipseRedesS.png" alt="" />

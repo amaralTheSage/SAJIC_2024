@@ -71,77 +71,86 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
             <CarrosselPalestrantes>
               <CardPalestrante
                 prof="Gladimir Catarino"
-                data="16/10, das 10:00 às 10:50"
+                data1="16/10, das 10:00 às 10:50"
                 empresa="UniSenac"
-                tema="IoT (Workshop)"
+                tema1="Internet of Things"
                 image="https://avatars.githubusercontent.com/u/26561092?v=4"
               />
               <CardPalestrante
-                data="18/10, das 10:30 às 11:30"
+                data1="18/10, das 10:30 às 11:30"
                 prof="Pablo Chiaro de Rosa"
                 empresa="UniSenac"
-                tema="Agentes de IA: aplicações além do Chat com LLM e Langchain"
+                tema1="Agentes de IA: aplicações além do Chat com LLM e Langchain"
                 image="/palestrantes/pablo.png"
               />
               <CardPalestrante
                 prof="Débora Carvalho"
-                data="17/10, das 10:40 às 11:40"
+                data1="17/10, das 10:40 às 11:40"
                 empresa="UniSenac"
-                tema="Jogos do Futuro: O Papel da Inteligência Artificial"
+                tema1="Jogos do Futuro: O Papel da Inteligência Artificial"
                 image="/palestrantes/debora_carvalho.jpeg"
               />
               <CardPalestrante
                 prof="William Machado"
-                data="16/10, das 9:20 às 10:20"
+                data1="16/10, das 9:20 às 10:20"
                 empresa="Colégio Tiradentes"
                 image="/palestrantes/william_machado.png"
-                tema="As Implicações Éticas nas Tecnologias Digitais"
+                tema1="As Implicações Éticas nas Tecnologias Digitais"
               />
               <CardPalestrante
                 prof="Thiago Nunes Batista"
-                data="17/10, das 20:30 às 21:30"
+                data1="17/10, das 20:30 às 21:30"
                 empresa="ATLAS"
                 image="/palestrantes/tiago_batista.jpg"
-                tema="Web Vitals: Como a experiência do usuário vai afetar o SEO do seu site?"
+                tema1="Web Vitals: Como a experiência do usuário vai afetar o SEO do seu site?"
               />
 
               <CardPalestrante
                 prof="João Otávio"
-                data="17/10, das 20:40 às 21:40"
+                data1="17/10, das 20:40 às 21:40"
                 empresa="UniSenac"
-                tema="Criação e Upload de Portifólio"
+                tema1="Criação e Upload de Portifólio"
                 image="/palestrantes/joao_otavio.jpg"
               />
 
               <CardPalestrante
-                data="18/10, das 10:40 às 11:00"
+                data1="18/10, das 10:40 às 11:00"
                 prof="Eduardo Roveré"
                 empresa="ATLAS"
-                tema="Trilhando carreiras na tecnologia: Uma visão das práticas de sucesso do time Atlas"
+                tema1="Trilhando carreiras na tecnologia: Uma visão das práticas de sucesso do time Atlas"
                 image="/palestrantes/eduardo_atlas.jpg"
               />
               <CardPalestrante
                 prof="Ítalo Nolasco Ramos"
-                data="16/10, das 09:20 às 11:40"
+                data1="16/10, das 09:20 às 11:40"
                 empresa="Nav9"
-                tema="NextJS 14: Estrutura de uma aplicação profissional"
+                tema1="NextJS 14: Estrutura de uma aplicação profissional"
                 image="/palestrantes/italo_nolasco.jpeg"
               />
 
               <CardPalestrante
-                prof="Marcelo Oscaberry e Lordenzo Gonçalves"
-                data="17/10, das 09:20 às 10:20"
+                prof="Marcelo e Lordenzo"
+                data1="17/10, das 09:20 às 10:20"
                 empresa="UniSenac"
-                tema="Criação e Upload de Portifólio"
+                tema1="Criação e Upload de Portifólio"
                 image="/palestrantes/os_incel.jpg"
               />
 
               <CardPalestrante
                 prof="Augusto Rickes"
-                data="18/10, das 19:15 às 20:15"
+                data1="18/10, das 19:15 às 20:15"
                 empresa="ATLAS"
-                tema="Construção de uma API Laravel com algumas rotas e autenticação para testar com Postman"
+                tema1="Construção de uma API Laravel com rotas e autenticação para testar com Postman"
                 image="/palestrantes/augusto_rickes.jpg"
+                tema2="Desvendando o playwright: Automação moderna para testes Web"
+                data2="17/10, das 19:15 às 20:15"
+              />
+              <CardPalestrante
+                prof="Marcelo Siedler"
+                data1="18/10, das 09:15 às 12:00"
+                empresa="IFSul"
+                tema1="Desenvolvimento de Jogos usando Unity"
+                image="/palestrantes/marcelo_siedler.png"
               />
             </CarrosselPalestrantes>
           )}
@@ -151,86 +160,86 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
             <CarrosselPalestrantes gestao={true}>
               <CardPalestrante
                 prof="Nanda Fersula"
-                data="18/10, das 19:10 às 20:00"
+                data1="18/10, das 19:10 às 20:00"
                 empresa="Instituto Sigales"
                 image="/palestrantes/nanda_fersula.jpg"
-                tema="Neuromarketing - Comece por Aqui"
+                tema1="Neuromarketing - Comece por Aqui"
               />
               <CardPalestrante
                 prof="Adriana Silva da Silva"
-                data="16/10, das 10:40 às 11:40"
+                data1="16/10, das 10:40 às 11:40"
                 empresa="Main Leaf"
                 image="/palestrantes/adriana_silva.jpg"
-                tema="Do Conceito ao Lançamento: Gestão Ágil de Projetos de Jogos Digitais"
+                tema1="Do Conceito ao Lançamento: Gestão Ágil de Projetos de Jogos Digitais"
               />
               <CardPalestrante
-                data="16/10, das 10:50 às 11:50"
+                data1="16/10, das 10:50 às 11:50"
                 prof="Eduardo Roveré"
                 empresa="ATLAS"
-                tema="Mercado de Trabalho"
+                tema1="Mercado de Trabalho"
                 image="/palestrantes/eduardo_atlas.jpg"
               />
               <CardPalestrante
                 prof="Andréa Barros Augé"
-                tema="Era hiperconectada: O Direito Digital e crimes digitais"
-                data="18/10, das 20:30 às 21:30"
+                tema1="Era hiperconectada: O Direito Digital e crimes digitais"
+                data1="18/10, das 20:30 às 21:30"
                 empresa="Andréa Augé Advocacia"
                 image="/palestrantes/andrea_auge.jpeg"
               />
               <CardPalestrante
                 prof="Régis Neves Machado"
-                data="18/10, das 19:10 às 20:00"
+                data1="18/10, das 19:10 às 20:00"
                 empresa="Globo"
-                tema="O Futuro da Carreira de TI"
+                tema1="O Futuro da Carreira de TI"
                 image="/palestrantes/regis_machado.jpg"
               />
               <CardPalestrante
                 prof="Ítalo Nolasco Ramos"
-                data="18/10, das 10:40 às 11:40"
+                data1="18/10, das 10:40 às 11:40"
                 empresa="Nav9"
-                tema="Construindo e validando um MVP: Gerar valor mitigando riscos"
+                tema1="Construindo e validando um MVP: Gerar valor mitigando riscos"
                 image="/palestrantes/italo_nolasco.jpeg"
               />
               <CardPalestrante
                 prof="Michele"
-                data="16/10, das 10:40 às 11:40"
+                data1="16/10, das 10:40 às 11:40"
                 empresa="UniSenac"
-                tema="Oficina de Currículo"
+                tema1="Oficina de Currículo"
                 image="/palestrantes/"
               />
               <CardPalestrante
                 prof="Dalton Gaia da Silva"
-                data="17/10, das 09:20 às 10:20"
+                data1="17/10, das 09:20 às 10:20"
                 empresa="Echo"
-                tema="Como Equilibrar Gestão e Velocidade para Escalar uma Startup"
+                tema1="Como Equilibrar Gestão e Velocidade para Escalar uma Startup"
                 image="/palestrantes/dalton_gaia.jpg"
               />
               <CardPalestrante
+                prof="Vitor Vitolla"
+                data1="17/10, das 19:15 às 20:15"
+                empresa="ATLAS"
+                tema1="Debugando Hábitos"
+                image="/palestrantes/vitor_vitolla.jpeg"
+              />
+              <CardPalestrante
                 prof=""
-                data="/, das : às :"
+                data1="/, das : às :"
                 empresa=""
-                tema=""
+                tema1=""
+                image="/palestrantes/"
+              />
+              <CardPalestrante
+                prof=""
+                data1="/, das : às :"
+                empresa=""
+                tema1=""
                 image="/palestrantes/"
               />{" "}
               <CardPalestrante
                 prof=""
-                data="/, das : às :"
+                data1="/, das : às :"
                 empresa=""
-                tema=""
-                image="/palestrantes/"
-              />{" "}
-              <CardPalestrante
-                prof=""
-                data="/, das : às :"
-                empresa=""
-                tema=""
-                image="/palestrantes/"
-              />{" "}
-              <CardPalestrante
-                prof=""
-                data="/, das : às :"
-                empresa=""
-                tema=""
+                tema1=""
                 image="/palestrantes/"
               />
             </CarrosselPalestrantes>

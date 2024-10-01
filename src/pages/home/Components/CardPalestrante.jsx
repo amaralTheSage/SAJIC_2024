@@ -19,7 +19,7 @@ function CardPalestrante({
         <img
           src={image}
           alt=""
-          className="aspect-[3/4] w-full object-cover rounded-md mb-1 bg-purple-500"
+          className="aspect-[3/4] w-full object-cover rounded-md mb-1 bg-[url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/17/0e/20/local.jpg?w=1200&h=-1&s=1)] bg-cover"
         />
       </div>
 

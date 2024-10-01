@@ -81,4 +81,115 @@ export const palestrantes = [
   //     data: "17/10",
   //     hora: "20:40 as 21:40 (Noite)",
   //   },
+  //////// Palestrantes do dia 18/10 //////////////
+  {
+    prof: "Marcelo da Siveira Siedler ",
+    empresa: "IFsul",
+    tema: "Desenvolvimento de Jogos usando Unity",
+    foto: "/palestrantes/marcelo_siedler.png",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "09:15 as 12:00 (Manhã)",
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Gladimir Catarino",
+    empresa: "UniSenac",
+    tema: "Workshop de IoT",
+    foto: "https://avatars.githubusercontent.com/u/26561092?v=4",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "09:20 as 10:20LO (Manhã)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Ítalo Nolasco Ramos",
+    empresa: "Nav9",
+    tema: "Construindo e validando um MVP: Gerar valor mitigando riscos",
+    foto: "/palestrantes/italo_nolasco.jpEg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "10:40 as 11:40 (Manhã)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Eduardo Roveré",
+    empresa: "Atlas ",
+    tema: "Trilhando carreiras na tecnologia - Uma visão das práticas de sucesso do time Atlas",
+    foto: "/palestrantes/eduardo_atlas.jpg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "10:40 as 11:00 (Manhã)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Pablo Chiaro",
+    empresa: "UniSenac",
+    tema: "Agentes de IA: aplicações além do Chat com LLM e Langchain",
+    foto: "/palestrantes/pablo.png",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "19:15 as 20:15 (Noite)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Augusto Rickes",
+    empresa: "Atlas",
+    tema: "Construção de uma api laravel com algumas rotas e autenticação para testar com postman",
+    foto: "/palestrantes/augusto_rickes.jpg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "19:15 as 20:15 (Noite)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Flavio Badia",
+    empresa: "",
+    tema: "",
+    foto: "/palestrantes/Foto-Palestrante.png",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "19:15 as 20:15 (Noite)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Régis Neves Machado",
+    empresa: "Globo",
+    tema: "O Futuro da Carreira de TI",
+    foto: "/palestrantes/regis_machado.jpg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "19:15 as 19:45 (Noite)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Andréa Barros Augé",
+    empresa: "Andréa Augé advocacia",
+    tema: "Era hiperconectada: O Direito Digital e crimes digitais",
+    foto: "/palestrantes/andrea_auge.jpeg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "20:40 as 21:40 (Noite)"
+  },
+  /////////Novo palestrante////////
+  {
+    prof: "Nanda Fersula",
+    empresa: "Instituto Sigales",
+    tema: "Neuromarketing - comece por aqui",
+    foto: "/palestrantes/nanda_fersula.jpg",
+    desc: "EM BREVE",
+    instagram: null,
+    data: "18/10",
+    hora: "20:40 as 21:40 (Noite)"
+  },
+  /////////Novo palestrante////////
 ];

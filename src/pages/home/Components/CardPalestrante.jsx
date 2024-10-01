@@ -11,10 +11,10 @@ function CardPalestrante({
 }) {
   return (
     <div className="embla_palestrantes_slide  aspect-video mx-8 ">
-      <p className="font-bold capitalize text-lg">
-        {prof} - {empresa}
-      </p>
-
+      <div className=" text-lg">
+        <span className="font-medium capitalize">{prof}</span>
+        <span className=""> {empresa && "- " + empresa}</span>
+      </div>
       <div>
         <img
           src={image}
@@ -25,13 +25,22 @@ function CardPalestrante({
 
       <div>
         <div>
-          <p className="font-light ">
-            {tema1.split(":").map((parte, index, array) => (
-              <>
-                {parte}
-                {index === 0 && array.length > 1 && ":"} <br />
-              </>
-            ))}
+          <p className="font-light">
+            {tema1.includes(":") ? (
+              tema1.split(":").map((parte, index, array) => (
+                <>
+                  {index === 0 && array.length > 1 ? (
+                    <>
+                      <p className="font-medium">{parte}:</p>
+                    </>
+                  ) : (
+                    <p>{parte}</p>
+                  )}
+                </>
+              ))
+            ) : (
+              <p className="font-medium">{tema1}</p>
+            )}
           </p>
           <p className="font-semibold">{data1}</p>
         </div>
@@ -39,12 +48,21 @@ function CardPalestrante({
         {tema2 && (
           <div>
             <p className="font-light mt-2">
-              {tema2.split(":").map((parte, index, array) => (
-                <>
-                  {parte}
-                  {index === 0 && array.length > 1 && ":"} <br />
-                </>
-              ))}
+              {tema2.includes(":") ? (
+                tema2.split(":").map((parte, index, array) => (
+                  <>
+                    {index === 0 && array.length > 1 ? (
+                      <>
+                        <p className="font-medium">{parte}:</p>
+                      </>
+                    ) : (
+                      <p>{parte}</p>
+                    )}
+                  </>
+                ))
+              ) : (
+                <p className="font-medium">{tema2}</p>
+              )}
             </p>
             <p className="font-semibold">{data2}</p>
           </div>

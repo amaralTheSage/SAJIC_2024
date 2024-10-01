@@ -183,7 +183,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 prof="Andréa Barros Augé"
                 tema1="Era hiperconectada: O Direito Digital e crimes digitais"
                 data1="18/10, das 20:30 às 21:30"
-                empresa="Andréa Augé Advocacia"
+                empresa=""
                 image="/palestrantes/andrea_auge.jpeg"
               />
               <CardPalestrante

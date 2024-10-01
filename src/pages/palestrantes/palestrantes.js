@@ -1,3 +1,5 @@
+import { data } from "autoprefixer";
+
 export const palestrantes = [
   {
     prof: "Gladimir Catarino",
@@ -5,6 +7,9 @@ export const palestrantes = [
     tema: "Internet of Things",
     foto: "https://avatars.githubusercontent.com/u/26561092?v=4",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum enim excepturi perferendis distinctio voluptatibus.",
+    instagram: "https://www.instagram.com/gladimir_cc/",
+    data: "18/10",
+    hora: "09:20 as 10:20 (Manhã)",
   },
   {
     prof: "Pablo Chiaro de Rosa",
@@ -13,6 +18,8 @@ export const palestrantes = [
     foto: "/pablo.png",
     desc: "Doutorando e Mestre em Ciência da Computação, com especialização em gerenciamento de projetos. Desde 2018, foca seus estudos em inteligência artificial, acumulando mais de 12 anos de experiência em programação e tecnologias. Além disso, atua como docente de graduação em tecnologia.",
     instagram: "https://www.instagram.com/chiarorosa/",
+    data: "18/10",
+    hora: "19:15 as 20:15 (Noite)",
   },
   {
     prof: "William Machado",
@@ -21,6 +28,8 @@ export const palestrantes = [
     foto: "/william_machado.png",
     desc: "Doutor em Educação, mestrado em Educação e Tecnologias. Atuação como professor com pesquisas voltadas à Educomunicação, Tecnologias, Ética, Sociologia e Jornalismo. ",
     instagram: "https://www.instagram.com/willmachad/",
+    data: "16/10",
+    hora: "09:20 as 10:20 (Manhã)",
   },
   {
     prof: "Eduardo Roveré",
@@ -29,20 +38,37 @@ export const palestrantes = [
     foto: "https://avatars.githubusercontent.com/u/7376289?v=4",
     desc: "null",
     instagram: "https://www.instagram.com/willmachad/dudurovere",
+    data: "Em breve",
+    hora: "Em breve",
   },
-  // {
-  //     prof: ,
-  //     empresa: ,
-  //     tema:,
-  //     foto: ,
-  //     desc: ,
-  //     instagram: ,
-  //   },  {
-  //     prof: ,
-  //     empresa: ,
-  //     tema:,
-  //     foto: ,
-  //     desc: ,
-  //     instagram: ,
-  //   },
+  {
+      prof: "Adriana Silva da Silva",
+      empresa: "Main Leaf" ,
+      tema: "Do Conceito ao Lançamento: Gestão Ágil de Projetos de Jogos Digitais",
+      foto: "/adriana_silva.jpg",
+      desc: "Em breve",
+      instagram: null,
+      data: "16/10",
+      hora: "10:40 as 11:40 (Manhã)",
+    },  
+  {
+      prof: "Débora Carvalho", 
+      empresa: "UniSenac",
+      tema: "Jogos do Futuro: O Papel da Inteligência Artificial",
+      foto: null,
+      desc: "Em breve",
+      instagram: null,
+      data: "17/10",
+      hora: "10:40 as 11:40 (Manhã)",
+    },
+  {
+      prof: "Thiago Nunes Batista",
+      empresa: "ATLAS",
+      tema: "Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?",
+      foto: null,
+      desc: "Em breve",
+      instagram: null,
+      data: "17/10",
+      hora: "20:40 as 21:40 (Noite)",
+    },
 ];

@@ -10,13 +10,13 @@ function Header() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  const navStyles = `border-b-[12px] pb-2 h-full transition-colors hover:border-white`
+  const navStyles = `border-b-[12px] pb-2 h-full transition-colors hover:border-white select-none`;
 
   return (
     <header className="bg-[#313131] text-sm sm:text-base text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
         <NavLink to="/">
-          <img src="sajic_branco.png" alt="" className="w-24 my-4" />
+          <img src="sajic_branco.png" alt="" className="w-24 my-4 select-none" />
         </NavLink>
 
         <div className="flex gap-4 max-md:items-center">
@@ -51,7 +51,7 @@ function Header() {
             </NavLink>
             <a
               href="https://www.sympla.com.br/eventos"
-              className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+              className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3 select-none"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security best practice
             >
@@ -102,7 +102,7 @@ function Header() {
           </NavLink>
           <a
             href="https://www.sympla.com.br/eventos"
-            className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+            className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3 select-none"
             target="_blank" // Opens the link in a new tab
             rel="noopener noreferrer" // Security best practice
           >

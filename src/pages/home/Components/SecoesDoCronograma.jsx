@@ -74,7 +74,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 data1="16/10, das 10:00 às 10:50"
                 empresa="UniSenac"
                 tema1="Internet of Things"
-                image="https://avatars.githubusercontent.com/u/26561092?v=4"
+                image="/palestrantes/gladLindo.jpg"
               />
               <CardPalestrante
                 data1="18/10, das 10:30 às 11:30"

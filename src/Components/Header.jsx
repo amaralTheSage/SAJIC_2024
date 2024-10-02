@@ -50,7 +50,7 @@ function Header() {
               Palestrantes
             </NavLink>
             <a
-              href="https://www.sympla.com.br/eventos"
+              href="https://www.sympla.com.br/semana-academica---jornada-de-iniciacao-cientifica__2656617"
               className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3 select-none"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security best practice
@@ -101,7 +101,7 @@ function Header() {
             Palestrantes
           </NavLink>
           <a
-            href="https://www.sympla.com.br/eventos"
+            href="https://www.sympla.com.br/semana-academica---jornada-de-iniciacao-cientifica__2656617"
             className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3 select-none"
             target="_blank" // Opens the link in a new tab
             rel="noopener noreferrer" // Security best practice

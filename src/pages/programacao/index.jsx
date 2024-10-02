@@ -140,7 +140,7 @@ function Programacao() {
               />
 
               <EventoPalestra
-                prof_1={"Monks"}
+                prof_1={"Eduardo Monks"}
                 nome_1={"Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"}
                 horario_1={"20:40"}
               />

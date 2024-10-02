@@ -10,6 +10,8 @@ function Header() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  const navStyles = `border-b-[12px] pb-2 h-full transition-colors hover:border-white`
+
   return (
     <header className="bg-[#313131] text-sm sm:text-base text-white shadow-md">
       <div className="flex gap-4 justify-between items-center sm:items-end px-14">
@@ -21,7 +23,7 @@ function Header() {
           <nav className="hidden sm:flex gap-4 h-full items-top">
             <NavLink
               to="/"
-              className={`border-b-[12px] pb-2 h-full ${
+              className={`${navStyles} ${
                 pathname === "/" ? "border-white" : "border-transparent"
               }`}
             >
@@ -29,7 +31,7 @@ function Header() {
             </NavLink>
             <NavLink
               to="/programacao"
-              className={`border-b-[12px] pb-2 h-full ${
+              className={`${navStyles} ${
                 pathname === "/programacao"
                   ? "border-white"
                   : "border-transparent"
@@ -39,7 +41,7 @@ function Header() {
             </NavLink>
             <NavLink
               to="/palestrantes"
-              className={`border-b-[12px] pb-2 h-full ${
+              className={`${navStyles} ${
                 pathname === "/palestrantes"
                   ? "border-white"
                   : "border-transparent"
@@ -49,7 +51,7 @@ function Header() {
             </NavLink>
             <a
               href="https://www.sympla.com.br/eventos"
-              className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+              className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security best practice
             >
@@ -72,7 +74,7 @@ function Header() {
         <nav className="sm:hidden flex justify-evenly gap-3 h-full font-medium mt-2 items-top">
           <NavLink
             to="/"
-            className={`border-b-[12px] pb-2 h-full ${
+            className={`${navStyles} ${
               pathname === "/" ? "border-white" : "border-transparent"
             }`}
           >
@@ -80,7 +82,7 @@ function Header() {
           </NavLink>
           <NavLink
             to="/programacao"
-            className={`border-b-[12px] pb-2 h-full ${
+            className={`${navStyles} ${
               pathname === "/programacao"
                 ? "border-white"
                 : "border-transparent"
@@ -90,7 +92,7 @@ function Header() {
           </NavLink>
           <NavLink
             to="/palestrantes"
-            className={`border-b-[12px] pb-2 h-full ${
+            className={`${navStyles} ${
               pathname === "/palestrantes"
                 ? "border-white"
                 : "border-transparent"
@@ -100,7 +102,7 @@ function Header() {
           </NavLink>
           <a
             href="https://www.sympla.com.br/eventos"
-            className="bg-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
+            className="bg-blue-600 transition-colors hover:bg-white hover:text-blue-600 rounded-md h-min py-1 relative bottom-1 px-3"
             target="_blank" // Opens the link in a new tab
             rel="noopener noreferrer" // Security best practice
           >

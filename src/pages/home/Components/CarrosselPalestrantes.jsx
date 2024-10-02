@@ -6,17 +6,17 @@ import AutoScroll from "embla-carousel-auto-scroll";
 
 function CarrosselPalestrantes({ children, gestao = false }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({
-      active: !gestao && true,
-      delay: 3000,
-      stopOnInteraction: false,
-      stopOnFocusIn: false,
-      stopOnMouseEnter: false,
-      stopOnLastSnap: false,
-    }),
+    // Autoplay({
+    //   active: !gestao && true,
+    //   delay: 3000,
+    //   stopOnInteraction: false,
+    //   stopOnFocusIn: false,
+    //   stopOnMouseEnter: false,
+    //   stopOnLastSnap: false,
+    // }),
     AutoScroll({
-      active: gestao && true,
-      direction: gestao ? "backward" : "forward",
+      active: true,
+      direction: gestao ? "backward" : "forward", //sets that gestao carousel is gonna go backwards
       speed: 1,
       stopOnInteraction: false,
       stopOnFocusIn: false,

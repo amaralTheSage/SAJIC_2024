@@ -7,7 +7,7 @@ function Empresas() {
       <h2 className="text-3xl font-semibold md:w-3/5 w-11/12 text-center m-auto">
         Conheça as empresas que marcarão presença no evento!
       </h2>
-      <div className="w-4/5 flex bg-blue-300 items-center grow-0 justify-evenly flex-wrap m-auto gap-x-20 gap-y-12">
+      <div className="w-4/5 flex items-center grow-0 justify-evenly flex-wrap m-auto gap-x-20 gap-y-12">
         <EmpresaCard img="/empresas/atlas.png" alt="Atlas Technologies" />
         <EmpresaCard img="/empresas/main_leaf.png" alt="Main Leaf" />
         <EmpresaCard img="/empresas/globo.png" alt="Globo" />

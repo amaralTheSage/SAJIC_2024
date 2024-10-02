@@ -25,7 +25,7 @@ export default function Carrossel({ imgs }) {
           ))}
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
-          <img className="md:w-[50vw] w-[90vw]" src="/unisenacLogo.svg" />
+          <img className="md:w-[50vw] w-[90vw] select-none" src="/unisenacLogo.svg" />
         </div>
       </div>
 

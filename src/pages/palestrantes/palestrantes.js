@@ -106,26 +106,26 @@ export const palestrantes = [
   },
 
   {
-      prof: "Júlia Kerolaine Machado Garcia", 
+      prof: "Júlia Kerolaine Machado Garcia e Sibeli da Silva Avila", 
       empresa: "ATLAS",
       tema: "Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!",
-      foto: "/palestrantes/Foto-Palestrante.png",
-      desc: "Em breve",
+      foto: "/palestrantes/julia_sibeli.jfif",
+      desc: "A Take off é uma startup criada com o intuito de facilitar a vida dos jovens, trazendo informações essenciais diretamente no nosso site. Queremos ajudar-te a encontrar vagas de emprego, eventos importantes em Pelotas, inscrições para provas como o Enem e Ifsul, além de oportunidades como cursos gratuitos e outras iniciativas. A nossa missão é simples: ser a tua fonte de informações para que possas avançar no teu desenvolvimento pessoal e profissional. Com a Takeoff, fazer conexões que impulsionam o teu futuro pode se tornar mais fácil!",
       instagram: null,
       data: "17/10",
       hora: "19:15 as 20:15 (Noite)",
   },
 
-  {
-      prof: "Sibeli da Silva Avila", 
-      empresa: "ATLAS",
-      tema: "Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!",
-      foto: "/palestrantes/Foto-Palestrante.png",
-      desc: "Em breve",
-      instagram: null,
-      data: "17/10",
-      hora: "19:15 as 20:15 (Noite)",
-  },
+  // {
+  //     prof: "Sibeli da Silva Avila", 
+  //     empresa: "ATLAS",
+  //     tema: "Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!",
+  //     foto: "/palestrantes/Foto-Palestrante.png",
+  //     desc: "Em breve",
+  //     instagram: null,
+  //     data: "17/10",
+  //     hora: "19:15 as 20:15 (Noite)",
+  // },
 
   {
       prof: "Augusto Rickes", 

@@ -7,8 +7,7 @@ import AutoScroll from "embla-carousel-auto-scroll";
 function CarrosselPalestrantes({ children, gestao = false }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({
-      // active: !gestao && true,
-      active: false,
+      active: !gestao && true,
       delay: 3000,
       stopOnInteraction: false,
       stopOnFocusIn: false,

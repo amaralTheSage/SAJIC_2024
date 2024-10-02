@@ -222,11 +222,11 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/palestrantes/vitor_vitolla.jpeg"
               />
               <CardPalestrante
-                prof=""
-                data1="/, das : às :"
-                empresa=""
-                tema1=""
-                image="/palestrantes/"
+                prof="Eduardo Prestes"
+                data1="18/10, das 20:40 às 21:40"
+                empresa="Compass UOL"
+                tema1="Aplicando métodos ágeis com Scrum"
+                image="/palestrantes/eduardo_prestes.jpg"
               />
               <CardPalestrante
                 prof=""

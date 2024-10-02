@@ -51,9 +51,9 @@ export const palestrantes = [
   ///////// Palestrantes do dia 17/10 /////////
 
   {
-      prof: "Marcelo Oscaberry",
+      prof: "Marcelo Oscaberry e Lorenzo Gonçalves",
       empresa: "Unisenac" ,
-      tema: "Criação e Upload de portifólio",
+      tema: "Hosteando seu portifólio de graça com Github Pages",
       foto: "/palestrantes/os_incel.jpg",
       desc: "Já fiz páginas estáticas complexas em react e afins, também virei diversas noites deixando elas responsivas e funcionais. Trato tudo que eu faço como se fosse meus filhos e se não tá perfeito, não tá pronto",
       instagram: null,
@@ -115,6 +115,16 @@ export const palestrantes = [
       data: "17/10",
       hora: "19:15 as 20:15 (Noite)",
   },
+  
+  {
+    prof:"Ana Carolina Giudice Beber",
+    empresa:"autônoma",
+    tema:"Minicurso de Construção de Projetos Acadêmicos de Iniciação Científica",
+    foto:"/palestrantes/Ana_Carolina.jpg",
+    desc:"Atualmente estou no 2º semestre do Mestrado, porém desde o primeiro ano da minha graduação participo em diversos projetos relacionados à iniciação científica, fui bolsista quase dois anos na graduação, e, atualmente, sou bolsista do CNPq. Ainda que a minha trajetória seja voltada ao Direito, entendo que posso contribuir no tema da semana acadêmica a partir da experiência em construção de projetos de iniciação científica, o que acaba por ser multidisciplinar e pode ajudar a preparar aqueles que desejam seguir essa área mais acadêmica de produção.",
+    data:"17/10",
+    hora:"19:15 as 20:15 (Noite)",
+  },
 
   // {
   //     prof: "Sibeli da Silva Avila", 
@@ -150,9 +160,9 @@ export const palestrantes = [
     },
     
     {
-    prof:"João Otávio Leites Matuszevski",
+    prof:"João Otávio Leites Matuszevski",   //revisar com a bruna//
     empresa:"dti Digital",
-    tema:"Aplicando métodos Ágeis com Scrum",
+    tema:"Criação e Upload de portifólio",
     foto:"/palestrantes/joao_otavio.jpg",
     desc:"Estou estudando análise e desenvolvimento de sistemas e estive muito tempo atrás de vagas de estágio, então pesquisei muito sobre formas de me 'vender' através de curriculo portifólio e afins, então planejo dar uma apresentação de sobre como criar um portifólio e por o mesmo no ar",
     data:"17/10",
@@ -162,32 +172,14 @@ export const palestrantes = [
     {
     prof:"Eduardo Maroñas Monks",
     empresa:"Unisenac",
-    tema:"Aplicando métodos Ágeis com Scrum",
+    tema:"Como funcionam os serviços alternativos de streaming de vídeo (IPTV)",
     foto:"/palestrantes/Eduardo_Monks.jpg",
     desc:"Possui graduação em Bacharel em Análise de Sistemas pela Universidade Católica de Pelotas (1998), Mestrado em Computação pela Universidade Federal do Rio Grande do Sul (2006) e Doutorado pela Universidade Federal de Pelotas (2023). Começou a atuar na área de redes em 1995 como estagiário na UCPEL, onde trabalhou por 14 anos. No período de 1999 a 2004 e 2014 a 2017, atuou como docente em cursos de Ciência da Computação e Tecnologia em Análise e Desenvolvimento de Sistemas na UCPEL. Em 2017, passou a exercer a função de docente da UniSenac Pelotas. Em 2014 tornou-se Analista de TI na UFPEL, atuando na administração de redes. Possui certificados Cisco CCAI, Cisco CCNA e LPIC-1. ",
     data:"17/10",
     hora:"20:40 as 21:40 (Noite)",
   },
 
-  // {
-  //   prof:"Ana Carolina Giudice Beber",
-  //   empresa:"",
-  //   tema:"",
-  //   foto:"/palestrantes/Ana_Carolina.jpg",
-  //   desc:"Atualmente estou no 2º semestre do Mestrado, porém desde o primeiro ano da minha graduação participo em diversos projetos relacionados à iniciação científica, fui bolsista quase dois anos na graduação, e, atualmente, sou bolsista do CNPq. Ainda que a minha trajetória seja voltada ao Direito, entendo que posso contribuir no tema da semana acadêmica a partir da experiência em construção de projetos de iniciação científica, o que acaba por ser multidisciplinar e pode ajudar a preparar aqueles que desejam seguir essa área mais acadêmica de produção.",
-  //   data:"17/10",
-  //   hora:"19:15 as 20:15 (Noite)",
-  // },
   
-  // {
-  //   prof:"Marcos Echevarria",
-  //   empresa:"BeTalent",
-  //   tema:"",
-  //   foto:"/palestrantes/eduado_prestes.jpg",
-  //   desc:"Eduardo Prestes da Costa é um especialista em metodologias ágeis com vasta experiência em aplicação prática de Scrum em equipes de desenvolvimento de software. Com mais de 5 anos de atuação no setor, ele tem se dedicado a transformar processos e entregar valor de forma contínua e eficiente em diversas organizações. Sua abordagem envolve a criação de times altamente colaborativos e a adaptação rápida às mudanças, sempre focando em maximizar o valor para o cliente.",
-  //   data:"18/10",
-  //   hora:"20:40 as 21:40 (Noite)",
-  // },
   
   ///////// Palestrantes do dia 18/10 /////////
   {
@@ -231,7 +223,7 @@ export const palestrantes = [
     desc: "Graduado em sistemas para internet e pós graduando em Liderança técnica, Eduardo Roveré trabalha com tecnologia há mais de 15 anos. Atualmente, atua como Coordenador de Tecnologia na empresa Atlas Technologies, de Pelotas RS. É um apaixonado por tecnologia e um verdadeiro entusiasta do desenvolvimento front-end. Quando não está liderando equipes e impulsionando inovações que transformam o mercado, você poderá encontrá-lo também em quadras de basquete ou em algum jogo online por aí!",
     instagram: null,
     data: "18/10",
-    hora: "10:40 as 11:00 (Manhã)"
+    hora: "10:40 as 11:40 (Manhã)"
   },
   
   {
@@ -255,17 +247,6 @@ export const palestrantes = [
     data: "18/10",
     hora: "19:15 as 20:15 (Noite)"
   },
-  
-  // {
-  //   prof: "Flavio Badia",
-  //   empresa: "",
-  //   tema: "",
-  //   foto: "/palestrantes/Foto-Palestrante.png",
-  //   desc: "EM BREVE",
-  //   instagram: null,
-  //   data: "18/10",
-  //   hora: "19:15 as 20:15 (Noite)"
-  // },
   
   {
     prof: "Régis Neves Machado",

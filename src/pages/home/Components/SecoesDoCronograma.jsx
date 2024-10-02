@@ -228,20 +228,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema1="Aplicando métodos ágeis com Scrum"
                 image="/palestrantes/eduardo_prestes.jpg"
               />
-              <CardPalestrante
-                prof=""
-                data1="/, das : às :"
-                empresa=""
-                tema1=""
-                image="/palestrantes/"
-              />{" "}
-              <CardPalestrante
-                prof=""
-                data1="/, das : às :"
-                empresa=""
-                tema1=""
-                image="/palestrantes/"
-              />
             </CarrosselPalestrantes>
           )}
         </div>

@@ -16,7 +16,7 @@ export const palestrantes = [
   },
 
   {
-    prof: " Ítalo Nolasco Ramos",
+    prof: "Ítalo Nolasco Ramos",
     empresa: "Nav9",
     tema: "NextJS 14: Estrutura de uma aplicação profissional",
     foto: "/palestrantes/italo_nolasco.jpeg",
@@ -24,6 +24,9 @@ export const palestrantes = [
     instagram: "https://www.instagram.com/willmachad/",
     data: "16/10",
     hora: "09:20 as 11:40 (Manhã)",
+    tema2: "Construindo e validando um MVP: Gerar valor mitigando riscos",
+    data2: "18/10",
+    hora2: "10:40 as 11:40 (Manhã)",
   },
   
   {
@@ -37,17 +40,7 @@ export const palestrantes = [
       hora: "10:40 as 11:40 (Manhã)",
   },
 
-  // {
-  //     prof: "Michele",
-  //     empresa: "Unisenac" ,
-  //     tema: "Oficina de curriculo",
-  //     foto: "/palestrantes/adriana_silva.jpg",
-  //     desc: "Em breve",
-  //     instagram: null,
-  //     data: "16/10",
-  //     hora: "10:40 as 11:40 (Manhã)",
-  // }, 
-
+  
   ///////// Palestrantes do dia 17/10 /////////
 
   {
@@ -73,15 +66,17 @@ export const palestrantes = [
   // },
   
   {
-    prof: "Dalton Gaia da silva",
+    prof: "Dalton Gaia da Silva",
     empresa: "Echo",
     tema: "Como Equilibrar Gestão e Velocidade para Escalar uma Startup",
     foto: "/palestrantes/dalton_gaia.jpg",
-    desc: "EM BREVE",
+    desc: `Sempre fui movido a questionar, o que me levou a identificar inúmeros problemas ao longo do caminho. Ao combinar isso com minha paixão por tecnologia, percebi que era possível resolver esses desafios e ajudar pessoas ao redor do mundo. Minha inconformidade me trouxe experiências diversas: desde ideias que nunca se concretizaram, projetos que falharam, até uma startup em funcionamento com clientes pagantes. Nesse processo, busquei investimentos, pivotei, errei e acertei inúmeras vezes. Com esses altos e baixos, aprendi a gerenciar com eficiência, aplicar melhorias contínuas e conquistar um diferencial competitivo para escalar de forma exponencial.`,
     instagram: "https://www.instagram.com/gladimir_cc/",
     data: "18/10",
     hora: "09:20 as 10:20 (Manhã)",
   },
+
+
 
   {
       prof: "Débora Carvalho", 
@@ -93,6 +88,20 @@ export const palestrantes = [
       data: "17/10",
       hora: "10:40 as 11:40 (Manhã)",
   },
+
+  {
+    prof: "Michele",
+    empresa: "Unisenac" ,
+    tema: "",
+    foto: "/palestrantes/Foto-Palestrante.png",
+    desc: "Em breve",
+    instagram: null,
+    data: "16/10",
+    hora: "10:40 as 11:40 (Manhã)",
+    tema2: "",
+    data2: "18/10",
+    hora2: "19:15 as 20:15 (Noite)",
+}, 
 
   {
       prof: "Vitor Vitolla", 
@@ -115,7 +124,7 @@ export const palestrantes = [
       data: "17/10",
       hora: "19:15 as 20:15 (Noite)",
   },
-  
+
   {
     prof:"Ana Carolina Giudice Beber",
     empresa:"autônoma",
@@ -141,11 +150,14 @@ export const palestrantes = [
       prof: "Augusto Rickes", 
       empresa: "ATLAS",
       tema: "Desvendando o playwright: Automação moderna para testes Web - Um mergulho técnico.",
+      tema2: "Construção de uma api laravel com algumas rotas e autenticação para testar com postman",
       foto: "/palestrantes/augusto_rickes.jpg",
-      desc: "Trabalho com automação a 1 e meio. utilizo playwright, K6 e selenium.",
+      desc: "Trabalho com automação a 1 ano e meio. utilizo playwright, K6 e selenium.",
       instagram: null,
       data: "17/10",
       hora: "19:15 as 20:15 (Noite)",
+      data2: "18/10",
+      hora2: "19:15 as 20:15 (Noite)"
   },
 
   {
@@ -153,7 +165,7 @@ export const palestrantes = [
       empresa: "ATLAS",
       tema: "Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?",
       foto: "/palestrantes/tiago_batista.jpg",
-      desc: "Trabalho na Atlas Technologies desde 2021, onde o produto da empresa é o Fatal Model, onde grande parte dos acessos à plataforma são acessos orgânicos (Google). Com isso em vista, é essencial que algumas partes da plataforma tenham um cuidado especial com SEO. Nos últimos anos, o Google criou os Web Vitals, que são métricas que medem a performance e a experiência do usuário em uma página web. Essas métricas se juntam aos demais aspectos que o Google utiliza para rankear uma página web, portanto, se faz necessário desenvolver uma página web também olhando para essas métricas. Para essa palestra, eu busco: Apresentar o histórico, criação e implementação dos Web Vitals pelo Google Quais deles formam os Core Web Vitals? Como medir a performance nos Web Vitals na sua página. É uma palestra que será mais teórica, não terá nenhum tipo de código interativo ou Live Coding. Eu irei trazer exemplos de código e de sites que busquem sintetizar para os ouvintes os conceitos que estarei apresentando.",
+      desc: "Trabalho na Atlas Technologies desde 2021, onde o produto principal é a empresa Fatal Model. Como grande parte dos acessos à nossa plataforma vem de forma orgânica via Google, o SEO é uma prioridade. Nos últimos anos, o Google introduziu os Web Vitals, métricas que avaliam a performance e a experiência do usuário em uma página, influenciando diretamente o rankeamento nos resultados de busca. Minha palestra será focada em apresentar o histórico e a implementação dos Web Vitals pelo Google, além de explicar quais métricas compõem os Core Web Vitals e como medir a performance das páginas com base nesses indicadores. Será uma apresentação teórica, sem live coding, mas com exemplos de código e sites que ajudam a ilustrar os conceitos para o público.",
       instagram: null,
       data: "17/10",
       hora: "20:40 as 21:40 (Noite)",
@@ -201,7 +213,7 @@ export const palestrantes = [
     desc: "EM BREVE",
     instagram: null,
     data: "18/10",
-    hora: "09:20 as 10:20LO (Manhã)"
+    hora: "09:20 as 10:20 (Manhã)"
   },
   
   {
@@ -237,16 +249,14 @@ export const palestrantes = [
     hora: "19:15 as 20:15 (Noite)"
   },
   
-  {
-    prof: "Augusto Rickes",
-    empresa: "Atlas",
-    tema: "Construção de uma api laravel com algumas rotas e autenticação para testar com postman",
-    foto: "/palestrantes/augusto_rickes.jpg",
-    desc: "Trabalho com automação a 1 ano e meio. utilizo playwright, K6 e selenium.",
-    instagram: null,
-    data: "18/10",
-    hora: "19:15 as 20:15 (Noite)"
-  },
+  // {
+  //   prof: "Augusto Rickes",
+  //   empresa: "Atlas",
+  //   foto: "/palestrantes/augusto_rickes.jpg",
+  //   desc: "Trabalho com automação a 1 ano e meio. utilizo playwright, K6 e selenium.",
+  //   instagram: null,
+
+  // },
   
   {
     prof: "Régis Neves Machado",

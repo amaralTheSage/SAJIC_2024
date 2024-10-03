@@ -69,8 +69,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
             <CarrosselPalestrantes>
-
-
               {/* 16/10 */}
               <CardPalestrante
                 prof="Ítalo Nolasco Ramos"
@@ -86,14 +84,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/palestrantes/william_machado.png"
                 tema1="As Implicações Éticas nas Tecnologias Digitais"
               />
-              <CardPalestrante
-                prof="Gladimir Catarino"
-                data1="16/10, das 10:00 às 10:50"
-                empresa="UniSenac"
-                tema1="Internet of Things"
-                image="/palestrantes/gladLindo.jpg"
-              />
-
 
               {/* 17/10 */}
               <CardPalestrante
@@ -125,7 +115,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/palestrantes/joao_otavio.jpg"
               />
 
-
               {/* 18/10 */}
               <CardPalestrante
                 prof="Marcelo Siedler"
@@ -133,6 +122,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 empresa="IFSul"
                 tema1="Desenvolvimento de Jogos usando Unity"
                 image="/palestrantes/marcelo_siedler.png"
+              />
+              <CardPalestrante
+                prof="Gladimir Catarino"
+                data1="18/10, das 09:20 às 10:20"
+                empresa="UniSenac"
+                tema1="Internet of Things"
+                image="/palestrantes/gladLindo.jpg"
               />
               <CardPalestrante
                 data1="18/10, das 10:30 às 11:30"
@@ -157,14 +153,12 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema2="Desvendando o playwright: Automação moderna para testes Web"
                 data2="17/10, das 19:15 às 20:15"
               />
-
             </CarrosselPalestrantes>
           )}
           {/* GESTÃO */}
 
           {assunto.toLowerCase() == "gestão" && (
             <CarrosselPalestrantes gestao={true}>
-
               {/* 16/10 */}
               <CardPalestrante
                 prof="Adriana Silva da Silva"
@@ -173,7 +167,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/palestrantes/adriana_silva.jpg"
                 tema1="Do Conceito ao Lançamento: Gestão Ágil de Projetos de Jogos Digitais"
               />
-
 
               {/* 17/10 */}
               <CardPalestrante
@@ -190,7 +183,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema1="Debugando Hábitos"
                 image="/palestrantes/vitor_vitolla.jpeg"
               />
-
 
               {/* 18/10 */}
               <CardPalestrante

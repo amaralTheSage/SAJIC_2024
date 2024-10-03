@@ -210,7 +210,7 @@ export const palestrantes = [
     empresa: "UniSenac",
     tema: "Workshop de IoT",
     foto: "/palestrantes/gladLindo.jpg",
-    desc: "EM BREVE",
+    desc: "Programador, Analista de Sistemas, Gerente de Projetos, Scrum Master e Professor do Ensino Superior, com mais de 35 anos de experiência profissional. Mestre em Educação e Tecnologia pelo IFSul e especialista em Ciência da Computação pela UCPel. Mais de 25 anos lecionando no ensino superior, com foco em disciplinas como IoT, Banco de Dados e Sistemas Operacionais. Professor na UniSENAC Campus Pelotas. Certificado em Microsoft Azure (AZ-900). Aeromodelista e entusiasta de eletrônica e Internet das Coisas. Baixista da banda Parto Normal (sim, o nome era esse mesmo). Matou mais de 1.000 no Battlefield (todos na faca, claro!). Faz cosplay de Stormtrooper (Star Wars), mas é um cara sério... quando precisa ser.",
     instagram: null,
     data: "18/10",
     hora: "09:20 as 10:20 (Manhã)"

@@ -2,6 +2,7 @@ import EventoPalestra from "./EventoPalestra";
 import Circulos from "./Circulos";
 import ProgramacaoHorario from "./ProgramacaoHorario";
 import Participar from "./Participar";
+import ScrollToTopButton from "../../Components/ScrollToTop";
 
 function Programacao() {
   return (
@@ -221,6 +222,8 @@ function Programacao() {
             </div>
 
             <Participar/>
+
+            <ScrollToTopButton />
           </div>
         </section>
       </main>

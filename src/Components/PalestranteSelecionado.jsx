@@ -1,6 +1,28 @@
 import { NavLink } from "react-router-dom";
 
 function PalestranteSelecionado({ p }) {
+  
+
+  
+  function instagram() {
+    if (p.instagram == null){
+    } else{
+      return(
+        <a href={p.instagram} target="_blank"><img className="w-full" src="instagram.png" alt="instagram" /></a>
+      );
+    }}
+  function linkedin() {
+    if (p.linkedin == null) {
+    } else{
+      return(
+        <a href={p.linkedin} target="_blank"><img className="w-full" src="Linkedin.png" alt="linkedin" /></a>
+      );
+    }}
+  function github() {
+    if (p.github == null) {
+    } else{
+      <a href={p.github} target="_blank"><img className="w-full" src="github.png" alt="github" /></a>}} 
+
   if (p.prof == "Augusto Rickes" || p.prof == "Michele" || p.prof == "Ítalo Nolasco Ramos") {
     return(
       <section
@@ -62,16 +84,16 @@ function PalestranteSelecionado({ p }) {
 
         <hr />
 
-          {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
+          <div className="md:flex mt-9 items-center gap-3 flex-wrap">
           <p className="font-bold text-lg">Redes Sociais:</p>
 
           <div className="grid grid-cols-4 gap-3 w-[160px]">
-            <img className="w-full" src="ElipseRedesS.png" alt={p.instagram} />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            {instagram()}
+            {linkedin()}
+            {github()}
+            
           </div>
-        </div> */}
+        </div>
 
           <NavLink
             to="/programacao"
@@ -129,16 +151,16 @@ function PalestranteSelecionado({ p }) {
         
         <hr />
 
-          {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
+          <div className="md:flex mt-9 items-center gap-3 flex-wrap">
           <p className="font-bold text-lg">Redes Sociais:</p>
 
           <div className="grid grid-cols-4 gap-3 w-[160px]">
-            <img className="w-full" src="ElipseRedesS.png" alt={p.instagram} />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            {instagram()}
+            {linkedin()}
+            {github()}
+            {/* <img className="w-full" src="ElipseRedesS.png" alt={p.} />*/}
           </div>
-        </div> */}
+        </div>
 
           <NavLink
             to="/programacao"

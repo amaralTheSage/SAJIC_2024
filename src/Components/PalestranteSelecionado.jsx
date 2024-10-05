@@ -1,6 +1,35 @@
 import { NavLink } from "react-router-dom";
 
 function PalestranteSelecionado({ p }) {
+  
+
+  
+  function instagram() {
+    if (p.instagram == null){
+    } else{
+      return(
+        <a href={p.instagram} target="_blank"><img className="w-3/5  lg:w-4/5 xl:w-full" src="instagram.png" alt="instagram"/></a>
+      );
+    }}
+  function linkedin() {
+    if (p.linkedin == null) {
+    } else{
+      return(
+        <a href={p.linkedin} target="_blank"><img className="w-3/5  lg:w-4/5 xl:w-full" src="Linkedin.png" alt="linkedin" /></a>
+      );
+    }}
+  function github() {
+    if (p.github == null) {
+    } else{
+      return(
+      <a href={p.github} target="_blank"><img className="w-3/5 lg:w-4/5 xl:w-full" src="github.png" alt="github" /></a>);
+    }} 
+    function youtube() {
+      if (p.youtube == null) {
+      } else{
+        return(
+          <a href={p.youtube} target="_blank"><img className="w-3/5 lg:w-4/5 xl:w-full" src="youtube.png" alt="youtube" /></a>);}}
+
   if (p.prof == "Augusto Rickes" || p.prof == "Michele" || p.prof == "Ítalo Nolasco Ramos") {
     return(
       <section
@@ -9,7 +38,7 @@ function PalestranteSelecionado({ p }) {
     >
       <div
         className="flex flex-col items-center md:grid grid-cols-5 m-auto
-       text-white gap-6 md:gap-12 sm:w-4/5 w-[90%]"
+       text-white gap-6 md:gap-12 sm:w-4/5 w-[90%] "
       >
         <div
           className="m-auto w-full h-min
@@ -62,16 +91,18 @@ function PalestranteSelecionado({ p }) {
 
         <hr />
 
-          {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
+          <div className="flex md:flex mt-9 items-center gap-3 flex-wrap">
           <p className="font-bold text-lg">Redes Sociais:</p>
 
+
           <div className="grid grid-cols-4 gap-3 w-[160px]">
-            <img className="w-full" src="ElipseRedesS.png" alt={p.instagram} />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
+            {instagram()}
+            {linkedin()}
+            {github()}
+            {youtube()}
+            
           </div>
-        </div> */}
+        </div>
 
           <NavLink
             to="/programacao"
@@ -129,16 +160,17 @@ function PalestranteSelecionado({ p }) {
         
         <hr />
 
-          {/* <div className="md:flex mt-9 items-center gap-3 flex-wrap">
+          <div className="flex md:flex mt-9 items-center gap-3 flex-wrap">
           <p className="font-bold text-lg">Redes Sociais:</p>
 
-          <div className="grid grid-cols-4 gap-3 w-[160px]">
-            <img className="w-full" src="ElipseRedesS.png" alt={p.instagram} />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
-            <img className="w-full" src="ElipseRedesS.png" alt="" />
+          <div className="grid grid-cols-4 gap-3 w-[180px]">
+            {instagram()}
+            {linkedin()}
+            {github()}
+            {youtube()}
+            {/* <img className="w-full" src="ElipseRedesS.png" alt={p.} />*/}
           </div>
-        </div> */}
+        </div>
 
           <NavLink
             to="/programacao"

@@ -2,6 +2,7 @@ import { useState } from "react";
 import PalestranteFoto from "../../Components/PalestranteFoto";
 import PalestranteSelecionado from "../../Components/PalestranteSelecionado";
 import { palestrantes } from "./palestrantes";
+import ScrollToTopButton from "../../Components/ScrollToTop";
 
 function Palestrantes() {
   const [palestrante, setPalestrante] = useState(palestrantes[0]);
@@ -27,6 +28,7 @@ function Palestrantes() {
                   }}
                 >
                   <PalestranteFoto p={p} />
+                  <ScrollToTopButton />
                 </div>
               );
             })}
@@ -34,6 +36,7 @@ function Palestrantes() {
         </section>
 
         {palestrante && <PalestranteSelecionado p={palestrante} />}
+        
       </main>
     </>
   );

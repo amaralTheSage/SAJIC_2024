@@ -5,9 +5,9 @@ import Patrocinadores from "./Components/Patrocinadores";
 import Apresentacao from "./Components/Apresentacao";
 
 const carrossel_imgs = [
-  "/mulher_carrossel.webp",
-  "https://t4.ftcdn.net/jpg/07/04/20/19/360_F_704201907_r03FpXUhQG4habHGtuq0hlITtRMbaHfx.jpg",
-  "https://paintspot.ca/wp-content/uploads/2023/07/666-Pastel-Green.jpg",
+  "/carrossel/img1.webp",
+  "/carrossel/img2.webp",
+  "/carrossel/img3.webp",
 ];
 
 export default function Home() {

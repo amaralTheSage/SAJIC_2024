@@ -91,7 +91,7 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 data1="17/10, das 09:20 às 10:20"
                 empresa="UniSenac"
                 tema1="Github Pages: Montando e hospedando seu portifólio de graça com Github Pages"
-                image="/palestrantes/os_incel.jpg"
+                image="/palestrantes/marcelo_lorenzo.jpeg"
               />
               <CardPalestrante
                 prof="Débora Carvalho"

@@ -6,9 +6,9 @@ import Apresentacao from "./Components/Apresentacao";
 import ScrollToTopButton from "../../Components/ScrollToTop";
 
 const carrossel_imgs = [
-  "/carrossel/img1.webp",
-  "/carrossel/img2.webp",
-  "/carrossel/img3.webp",
+  "/mulher_carrossel.webp",
+  "/carrossel_2.png",
+  "/carrossel_3.png",
 ];
 
 export default function Home() {

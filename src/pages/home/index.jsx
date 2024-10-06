@@ -7,8 +7,8 @@ import ScrollToTopButton from "../../Components/ScrollToTop";
 
 const carrossel_imgs = [
   "/mulher_carrossel.webp",
-  "https://t4.ftcdn.net/jpg/07/04/20/19/360_F_704201907_r03FpXUhQG4habHGtuq0hlITtRMbaHfx.jpg",
-  "https://paintspot.ca/wp-content/uploads/2023/07/666-Pastel-Green.jpg",
+  "/carrossel_2.png",
+  "/carrossel_3.png",
 ];
 
 export default function Home() {

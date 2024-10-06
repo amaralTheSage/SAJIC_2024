@@ -17,9 +17,11 @@ export default function Carrossel({ imgs }) {
         <div className="embla__container h-[90vh]">
           {imgs.map((img, index) => (
             <img
-              key={index} // Corrigido o key para usar o índice
+              key={index}
               src={img}
-              className="embla__slide w-full object-cover aspect-video shadow filter brightness-50 contrast-50"
+              className={`embla__slide w-full object-cover aspect-video ${
+                index > 0 && "object-right"
+              } shadow filter brightness-50 contrast-50`}
               alt={`Slide ${index}`}
             />
           ))}

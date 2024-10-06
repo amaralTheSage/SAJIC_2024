@@ -6,7 +6,7 @@ import Apresentacao from "./Components/Apresentacao";
 import ScrollToTopButton from "../../Components/ScrollToTop";
 
 const carrossel_imgs = [
-  "/mulher_carrossel.webp",
+  "/carrossel/img1.webp",
   "/carrossel_2.png",
   "/carrossel_3.png",
 ];

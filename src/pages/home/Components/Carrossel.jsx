@@ -19,9 +19,9 @@ export default function Carrossel({ imgs }) {
             <img
               key={index}
               src={img}
-              className={`embla__slide w-full object-cover aspect-video ${
-                index > 0 && "object-right"
-              } shadow filter brightness-50 contrast-50`}
+              className="embla__slide w-full object-cover aspect-video 
+              shadow filter brightness-50 contrast-50"
+              style={{ objectPosition: `${index > 0 && "92% 50%"}` }}
               alt={`Slide ${index}`}
             />
           ))}

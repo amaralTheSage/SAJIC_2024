@@ -250,23 +250,10 @@ export const palestrantes = [
     desc: "Programador, Analista de Sistemas, Gerente de Projetos, Scrum Master e Professor do Ensino Superior, com mais de 35 anos de experiência profissional. Mestre em Educação e Tecnologia pelo IFSul e especialista em Ciência da Computação pela UCPel. Mais de 25 anos lecionando no ensino superior, com foco em disciplinas como IoT, Banco de Dados e Sistemas Operacionais. Professor na UniSENAC Campus Pelotas. Certificado em Microsoft Azure (AZ-900). Aeromodelista e entusiasta de eletrônica e Internet das Coisas. Baixista da banda Parto Normal (sim, o nome era esse mesmo). Matou mais de 1.000 no Battlefield (todos na faca, claro!). Faz cosplay de Stormtrooper (Star Wars), mas é um cara sério... quando precisa ser.",
     instagram: "https://www.instagram.com/gladimir_cc/",
     youtube: null,
-    linkedin: null,
+    linkedin: "https://www.linkedin.com/in/gladimircatarino",
     github: null,
     data: "18/10",
     hora: "09:20 as 10:20 (Manhã)"
-  },
-  
-  {
-    prof: "Ítalo Nolasco Ramos",
-    empresa: "Nav9",
-    tema: "Construindo e validando um MVP: Gerar valor mitigando riscos",
-    foto: "/palestrantes/italo_nolasco.jpeg",
-    desc: "Sou técnico em eletrônica, engenheiro de computação pela UFPEL e engenheiro de software. Nos 4 anos que venho trabalhando com desenvolvimento, trabalhei com Javascript, Typescript e desenvolvi muito frontend. Utilizei next, react, angular e tenho me aventurado também pela área de backend. Atualmente sou tech lead dentro da nav9, liderando projeto e pessoas.",
-    instagram: "null",
-    linkedin: null,
-    github: null,
-    data: "18/10",
-    hora: "10:40 as 11:40 (Manhã)"
   },
   
   {
@@ -276,7 +263,8 @@ export const palestrantes = [
     foto: "/palestrantes/eduardo_atlas.jpg",
     desc: "Graduado em sistemas para internet e pós graduando em Liderança técnica, Eduardo Roveré trabalha com tecnologia há mais de 15 anos. Atualmente, atua como Coordenador de Tecnologia na empresa Atlas Technologies, de Pelotas RS. É um apaixonado por tecnologia e um verdadeiro entusiasta do desenvolvimento front-end. Quando não está liderando equipes e impulsionando inovações que transformam o mercado, você poderá encontrá-lo também em quadras de basquete ou em algum jogo online por aí!",
     instagram: null,
-    linkedin: null,
+    youtube: null,
+    linkedin: "https://www.linkedin.com/in/eduardorovere/",
     github: null,
     data: "18/10",
     hora: "10:40 as 11:40 (Manhã)"
@@ -288,21 +276,13 @@ export const palestrantes = [
     tema: "Agentes de IA: aplicações além do Chat com LLM e Langchain",
     foto: "/palestrantes/pablo.png",
     desc: "Sou Doutorando e Mestre em Ciência da Computação, com especialização em gerenciamento de projetos. Desde 2018, foco meus estudos em inteligência artificial, acumulando mais de 12 anos de experiência em programação e tecnologias. Além disso, atuo como docente de graduação em tecnologia.",
-    instagram: null,
+    instagram: "https://www.instagram.com/chiarorosa/",
+    youtube: null,
     linkedin: null,
     github: null,
     data: "18/10",
     hora: "19:15 as 20:15 (Noite)"
   },
-  
-  // {
-  //   prof: "Augusto Rickes",
-  //   empresa: "Atlas",
-  //   foto: "/palestrantes/augusto_rickes.jpg",
-  //   desc: "Trabalho com automação a 1 ano e meio. utilizo playwright, K6 e selenium.",
-  //   instagram: null,
-
-  // },
   
   {
     prof: "Régis Neves Machado",
@@ -311,7 +291,8 @@ export const palestrantes = [
     foto: "/palestrantes/regis_machado.jpg",
     desc: "Atuo a 15 anos com engenharia e liderança em tecnologia e desenvolvimento de software, com vasta experiência em alinhar soluções técnicas às necessidades estratégicas de negócios.Fundador da comunidade @queroser.dev, dedicada ao suporte e crescimento de desenvolvedores em início de carreira. Com um foco constante em inovação, Régis colabora com times para promover o desenvolvimento sustentável e o alto desempenho, sempre buscando oportunidades para evoluir suas habilidades de liderança e entregar resultados de impacto.",
     instagram: null,
-    linkedin: null,
+    youtube: null,
+    linkedin: "linkedin.com/in/regismachado",
     github: null,
     data: "18/10",
     hora: "19:15 as 19:45 (Noite)"
@@ -323,7 +304,8 @@ export const palestrantes = [
     tema: "Era hiperconectada: O Direito Digital e crimes digitais",
     foto: "/palestrantes/andrea_auge.jpeg",
     desc: "Advogada especialista em Direito Digital. Graduada em Direito pela Universidade Federal de Pelotas. Especialista em Compliance pelo Instituto de Direito Penal Econômico e Europeu da Universidade de Coimbra, Portugal. Possui experiência na defesa de violência digital em âmbito nacional e internacional. Coordenadora de Direito Digital da REVIBRA, rede europeia  que oferece suporte e assistência para mulheres migrantes vitimas de violência e discriminação antimigrante, Pós graduanda em Criptoativos e Blockchain pela ESMAFE/PR.",
-    instagram: null,
+    instagram: "https://www.instagram.com/aandreaauge?igsh=MXBqMjNwMWtnaGI2aQ%3D%3D&utm_source=qr",
+    youtube: null,
     linkedin: null,
     github: null,
     data: "18/10",
@@ -336,7 +318,8 @@ export const palestrantes = [
     tema: "Neuromarketing - comece por aqui",
     foto: "/palestrantes/nanda_fersula.jpg",
     desc: "Publicitária, com especializações em Marketing e Neuromarketing, atuo como estrategista de Marcas e utiliza conceitos técnicas de Neuromarketing para ajudar negócios a se conectarem de forma emocional com seus clientes.",
-    instagram: null,
+    instagram: "https://www.instagram.com/nandafersula/",
+    youtube: null,
     linkedin: null,
     github: null,
     data: "18/10",
@@ -349,7 +332,9 @@ export const palestrantes = [
     tema:"Aplicando métodos Ágeis com Scrum",
     foto:"/palestrantes/eduardo_prestes.jpg",
     desc:"Eduardo Prestes da Costa é um especialista em metodologias ágeis com vasta experiência em aplicação prática de Scrum em equipes de desenvolvimento de software. Com mais de 5 anos de atuação no setor, ele tem se dedicado a transformar processos e entregar valor de forma contínua e eficiente em diversas organizações. Sua abordagem envolve a criação de times altamente colaborativos e a adaptação rápida às mudanças, sempre focando em maximizar o valor para o cliente.",
-    linkedin: null,
+    instagram: null,
+    youtube: null,
+    linkedin: "https://www.linkedin.com/in/eduardo-prestes/",
     github: null,
     data:"18/10",
     hora:"20:40 as 21:40 (Noite)",

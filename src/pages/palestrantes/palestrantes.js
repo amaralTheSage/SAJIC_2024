@@ -58,24 +58,14 @@ export const palestrantes = [
       tema: "Hosteando seu portifólio de graça com Github Pages",
       foto: "/palestrantes/marcelo_lorenzo.jpeg",
       desc: "Já fiz páginas estáticas complexas em react e afins, também virei diversas noites deixando elas responsivas e funcionais. Trato tudo que eu faço como se fosse meus filhos e se não tá perfeito, não tá pronto",
-      instagram: null,
+      instagram: "https://www.instagram.com/marce11n/",
+      instagram2: "https://www.instagram.com/lorenzoqg_dev/",
       youtube: null,
       linkedin: null,
       github: null,
       data: "17/10",
       hora: "09:20 as 10:20 (Manhã)",
   },
-  
-  // {
-  //     prof: "lorenzo",
-  //     empresa: "Unisenac" ,
-  //     tema: "Criação e Upload de portifólio",
-  //     foto: "/palestrantes/Foto-Palestrante.png",
-  //     desc: "Em breve",
-  //     instagram: null,
-  //     data: "17/10",
-  //     hora: "09:20 as 10:20 (Manhã)",
-  // },
   
   {
     prof: "Dalton Gaia da Silva",
@@ -143,7 +133,7 @@ export const palestrantes = [
       tema: "Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!",
       foto: "/palestrantes/julia_sibeli.jfif",
       desc: "A Take off é uma startup criada com o intuito de facilitar a vida dos jovens, trazendo informações essenciais diretamente no nosso site. Queremos ajudar-te a encontrar vagas de emprego, eventos importantes em Pelotas, inscrições para provas como o Enem e Ifsul, além de oportunidades como cursos gratuitos e outras iniciativas. A nossa missão é simples: ser a tua fonte de informações para que possas avançar no teu desenvolvimento pessoal e profissional. Com a Takeoff, fazer conexões que impulsionam o teu futuro pode se tornar mais fácil!",
-      instagram: null,
+      instagram: "https://www.instagram.com/takeoff_pelotas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
       youtube: null,
       linkedin: null,
       github: null,
@@ -198,7 +188,7 @@ export const palestrantes = [
     },
     
     {
-    prof:"João Otávio Leites Matuszevski",   //revisar com a bruna//
+    prof:"João Otávio Leites Matuszevski",
     empresa:"dti Digital",
     tema:"Criação e Upload de portifólio",
     foto:"/palestrantes/joao_otavio.jpg",

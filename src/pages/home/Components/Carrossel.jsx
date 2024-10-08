@@ -26,7 +26,10 @@ export default function Carrossel({ imgs }) {
           ))}
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
-           <img className="md:w-[50vw] w-[90vw] max-w-[2000px] select-none" src="/sajic_vazado.webp" />
+          <img
+            className="md:w-[50vw] w-[90vw] max-w-[2000px] select-none"
+            src="/sajic_vazado.webp"
+          />
         </div>
       </div>
 

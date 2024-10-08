@@ -57,7 +57,7 @@ export const palestrantes = [
       empresa: "Unisenac" ,
       tema: "Hosteando seu portifólio de graça com Github Pages",
       foto: "/palestrantes/marcelo_lorenzo.jpeg",
-      desc: "Já fiz páginas estáticas complexas em react e afins, também virei diversas noites deixando elas responsivas e funcionais. Trato tudo que eu faço como se fosse meus filhos e se não tá perfeito, não tá pronto",
+      desc: "Já fizemos páginas estáticas complexas em react e afins, também viramos diversas noites deixando elas responsivas e funcionais. Tratamos tudo que fazemos como se fossem nossos filhos e se não tá perfeito, não tá pronto.",
       instagram: "https://www.instagram.com/marce11n/",
       instagram2: "https://www.instagram.com/lorenzoqg_dev/",
       youtube: null,

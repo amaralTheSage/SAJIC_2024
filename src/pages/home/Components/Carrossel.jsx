@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import PropTypes from "prop-types";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -27,7 +26,7 @@ export default function Carrossel({ imgs }) {
           ))}
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
-          {/* <img className="md:w-[50vw] w-[90vw] select-none" src="/unisenacLogo.svg" /> */}
+           <img className="md:w-[50vw] w-[90vw] max-w-[2000px] select-none" src="/sajic_vazado.webp" />
         </div>
       </div>
 

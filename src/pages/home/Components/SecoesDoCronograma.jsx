@@ -114,6 +114,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 tema1="Criação e Upload de Portifólio"
                 image="/palestrantes/joao_otavio.jpg"
               />
+              <CardPalestrante
+                prof="Eduardo Maroñas Monks"
+                data1="17/10, das 20:40 às 21:40"
+                empresa="UniSenac"
+                tema1="Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
+                image="/palestrantes/Eduardo_Monks.jpg"
+              />
 
               {/* 18/10 */}
               <CardPalestrante

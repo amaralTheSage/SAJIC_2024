@@ -22,7 +22,7 @@ export default function ProgramacaoHorario({
         <hr className="border-white w-20 md:-rotate-90 m-auto" />
 
         <div>
-          <p>Coffee Break/Networking</p>
+          <p>Pausa para Networking</p>
           <span className="font-light">Horário: </span>
           <span>{horarioCoffe}</span>
         </div>

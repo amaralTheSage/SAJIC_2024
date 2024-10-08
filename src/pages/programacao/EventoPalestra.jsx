@@ -3,11 +3,9 @@ import PropTypes from "prop-types";
 function EventoPalestra({
   nome_1,
   prof_1,
-  sala_1,
   horario_1,
   nome_2,
   prof_2,
-  sala_2,
   horario_2,
 }) {
   return (
@@ -21,11 +19,11 @@ function EventoPalestra({
               Horário: <span className="font-bold">{horario_1}</span>
             </p>
           )}
-          {prof_1 && sala_1 && (
+          {prof_1 && (
             <p>
               Com{" "}
               <span className="font-bold">
-                {prof_1}, Sala {sala_1}
+                {prof_1}
               </span>
             </p>
           )}
@@ -41,11 +39,11 @@ function EventoPalestra({
               Horário: <span className="font-bold">{horario_2}</span>
             </p>
           )}
-          {prof_2 && sala_2 && (
+          {prof_2 && (
             <p>
               Com{" "}
               <span className="font-bold">
-                {prof_2}, Sala {sala_2}
+                {prof_2}
               </span>
             </p>
           )}

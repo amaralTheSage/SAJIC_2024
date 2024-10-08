@@ -2,6 +2,7 @@ import EventoPalestra from "./EventoPalestra";
 import Circulos from "./Circulos";
 import ProgramacaoHorario from "./ProgramacaoHorario";
 import Participar from "./Participar";
+import ScrollToTopButton from "../../Components/ScrollToTop";
 
 function Programacao() {
   return (
@@ -38,19 +39,16 @@ function Programacao() {
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={"Palestra: As implicações éticas nas tecnologias digitais"}
-                sala_1={'a definir'}
                 horario_1={"9:20"}
                 nome_2={"Oficina: NextJS 14 - Estrutura de uma aplicação profissional"}
                 prof_2={"Ítalo Nolasco Ramos"}
-                sala_2={'a definir'}
                 horario_2={"9:20"}
               />
 
               <EventoPalestra
                 nome_1={"Palestra: Do Conceito ao Lançamento - Gestão Ágil de Projetos de Jogos Digitais"}
                 prof_1={"Adriana Silva da Silva"}
-                sala_1={'a definir'}
-                horario_1={"10:00"}
+                horario_1={"10:40"}
               />
             </div>
 
@@ -69,7 +67,6 @@ function Programacao() {
                 horario_1={"20:00"}
                 nome_2={`Conversa com empresas - TI e Gestão`}
                 prof_2={"Nathalia na mediação"}
-                sala_2={'a definir'}
                 horario_2={"20:30"}
               />
             </div>
@@ -91,25 +88,18 @@ function Programacao() {
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
-                prof_1={"Gladimir Catarino"}
-                nome_1={"Oficina: Workshop IoT"}
-                sala_1={203}
+                prof_1={"Marcelo Oscaberry e Lorenzo Gonçalves"}
+                nome_1={"Oficina: Criação e Upload de portfólio"}
                 horario_1={"9:20"}
-                nome_2={"Oficina: Git e GitHub"}
-                prof_2={"Karol"}
-                sala_2={'a definir'}
+                nome_2={"Palestra: Como Equilibrar Gestão e Velocidade para Escalar uma Startup"}
+                prof_2={"Dalton Gaia da Silva"}
                 horario_2={"9:20"}
               />
 
               <EventoPalestra
-                nome_1="Palestra: Desenvolvimento de Games"
+                nome_1="Palestra: Jogos do Futuro - O Papel da Inteligência Artificial"
                 prof_1="Débora Carvalho"
-                sala_1={'a definir'}
                 horario_1="10:40"
-                nome_2={"Palestra: Mercado de Trabalho"}
-                prof_2={"Eduardo Roveré"}
-                sala_2={'a definir'}
-                horario_2={"10:40"}
               />
             </div>
 
@@ -124,14 +114,36 @@ function Programacao() {
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
-                prof_1={"Léo"}
-                nome_1={"Oficina de Canva"}
-                sala_1={'a definir'}
+                prof_1={"Vitor Vitolla"}
+                nome_1={"Palestra: Debugando Hábitos"}
                 horario_1={"19:15"}
-                nome_2={"Palestra: Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?"}
-                prof_2={"Thiago Nunes Batista"}
-                sala_2={'a definir'}
+                nome_2={"Palestra: Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!"}
+                prof_2={"Júlia Kerolaine Machado Garcia e Sibeli da Silva Avila"}
+                horario_2={"19:15"}
+              />
+
+              <EventoPalestra
+                prof_1={"Ana Carolina Giudice Beber"}
+                nome_1={"Oficina: Minicurso de Construção de Projetos Acadêmicos de Iniciação Científica"}
+                horario_1={"19:15"}
+                nome_2={"Oficina: Desvendando o playwright - Automação moderna para testes Web - Um mergulho técnico"}
+                prof_2={"Augusto Rickes"}
+                horario_2={"19:15"}
+              />
+
+              <EventoPalestra
+                prof_1={"Thiago Nunes Batista"}
+                nome_1={"Palestra: Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?"}
+                horario_1={"20:40"}
+                nome_2={"Oficina: Criação e Upload de portfólio"}
+                prof_2={"João Otávio"}
                 horario_2={"20:40"}
+              />
+
+              <EventoPalestra
+                prof_1={"Eduardo Monks"}
+                nome_1={"Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"}
+                horario_1={"20:40"}
               />
             </div>
 
@@ -152,13 +164,20 @@ function Programacao() {
 
             <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
-                prof_1={"Thiago Nunes Batista"}
-                nome_1={"Palestra: Web APIs, O Front-end além de botões coloridos"}
-                sala_1={'a definir'}
+                prof_1={"Marcelo da Siveira Siedler"}
+                nome_1={"Oficina: Desenvolvimento de Jogos usando Unity"}
+                horario_1={"9:15"}
+                prof_2={"Gladimir Catarino"}
+                nome_2={"Oficina: WorkShop IoT"}
+                horario_2={"9:20"}
+              />
+
+              <EventoPalestra
+                prof_1={"Ítalo Nolasco Ramos"}
+                nome_1={"Palestra: Construindo e validando um MVP: Gerar valor mitigando riscos"}
                 horario_1={"10:40"}
-                prof_2={"Ítalo Nolasco Ramos"}
-                nome_2={"Palestra: Construindo e validando um MVP: Gerar valor mitigando riscos"}
-                sala_2={'a definir'}
+                prof_2={"Eduardo Roveré"}
+                nome_2={"Palestra: Trilhando carreiras na tecnologia - Uma visão das práticas de sucesso do time Atlas"}
                 horario_2={"10:40"}
               />
 
@@ -176,35 +195,35 @@ function Programacao() {
             <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Pablo Chiaro"}
-                nome_1={"Workshop: Agentes de IA: aplicações além do Chat com LLM e Langchain"}
-                sala_1={'a definir'}
+                nome_1={"Oficina: Agentes de IA - aplicações além do Chat com LLM e Langchain"}
                 horario_1={"19:15"}
-                nome_2={"Palestra: AINDA NÃO SEI"}
-                prof_2={"Flávio Badia"}
-                sala_2={'a definir'}
+                nome_2={"Oficina: Construção de uma api laravel com algumas rotas e autenticação para testar com postman"}
+                prof_2={"Augusto Rickes"}
                 horario_2={"19:15"}
               />
 
               <EventoPalestra
                 nome_1="Palestra: O Futuro da Carreira de TI"
                 prof_1="Régis Neves Machado"
-                sala_1={'a definir'}
                 horario_1="19:15"
                 nome_2="Palestra: Era hiperconectada: O Direito Digital e crimes digitais"
                 prof_2="Andréa Barros Augé"
-                sala_2={'a definir'}
                 horario_2="20:40"
               />
 
               <EventoPalestra
                 nome_1="Palestra: Neuromarketing - comece por aqui"
                 prof_1="Nanda Fersula"
-                sala_1={'a definir'}
                 horario_1="20:40"
+                nome_2="Palestra: Aplicando métodos Ágeis com Scrum"
+                prof_2="Eduardo Prestes da Costa"
+                horario_2="20:40"
               />
             </div>
 
             <Participar/>
+
+            <ScrollToTopButton />
           </div>
         </section>
       </main>

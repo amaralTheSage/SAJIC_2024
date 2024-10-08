@@ -7,7 +7,7 @@ function Participar({ isWhiteBackground }) {
 
   return (
     <a
-      href="https://www.sympla.com.br/eventos"
+      href="https://www.sympla.com.br/semana-academica---jornada-de-iniciacao-cientifica__2656617"
       className={className}
       target="_blank"  // Opens the link in a new tab
       rel="noopener noreferrer"  // Security best practice

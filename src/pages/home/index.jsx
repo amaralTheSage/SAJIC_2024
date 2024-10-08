@@ -1,13 +1,15 @@
-import Carrossel from "../../Components/Carrossel";
-import Cronograma from "../../Components/Cronograma";
-import Empresas from "../../Components/Empresas";
-import Patrocinadores from "../../Components/Patrocinadores";
-import Apresentacao from "../../Components/Apresentacao";
+import Carrossel from "./Components/Carrossel";
+import Cronograma from "./Components/Cronograma";
+// import Empresas from "./Components/Empresas";
+// import Patrocinadores from "./Components/Patrocinadores";
+import Apresentacao from "./Components/Apresentacao";
+import ScrollToTopButton from "../../Components/ScrollToTop";
+import Patrocinio from "./Components/Patrocinio";
 
 const carrossel_imgs = [
-  "/mulher_carrossel.webp",
-  "https://t4.ftcdn.net/jpg/07/04/20/19/360_F_704201907_r03FpXUhQG4habHGtuq0hlITtRMbaHfx.jpg",
-  "https://paintspot.ca/wp-content/uploads/2023/07/666-Pastel-Green.jpg",
+  "/carrossel/img1.webp",
+  "/carrossel_2.png",
+  "/carrossel_3.png",
 ];
 
 export default function Home() {
@@ -21,8 +23,10 @@ export default function Home() {
         {/* SEÇAO 2 */}
         <Apresentacao />
         <Cronograma />
-        <Empresas />
-        <Patrocinadores />
+        <Patrocinio />
+        {/* <Empresas /> */}
+        {/* <Patrocinadores /> */}
+        <ScrollToTopButton />
       </main>
     </>
   );

@@ -4,19 +4,19 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import AutoScroll from "embla-carousel-auto-scroll";
 
-function CarrosselPalestrantes({ children, reverse = false, mercado = false }) {
+function CarrosselPalestrantes({ children, gestao = false }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({
-      active: !reverse && true,
-      delay: 3000,
-      stopOnInteraction: false,
-      stopOnFocusIn: false,
-      stopOnMouseEnter: false,
-      stopOnLastSnap: false,
-    }),
+    // Autoplay({
+    //   active: !gestao && true,
+    //   delay: 3000,
+    //   stopOnInteraction: false,
+    //   stopOnFocusIn: false,
+    //   stopOnMouseEnter: false,
+    //   stopOnLastSnap: false,
+    // }),
     AutoScroll({
-      active: reverse || (mercado && true),
-      direction: reverse ? "backward" : "forward",
+      active: true,
+      direction: gestao ? "backward" : "forward", //sets that gestao carousel is gonna go backwards
       speed: 1,
       stopOnInteraction: false,
       stopOnFocusIn: false,
@@ -27,7 +27,7 @@ function CarrosselPalestrantes({ children, reverse = false, mercado = false }) {
   const tweenFactor = useRef(0);
 
   const setTweenFactor = useCallback((emblaApi) => {
-    tweenFactor.current = 0.45 * emblaApi.scrollSnapList().length;
+    tweenFactor.current = 0.2 * emblaApi.scrollSnapList().length;
   }, []);
 
   const tweenOpacity = useCallback((emblaApi, eventName) => {
@@ -80,7 +80,7 @@ function CarrosselPalestrantes({ children, reverse = false, mercado = false }) {
       .on("reInit", tweenOpacity)
       .on("scroll", tweenOpacity)
       .on("slideFocus", tweenOpacity);
-  }, [emblaApi, tweenOpacity]);
+  }, [emblaApi, tweenOpacity, setTweenFactor]);
 
   return (
     <div className="embla relative">

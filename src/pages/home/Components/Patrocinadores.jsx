@@ -16,9 +16,10 @@ function Patrocinadores() {
         <div className="flex flex-wrap justify-center gap-8 md:gap-x-20 md:gap-y-12">
 
           <PatrocinadoresImgs
-            img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"
+            img="patrocinadores/doutormultas_logo.png"
             alt="Empresa"
             tailwindWidth={patrocinadoresWidth}
+            className=''
           />
           <PatrocinadoresImgs
             img="https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w"

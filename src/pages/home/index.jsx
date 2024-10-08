@@ -4,6 +4,7 @@ import Cronograma from "./Components/Cronograma";
 // import Patrocinadores from "./Components/Patrocinadores";
 import Apresentacao from "./Components/Apresentacao";
 import ScrollToTopButton from "../../Components/ScrollToTop";
+import Patrocinio from "./Components/Patrocinio";
 
 const carrossel_imgs = [
   "/carrossel/img1.webp",
@@ -22,6 +23,7 @@ export default function Home() {
         {/* SEÇAO 2 */}
         <Apresentacao />
         <Cronograma />
+        <Patrocinio />
         {/* <Empresas /> */}
         {/* <Patrocinadores /> */}
         <ScrollToTopButton />

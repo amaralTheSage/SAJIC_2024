@@ -131,18 +131,18 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
                 image="/palestrantes/gladLindo.jpg"
               />
               <CardPalestrante
-                data1="18/10, das 10:30 às 11:30"
-                prof="Pablo Chiaro de Rosa"
-                empresa="UniSenac"
-                tema1="Agentes de IA: aplicações além do Chat com LLM e Langchain"
-                image="/palestrantes/pablo.png"
-              />
-              <CardPalestrante
-                data1="18/10, das 10:40 às 11:00"
+                data1="18/10, das 10:40 às 11:40"
                 prof="Eduardo Roveré"
                 empresa="ATLAS"
                 tema1="Trilhando carreiras na tecnologia: Uma visão das práticas de sucesso do time Atlas"
                 image="/palestrantes/eduardo_atlas.jpg"
+              />
+              <CardPalestrante
+                data1="18/10, das 19:15 às 20:15"
+                prof="Pablo Chiaro"
+                empresa="UniSenac"
+                tema1="Agentes de IA: aplicações além do Chat com LLM e Langchain"
+                image="/palestrantes/pablo.png"
               />
               <CardPalestrante
                 prof="Augusto Rickes"

@@ -15,17 +15,14 @@ const carrossel_imgs = [
 export default function Home() {
   return (
     <>
-      <main className="">
-        {/* CARROSSEL */}
-
+      <main>
         <Carrossel imgs={carrossel_imgs} />
 
         {/* SEÇAO 2 */}
         <Apresentacao />
         <Cronograma />
         <Patrocinio />
-        {/* <Empresas /> */}
-        {/* <Patrocinadores /> */}
+
         <ScrollToTopButton />
       </main>
     </>

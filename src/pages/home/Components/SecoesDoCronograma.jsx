@@ -64,7 +64,6 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
           Palestrantes de {assunto} confirmados!
         </h2>
 
-        {/* grid grid-cols-2 gap-4 md:grid-cols-4 */}
         <div>
           {/* TECNOLOGIA */}
           {assunto.toLowerCase() == "tecnologia" && (
@@ -162,8 +161,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
               />
             </CarrosselPalestrantes>
           )}
-          {/* GESTÃO */}
 
+          {/* GESTÃO */}
           {assunto.toLowerCase() == "gestão" && (
             <CarrosselPalestrantes gestao={true}>
               {/* 16/10 */}

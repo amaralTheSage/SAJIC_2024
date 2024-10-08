@@ -18,6 +18,7 @@ function Cronograma() {
           chance de se atualizar e se inspirar com os líderes da tecnologia!
         </SecoesDoCronograma>
 
+        {/* GESTÃO & MERCADO*/}
         <SecoesDoCronograma assunto={"gestão"} reverse={true}>
           Junte-se a nós para uma série de palestras sobre gestão e o mercado de
           trabalho, onde especialistas renomados compartilharão estratégias e

@@ -11,7 +11,7 @@ export default function Carrossel({ imgs }) {
   const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
 
   return (
-    <div className="embla relative ">
+    <div className="embla relative">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container h-[90vh]">
           {imgs.map((img, index) => (

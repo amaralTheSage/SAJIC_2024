@@ -12,7 +12,7 @@ function Programacao() {
           <h1 className="mt-32 md:text-5xl text-2xl font-semibold text-[#0056B3]">
             Programação SAJIC | <span className="font-bold">2024</span>
           </h1>
-          <p className="mt-10 font-light md:text-3xl sm:text-lg text-center">
+          <p className="mt-10 font-light md:text-3xl sm:text-lg text-justify">
             Prepare-se para viver uma experiência incrível na 4° Edição da
             SAJIC, onde inovação, aprendizado e networking se unem em um só
             lugar! Imagine um espaço dinâmico e interativo, repleto de empresas

@@ -63,6 +63,7 @@ export const palestrantes = [
     hora: "09:20 as 10:20 (Manhã)",
     categoria: "tecnologia"
   },
+
   {
     prof: "Dalton Gaia da Silva",
     empresa: "Echo",
@@ -91,6 +92,7 @@ export const palestrantes = [
     hora: "10:40 as 11:40 (Manhã)",
     categoria: "tecnologia"
   },
+
   //   {
   //     prof: "Michele",
   //     empresa: "Unisenac" ,
@@ -105,7 +107,8 @@ export const palestrantes = [
   //     tema2: "",
   //     data2: "18/10",
   //     hora2: "19:15 as 20:15 (Noite)",
-  // }, 
+  // },
+
   {
     prof: "Vitor Vitolla",
     empresa: "ATLAS",
@@ -126,7 +129,8 @@ export const palestrantes = [
     tema: "Startup Take Off - O impulso que você precisa para alcançar os seus objetivos!",
     foto: "/palestrantes/julia_sibeli.jfif",
     desc: "A Take off é uma startup criada com o intuito de facilitar a vida dos jovens, trazendo informações essenciais diretamente no nosso site. Queremos ajudar-te a encontrar vagas de emprego, eventos importantes em Pelotas, inscrições para provas como o Enem e Ifsul, além de oportunidades como cursos gratuitos e outras iniciativas. A nossa missão é simples: ser a tua fonte de informações para que possas avançar no teu desenvolvimento pessoal e profissional. Com a Takeoff, fazer conexões que impulsionam o teu futuro pode se tornar mais fácil!",
-    instagram: "https://www.instagram.com/takeoff_pelotas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    instagram:
+      "https://www.instagram.com/takeoff_pelotas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     youtube: null,
     linkedin: null,
     github: null,
@@ -172,8 +176,8 @@ export const palestrantes = [
     foto: "/palestrantes/tiago_batista.jpg",
     desc: "Trabalho na Atlas Technologies desde 2021, onde o produto principal é a empresa Fatal Model. Como grande parte dos acessos à nossa plataforma vem de forma orgânica via Google, o SEO é uma prioridade. Nos últimos anos, o Google introduziu os Web Vitals, métricas que avaliam a performance e a experiência do usuário em uma página, influenciando diretamente o rankeamento nos resultados de busca. Minha palestra será focada em apresentar o histórico e a implementação dos Web Vitals pelo Google, além de explicar quais métricas compõem os Core Web Vitals e como medir a performance das páginas com base nesses indicadores. Será uma apresentação teórica, sem live coding, mas com exemplos de código e sites que ajudam a ilustrar os conceitos para o público.",
     instagram: null,
-    youtube: "https://youtube.com/@CodigoAoPonto",
     linkedin: "https://www.linkedin.com/in/thiagonunesbatista",
+    youtube: "https://youtube.com/@CodigoAoPonto",
     github: null,
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
@@ -187,7 +191,8 @@ export const palestrantes = [
     desc: "Estou estudando análise e desenvolvimento de sistemas e estive muito tempo atrás de vagas de estágio, então pesquisei muito sobre formas de me 'vender' através de curriculo portifólio e afins, então planejo dar uma apresentação de sobre como criar um portifólio e por o mesmo no ar",
     instagram: null,
     youtube: null,
-    linkedin: "https://www.linkedin.com/in/jo%C3%A3o-ot%C3%A1vio-leites-matuszevski-631683239/",
+    linkedin:
+      "https://www.linkedin.com/in/jo%C3%A3o-ot%C3%A1vio-leites-matuszevski-631683239/",
     github: null,
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
@@ -285,7 +290,8 @@ export const palestrantes = [
     tema: "Era hiperconectada: O Direito Digital e crimes digitais",
     foto: "/palestrantes/andrea_auge.jpeg",
     desc: "Advogada especialista em Direito Digital. Graduada em Direito pela Universidade Federal de Pelotas. Especialista em Compliance pelo Instituto de Direito Penal Econômico e Europeu da Universidade de Coimbra, Portugal. Possui experiência na defesa de violência digital em âmbito nacional e internacional. Coordenadora de Direito Digital da REVIBRA, rede europeia  que oferece suporte e assistência para mulheres migrantes vitimas de violência e discriminação antimigrante, Pós graduanda em Criptoativos e Blockchain pela ESMAFE/PR.",
-    instagram: "https://www.instagram.com/aandreaauge?igsh=MXBqMjNwMWtnaGI2aQ%3D%3D&utm_source=qr",
+    instagram:
+      "https://www.instagram.com/aandreaauge?igsh=MXBqMjNwMWtnaGI2aQ%3D%3D&utm_source=qr",
     youtube: null,
     linkedin: null,
     github: null,
@@ -320,5 +326,5 @@ export const palestrantes = [
     data: "18/10",
     hora: "20:40 as 21:40 (Noite)",
     categoria: "gestão"
-  }
+  },
 ];

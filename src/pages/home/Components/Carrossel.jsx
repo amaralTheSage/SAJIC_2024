@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import PropTypes from "prop-types";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -12,7 +11,7 @@ export default function Carrossel({ imgs }) {
   const { selectedIndex, onDotButtonClick } = useDotButton(emblaApi);
 
   return (
-    <div className="embla relative ">
+    <div className="embla relative">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container h-[90vh]">
           {imgs.map((img, index) => (
@@ -27,7 +26,10 @@ export default function Carrossel({ imgs }) {
           ))}
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
-          {/* <img className="md:w-[50vw] w-[90vw] select-none" src="/unisenacLogo.svg" /> */}
+          <img
+            className="md:w-[50vw] w-[90vw] max-w-[2000px] select-none"
+            src="/sajic_vazado.webp"
+          />
         </div>
       </div>
 

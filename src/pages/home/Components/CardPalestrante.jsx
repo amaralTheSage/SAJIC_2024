@@ -1,11 +1,11 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 
 function CardPalestrante({
   prof = "nome",
-  empresa = "empresa",
   image = "https://images.squarespace-cdn.com/content/v1/63f9284074ed022eb3ac8e91/4aadfae6-7772-4ffb-96ec-8d94a6a54487/D+Tas+Cover+Web.jpg?format=1000w",
   data1 = "data1",
   tema1 = "tema1",
+  empresa = "empresa",
   data2,
   tema2,
 }) {
@@ -13,12 +13,13 @@ function CardPalestrante({
     <div className="embla_palestrantes_slide  aspect-video mx-8 ">
       <div className=" text-lg">
         <span className="font-medium capitalize">{prof}</span>
-        <span className=""> {empresa && "- " + empresa}</span>
+        <br />
+        <span className="font-light capitalize">{empresa}</span>
       </div>
       <div>
         <img
           src={image}
-          alt=""
+          alt={prof}
           className="aspect-[3/4] w-full object-cover rounded-md mb-1 bg-[url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/17/0e/20/local.jpg?w=1200&h=-1&s=1)] bg-cover"
         />
       </div>
@@ -31,17 +32,18 @@ function CardPalestrante({
                 <>
                   {index === 0 && array.length > 1 ? (
                     <>
-                      <p className="font-medium">{parte}:</p>
+                      <span className="font-medium">{parte}:</span>
                     </>
                   ) : (
-                    <p>{parte}</p>
+                    <span>{parte}</span>
                   )}
                 </>
               ))
             ) : (
-              <p className="font-medium">{tema1}</p>
+              <span className="font-medium">{tema1}</span>
             )}
           </p>
+
           <p className="font-semibold">{data1}</p>
         </div>
 
@@ -53,17 +55,18 @@ function CardPalestrante({
                   <>
                     {index === 0 && array.length > 1 ? (
                       <>
-                        <p className="font-medium">{parte}:</p>
+                        <span className="font-medium">{parte}:</span>
                       </>
                     ) : (
-                      <p>{parte}</p>
+                      <span>{parte}</span>
                     )}
                   </>
                 ))
               ) : (
-                <p className="font-medium">{tema2}</p>
+                <span className="font-medium">{tema2}</span>
               )}
             </p>
+
             <p className="font-semibold">{data2}</p>
           </div>
         )}

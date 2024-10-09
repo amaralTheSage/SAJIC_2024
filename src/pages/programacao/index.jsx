@@ -24,10 +24,10 @@ function Programacao() {
 
         <Circulos />
 
+        {/* 16/10 */}
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
             {/* 16/10 Manhã */}
-
             <ProgramacaoHorario
               data="16/10"
               turno="Manhã"
@@ -60,6 +60,7 @@ function Programacao() {
 
             <Participar />
 
+            {/* 16/10 Noite */}
             <ProgramacaoHorario
               data="16/10"
               turno="Noite"
@@ -81,8 +82,10 @@ function Programacao() {
           </div>
         </section>
 
+        {/* 17/10 */}
         <section>
           <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
+            {/* 17/10 Manhã  */}
             <ProgramacaoHorario
               data="17/10"
               turno="Manhã"
@@ -111,6 +114,7 @@ function Programacao() {
 
             <Participar isWhiteBackground />
 
+            {/* 17/10 Noite  */}
             <ProgramacaoHorario
               data="17/10"
               turno="Noite"
@@ -169,8 +173,10 @@ function Programacao() {
           </div>
         </section>
 
+        {/* 18/10  */}
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+            {/* 18/10 Manhã  */}
             <ProgramacaoHorario
               data="18/10"
               turno="Manhã"
@@ -204,6 +210,7 @@ function Programacao() {
 
             <Participar />
 
+            {/* 18/10 Noite  */}
             <ProgramacaoHorario
               data="18/10"
               turno="Noite"

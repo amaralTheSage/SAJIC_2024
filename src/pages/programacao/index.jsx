@@ -24,10 +24,10 @@ function Programacao() {
 
         <Circulos />
 
+        {/* 16/10 */}
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
             {/* 16/10 Manhã */}
-
             <ProgramacaoHorario
               data="16/10"
               turno="Manhã"
@@ -35,7 +35,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
+            <div className="w-4/5 flex flex-col *:md:w-1/3 md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={
@@ -60,6 +60,7 @@ function Programacao() {
 
             <Participar />
 
+            {/* 16/10 Noite */}
             <ProgramacaoHorario
               data="16/10"
               turno="Noite"
@@ -67,7 +68,7 @@ function Programacao() {
               horarioCoffe="19:30 às 20:00"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col *:md:w-1/3 md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
@@ -81,8 +82,10 @@ function Programacao() {
           </div>
         </section>
 
+        {/* 17/10 */}
         <section>
           <div className="flex flex-col items-center justify-center mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-[#0056B2]">
+            {/* 17/10 Manhã  */}
             <ProgramacaoHorario
               data="17/10"
               turno="Manhã"
@@ -90,7 +93,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 *:md:w-1/3 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 prof_1={"Marcelo Oscaberry e Lorenzo Gonçalves"}
                 nome_1={"Oficina: Criação e Upload de portfólio"}
@@ -111,6 +114,7 @@ function Programacao() {
 
             <Participar isWhiteBackground />
 
+            {/* 17/10 Noite  */}
             <ProgramacaoHorario
               data="17/10"
               turno="Noite"
@@ -118,7 +122,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col lg:grid grid-cols-3 *:w-full gap-24 mt-28 md:mt-32 justify-between items-start text-xl">
               <EventoPalestra
                 prof_1={"Vitor Vitolla"}
                 nome_1={"Palestra: Debugando Hábitos"}
@@ -156,21 +160,25 @@ function Programacao() {
                 horario_2={"20:40"}
               />
 
-              <EventoPalestra
-                prof_1={"Eduardo Monks"}
-                nome_1={
-                  "Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
-                }
-                horario_1={"20:40"}
-              />
+              <div className="col-start-2">
+                <EventoPalestra
+                  prof_1={"Eduardo Monks"}
+                  nome_1={
+                    "Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
+                  }
+                  horario_1={"20:40"}
+                />
+              </div>
             </div>
 
             <Participar isWhiteBackground />
           </div>
         </section>
 
+        {/* 18/10  */}
         <section className="bg-gradient-to-b from-[#0065D2] to-[#004B9D]">
           <div className="flex flex-col items-center justify-center text-3xl mt-20 py-40 bg-[url('/predio_lines.svg')]  m-auto bg-no-repeat bg-cover text-white">
+            {/* 18/10 Manhã  */}
             <ProgramacaoHorario
               data="18/10"
               turno="Manhã"
@@ -204,6 +212,7 @@ function Programacao() {
 
             <Participar />
 
+            {/* 18/10 Noite  */}
             <ProgramacaoHorario
               data="18/10"
               turno="Noite"

@@ -9,7 +9,7 @@ function EventoPalestra({
   horario_2,
 }) {
   return (
-    <div className="flex flex-col gap-4 md:w-1/3">
+    <div className="flex flex-col gap-8 ">
       {/* Primeiro evento */}
       {nome_1 && (
         <div className="flex flex-col gap-2 w-[90%] items-start">
@@ -21,10 +21,7 @@ function EventoPalestra({
           )}
           {prof_1 && (
             <p>
-              Com{" "}
-              <span className="font-bold">
-                {prof_1}
-              </span>
+              Com <span className="font-bold">{prof_1}</span>
             </p>
           )}
         </div>
@@ -41,10 +38,7 @@ function EventoPalestra({
           )}
           {prof_2 && (
             <p>
-              Com{" "}
-              <span className="font-bold">
-                {prof_2}
-              </span>
+              Com <span className="font-bold">{prof_2}</span>
             </p>
           )}
         </div>

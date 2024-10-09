@@ -35,7 +35,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
+            <div className="w-4/5 flex flex-col *:md:w-1/3 md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center text-xl">
               <EventoPalestra
                 prof_1={"William Machado"}
                 nome_1={
@@ -68,7 +68,7 @@ function Programacao() {
               horarioCoffe="19:30 às 20:00"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col *:md:w-1/3 md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 nome_1={"Abertura"}
                 horario_1={"20:00"}
@@ -93,7 +93,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row gap-24 *:md:w-1/3 md:gap-32 mt-28 md:mt-32 justify-center md:items-start text-xl">
               <EventoPalestra
                 prof_1={"Marcelo Oscaberry e Lorenzo Gonçalves"}
                 nome_1={"Oficina: Criação e Upload de portfólio"}
@@ -122,7 +122,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:grid grid-cols-3 *:w-full gap-24 mt-28 md:mt-32 justify-between items-start text-xl">
               <EventoPalestra
                 prof_1={"Vitor Vitolla"}
                 nome_1={"Palestra: Debugando Hábitos"}
@@ -160,13 +160,15 @@ function Programacao() {
                 horario_2={"20:40"}
               />
 
-              <EventoPalestra
-                prof_1={"Eduardo Monks"}
-                nome_1={
-                  "Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
-                }
-                horario_1={"20:40"}
-              />
+              <div className="col-start-2">
+                <EventoPalestra
+                  prof_1={"Eduardo Monks"}
+                  nome_1={
+                    "Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
+                  }
+                  horario_1={"20:40"}
+                />
+              </div>
             </div>
 
             <Participar isWhiteBackground />

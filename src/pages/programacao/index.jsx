@@ -122,7 +122,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:grid grid-cols-3 *:w-full gap-24 mt-28 md:mt-32 justify-between items-start text-xl">
+            <div className="w-4/5 flex flex-col lg:grid grid-cols-3 *:w-full gap-24 mt-28 md:mt-32 justify-between items-start text-xl">
               <EventoPalestra
                 prof_1={"Vitor Vitolla"}
                 nome_1={"Palestra: Debugando Hábitos"}

@@ -167,6 +167,9 @@ function Programacao() {
                     "Palestra: Como funcionam os serviços alternativos de streaming de vídeo (IPTV)"
                   }
                   horario_1={"20:40"}
+                  nome_2={"Palestra: Mulheres na Tecnologia: Superando Desafios, Compartilhando experiências e Conquistando o Futuro"}
+                  prof_2={"Betânia Amaral e Jennifer Torchelsen"}
+                  horario_2={"20:40"}
                 />
               </div>
             </div>

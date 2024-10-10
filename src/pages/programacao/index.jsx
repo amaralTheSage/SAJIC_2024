@@ -186,7 +186,7 @@ function Programacao() {
               horarioCoffe="10:20 às 10:35"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col md:flex-row  *:md:w-1/3 gap-24 md:gap-32 mt-28 md:mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Marcelo da Siveira Siedler"}
                 nome_1={"Oficina: Desenvolvimento de Jogos usando Unity"}
@@ -220,7 +220,7 @@ function Programacao() {
               horarioCoffe="20:15 às 20:30"
             />
 
-            <div className="w-4/5 flex flex-col md:flex-row gap-32 mt-32 justify-around items-start text-xl">
+            <div className="w-4/5 flex flex-col  *:md:w-1/3 md:flex-row gap-32 mt-32 justify-around items-start text-xl">
               <EventoPalestra
                 prof_1={"Pablo Chiaro"}
                 nome_1={

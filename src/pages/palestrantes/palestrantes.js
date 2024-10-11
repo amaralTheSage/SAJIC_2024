@@ -289,7 +289,7 @@ export const palestrantes = [
     empresa: "Engenheiro de Infraestrutura e DevOps",
     tema: "DevOps: como mais processos podem melhorar minha experiência?",
     foto: "/palestrantes/Cleberson_saller.jpg",
-    desc: "Advogada especialista em Direito Digital. Graduada em Direito pela Universidade Federal de Pelotas. Especialista em Compliance pelo Instituto de Direito Penal Econômico e Europeu da Universidade de Coimbra, Portugal. Possui experiência na defesa de violência digital em âmbito nacional e internacional. Coordenadora de Direito Digital da REVIBRA, rede europeia  que oferece suporte e assistência para mulheres migrantes vitimas de violência e discriminação antimigrante, Pós graduanda em Criptoativos e Blockchain pela ESMAFE/PR.",
+    desc: "Atua a 5 anos como Engenheiro de Infraestrutura e um propagador da cultura DevOps. Trabalhou nos mais diversos cenários: desde startups com 3 pessoas até corporações com mais de 1000 funcionários. Atualmente como Head de Infraestrutura do time de Engenharia de dados, liderando um time de 8 engenheiros em uma empresa dos EUA.",
     instagram:"https://instagram.com/csaller_ ",
     youtube: null,
     linkedin: "https://www.linkedin.com/in/clebersonsaller",

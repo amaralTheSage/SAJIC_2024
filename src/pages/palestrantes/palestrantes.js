@@ -285,19 +285,18 @@ export const palestrantes = [
     categoria: "gestão"
   },
   {
-    prof: "Andréa Barros Augé",
-    empresa: "Andréa Augé advocacia",
-    tema: "Era hiperconectada: O Direito Digital e crimes digitais",
-    foto: "/palestrantes/andrea_auge.jpeg",
+    prof: "Cleberson Saller",
+    empresa: "Engenheiro de Infraestrutura e DevOps",
+    tema: "DevOps: como mais processos podem melhorar minha experiência?",
+    foto: "/palestrantes/Cleberson_saller.jpg",
     desc: "Advogada especialista em Direito Digital. Graduada em Direito pela Universidade Federal de Pelotas. Especialista em Compliance pelo Instituto de Direito Penal Econômico e Europeu da Universidade de Coimbra, Portugal. Possui experiência na defesa de violência digital em âmbito nacional e internacional. Coordenadora de Direito Digital da REVIBRA, rede europeia  que oferece suporte e assistência para mulheres migrantes vitimas de violência e discriminação antimigrante, Pós graduanda em Criptoativos e Blockchain pela ESMAFE/PR.",
-    instagram:
-      "https://www.instagram.com/aandreaauge?igsh=MXBqMjNwMWtnaGI2aQ%3D%3D&utm_source=qr",
+    instagram:"https://instagram.com/csaller_ ",
     youtube: null,
-    linkedin: null,
+    linkedin: "https://www.linkedin.com/in/clebersonsaller",
     github: null,
     data: "18/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "gestão"
+    categoria: "tecnologia"
   },
   {
     prof: "Nanda Fersula",

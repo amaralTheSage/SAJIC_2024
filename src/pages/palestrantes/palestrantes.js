@@ -212,6 +212,22 @@ export const palestrantes = [
     hora: "20:40 as 21:40 (Noite)",
     categoria: "tecnologia"
   },
+  {
+    prof: "Betânia Amaral e Jennifer Torchelsen",
+    empresa: "Unisenac",
+    tema: "Mulheres na Tecnologia: Superando Desafios, Compartilhando experiências e Conquistando o Futuro",
+    foto: "/palestrantes/jennifer_betania.jfif",
+    desc: "Betânia está no 3º semestre de Análise e Desenvolvimento de Sistemas e atua como estagiária de Quality Engineering na Compass Uol e desenvolvedora frontend na Senatec Junior. Com experiência como professora e streamer, Betânia adora criar interfaces bonitas e tem um grande interesse em encontrar bugs para garantir a melhor qualidade do software. Nas horas vagas, ela também é gamer.",
+    desc2:"Jennifer, no 6º semestre do mesmo curso, trabalha como Desenvolvedora Web Junior na Olostech. Ela é apaixonada por desenvolver novas funcionalidades para os usuários e é uma grande amante dos animais, especialmente gatos. Fora do trabalho, Jennifer gosta de jogar Beach Tennis e tomar chimarrão.",
+    instagram: "https://www.instagram.com/la_bett/profilecard/?igsh=aDNxZnNiczMxcGY0",
+    youtube: null,
+    linkedin: "https://www.linkedin.com/in/bet%C3%A2nia-amaral-321960285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    github: null,
+    instagram2: "https://www.instagram.com/jennifer_torchelsen?igsh=MTN2NGVpZDRqODlhaQ==",
+    data: "17/10",
+    hora: "20:40 as 21:40 (Noite)",
+    categoria: "tecnologia"
+  },
 
   ///////// Palestrantes do dia 18/10 /////////
   {
@@ -269,6 +285,20 @@ export const palestrantes = [
     data: "18/10",
     hora: "19:15 as 20:15 (Noite)",
     categoria: "tecnologia"
+  },
+  {
+    prof: "Flávio Tavares Badia",
+    empresa: "FB Projects & Solutions",
+    tema: "Agentes de IA: aplicações além do Chat com LLM e Langchain",
+    foto: "/palestrantes/Flavio_Badia.jpeg",
+    desc: "Gerente de Produtos e Projetos, com mais de 10 anos de experiência.Graduado em Análise e Desenvolvimento de Sistemas e com Especialização em Gerenciamento de Projetos, além de fluente em Inglês.Expertise na gestão de projetos e produtos digitais, liderança de equipes técnicas e de negócios, facilitação de cerimônias ágeis (Scrum, daily meetings, planning, retrospectives, demos) e forte conhecimento em todas as etapas do ciclo de vida de produtos digitais. Principais empresas: Globo, Nestlé, Pfizer, HSBC, Dell, Volvo, Siemens, DHL, Deutsche Bank, Allianz.",
+    instagram: null,
+    youtube: null,
+    linkedin: "https://www.linkedin.com/in/fbadia/",
+    github: null,
+    data: "18/10",
+    hora: "19:15 as 20:15 (Noite)",
+    categoria: "gestão"
   },
   {
     prof: "Régis Neves Machado",

@@ -150,6 +150,17 @@ function Programacao() {
               />
 
               <EventoPalestra
+                prof_1={"um painel com influenciadores, marca e agência"}
+                nome_1={
+                  "Palestra: Marketing de Influência: Por onde começar?"
+                }
+                horario_1={"19:15"}
+                nome_2={"Palestra: Mulheres na Tecnologia - Superando Desafios, Compartilhando experiências e Conquistando o Futuro"}
+                prof_2={"Betânia Amaral e Jennifer Torchelsen"}
+                horario_2={"20:40"}
+              />
+
+              <EventoPalestra
                 prof_1={"Thiago Nunes Batista"}
                 nome_1={
                   "Palestra: Web Vitals, como a experiência do usuário vai afetar o SEO do seu site?"
@@ -199,7 +210,7 @@ function Programacao() {
               <EventoPalestra
                 prof_1={"Ítalo Nolasco Ramos"}
                 nome_1={
-                  "Palestra: Construindo e validando um MVP: Gerar valor mitigando riscos"
+                  "Palestra: Construindo e validando um MVP - Gerar valor mitigando riscos"
                 }
                 horario_1={"10:40"}
                 prof_2={"Eduardo Roveré"}
@@ -238,9 +249,9 @@ function Programacao() {
                 nome_1="Palestra: O Futuro da Carreira de TI"
                 prof_1="Régis Neves Machado"
                 horario_1="19:15"
-                nome_2="Palestra: Era hiperconectada: O Direito Digital e crimes digitais"
-                prof_2="Andréa Barros Augé"
-                horario_2="20:40"
+                nome_2="Palestra: A carreira, os tropeços e os rumos - Como sobreviver nesse mercado louco?"
+                prof_2="Flávio Badia"
+                horario_2="19:15"
               />
 
               <EventoPalestra
@@ -250,6 +261,12 @@ function Programacao() {
                 nome_2="Palestra: Aplicando métodos Ágeis com Scrum"
                 prof_2="Eduardo Prestes da Costa"
                 horario_2="20:40"
+              />
+
+              <EventoPalestra
+                nome_1="Palestra: DevOps - Como mais processos podem melhorar minha experiência?"
+                prof_1="Cleberson Saller"
+                horario_1="20:40"
               />
             </div>
 

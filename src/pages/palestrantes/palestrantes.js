@@ -12,7 +12,7 @@ export const palestrantes = [
     github: null,
     data: "16/10",
     hora: "09:20 as 10:20 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Ítalo Nolasco Ramos",
@@ -30,7 +30,7 @@ export const palestrantes = [
     data2: "18/10",
     hora2: "10:40 as 11:40 (Manhã)",
     categoria: "tecnologia",
-    categoria2: "gestão"
+    categoria2: "gestão",
   },
   {
     prof: "Adriana Silva da Silva",
@@ -44,7 +44,7 @@ export const palestrantes = [
     github: null,
     data: "16/10",
     hora: "10:40 as 11:40 (Manhã)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
 
   ///////// Palestrantes do dia 17/10 /////////
@@ -61,7 +61,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "09:20 as 10:20 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
 
   {
@@ -76,7 +76,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "09:20 as 10:20 (Manhã)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Débora Carvalho",
@@ -90,7 +90,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "10:40 as 11:40 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
 
   //   {
@@ -121,7 +121,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "19:15 as 20:15 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Júlia Garcia e Sibeli Avila",
@@ -136,7 +136,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "19:15 as 20:15 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Ana Carolina Giudice Beber",
@@ -150,13 +150,14 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "19:15 as 20:15 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Augusto Rickes",
     empresa: "ATLAS",
     tema: "Desvendando o playwright: Automação moderna para testes Web - Um mergulho técnico.",
-    tema2: "Construção de uma api laravel com algumas rotas e autenticação para testar com postman",
+    tema2:
+      "Construção de uma api laravel com algumas rotas e autenticação para testar com postman",
     foto: "/palestrantes/augusto_rickes.jpg",
     desc: "Trabalho com automação a 1 ano e meio. utilizo playwright, K6 e selenium.",
     instagram: null,
@@ -167,7 +168,7 @@ export const palestrantes = [
     hora: "19:15 as 20:15 (Noite)",
     data2: "18/10",
     hora2: "19:15 as 20:15 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Thiago Nunes Batista",
@@ -181,7 +182,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "João Otávio Leites Matuszevski",
@@ -196,7 +197,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Eduardo Maroñas Monks",
@@ -210,7 +211,7 @@ export const palestrantes = [
     github: null,
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Betânia Amaral e Jennifer Torchelsen",
@@ -218,15 +219,19 @@ export const palestrantes = [
     tema: "Mulheres na Tecnologia: Superando Desafios, Compartilhando experiências e Conquistando o Futuro",
     foto: "/palestrantes/jennifer_betania.jfif",
     desc: "Betânia está no 3º semestre de Análise e Desenvolvimento de Sistemas e atua como estagiária de Quality Engineering na Compass Uol e desenvolvedora frontend na Senatec Junior. Com experiência como professora e streamer, Betânia adora criar interfaces bonitas e tem um grande interesse em encontrar bugs para garantir a melhor qualidade do software. Nas horas vagas, ela também é gamer.",
-    desc2:"Jennifer, no 6º semestre do mesmo curso, trabalha como Desenvolvedora Web Junior na Olostech. Ela é apaixonada por desenvolver novas funcionalidades para os usuários e é uma grande amante dos animais, especialmente gatos. Fora do trabalho, Jennifer gosta de jogar Beach Tennis e tomar chimarrão.",
-    instagram: "https://www.instagram.com/la_bett/profilecard/?igsh=aDNxZnNiczMxcGY0",
+    desc2:
+      "Jennifer, no 6º semestre do mesmo curso, trabalha como Desenvolvedora Web Junior na Olostech. Ela é apaixonada por desenvolver novas funcionalidades para os usuários e é uma grande amante dos animais, especialmente gatos. Fora do trabalho, Jennifer gosta de jogar Beach Tennis e tomar chimarrão.",
+    instagram:
+      "https://www.instagram.com/la_bett/profilecard/?igsh=aDNxZnNiczMxcGY0",
     youtube: null,
-    linkedin: "https://www.linkedin.com/in/bet%C3%A2nia-amaral-321960285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin:
+      "https://www.linkedin.com/in/bet%C3%A2nia-amaral-321960285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     github: null,
-    instagram2: "https://www.instagram.com/jennifer_torchelsen?igsh=MTN2NGVpZDRqODlhaQ==",
+    instagram2:
+      "https://www.instagram.com/jennifer_torchelsen?igsh=MTN2NGVpZDRqODlhaQ==",
     data: "17/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
 
   ///////// Palestrantes do dia 18/10 /////////
@@ -242,7 +247,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "09:15 as 12:00 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Gladimir Catarino",
@@ -256,7 +261,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "09:20 as 10:20 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Eduardo Roveré",
@@ -270,7 +275,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "10:40 as 11:40 (Manhã)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Pablo Chiaro de Rosa",
@@ -284,21 +289,21 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "19:15 as 20:15 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Flávio Tavares Badia",
     empresa: "FB Projects & Solutions",
-    tema: "Agentes de IA: aplicações além do Chat com LLM e Langchain",
+    tema: "A carreira, os tropeços e os rumos: como sobreviver nesse mercado louco",
     foto: "/palestrantes/Flavio_Badia.jpeg",
-    desc: "Gerente de Produtos e Projetos, com mais de 10 anos de experiência.Graduado em Análise e Desenvolvimento de Sistemas e com Especialização em Gerenciamento de Projetos, além de fluente em Inglês.Expertise na gestão de projetos e produtos digitais, liderança de equipes técnicas e de negócios, facilitação de cerimônias ágeis (Scrum, daily meetings, planning, retrospectives, demos) e forte conhecimento em todas as etapas do ciclo de vida de produtos digitais. Principais empresas: Globo, Nestlé, Pfizer, HSBC, Dell, Volvo, Siemens, DHL, Deutsche Bank, Allianz.",
+    desc: "Gerente de Produtos e Projetos, com mais de 10 anos de experiência. Graduado em Análise e Desenvolvimento de Sistemas e com Especialização em Gerenciamento de Projetos, além de fluente em Inglês. Expertise na gestão de projetos e produtos digitais, liderança de equipes técnicas e de negócios, facilitação de cerimônias ágeis (Scrum, daily meetings, planning, retrospectives, demos) e forte conhecimento em todas as etapas do ciclo de vida de produtos digitais. Principais empresas: Globo, Nestlé, Pfizer, HSBC, Dell, Volvo, Siemens, DHL, Deutsche Bank, Allianz.",
     instagram: null,
     youtube: null,
     linkedin: "https://www.linkedin.com/in/fbadia/",
     github: null,
     data: "18/10",
     hora: "19:15 as 20:15 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Régis Neves Machado",
@@ -312,7 +317,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "19:15 as 19:45 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Cleberson Saller",
@@ -320,13 +325,13 @@ export const palestrantes = [
     tema: "DevOps: como mais processos podem melhorar minha experiência?",
     foto: "/palestrantes/Cleberson_saller.jpg",
     desc: "Atua a 5 anos como Engenheiro de Infraestrutura e um propagador da cultura DevOps. Trabalhou nos mais diversos cenários: desde startups com 3 pessoas até corporações com mais de 1000 funcionários. Atualmente como Head de Infraestrutura do time de Engenharia de dados, liderando um time de 8 engenheiros em uma empresa dos EUA.",
-    instagram:"https://instagram.com/csaller_ ",
+    instagram: "https://instagram.com/csaller_ ",
     youtube: null,
     linkedin: "https://www.linkedin.com/in/clebersonsaller",
     github: null,
     data: "18/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "tecnologia"
+    categoria: "tecnologia",
   },
   {
     prof: "Nanda Fersula",
@@ -340,7 +345,7 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
   {
     prof: "Eduardo Prestes da Costa",
@@ -354,6 +359,6 @@ export const palestrantes = [
     github: null,
     data: "18/10",
     hora: "20:40 as 21:40 (Noite)",
-    categoria: "gestão"
+    categoria: "gestão",
   },
 ];

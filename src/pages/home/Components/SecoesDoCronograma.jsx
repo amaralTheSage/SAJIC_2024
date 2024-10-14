@@ -1,38 +1,34 @@
 /* eslint-disable react/prop-types */
-import { palestrantes } from '../../palestrantes/palestrantes';
+import { palestrantes } from "../../palestrantes/palestrantes";
 import CardPalestrante from "./CardPalestrante";
 import VerProgramacao from "./VerProgramacao";
 import CarrosselPalestrantes from "./CarrosselPalestrantes";
 
 function SecoesDoCronograma({ assunto, reverse = false, children }) {
-
-  const palestrantesFiltrados = palestrantes.filter(palestrante => {
-    if (palestrante.categoria == assunto)
-      return true
-    else
-      return false
+  const palestrantesFiltrados = palestrantes.filter((palestrante) => {
+    if (palestrante.categoria == assunto) return true;
+    else return false;
   });
 
-  const PalestantesElementos = palestrantesFiltrados.map(palestrante =>
+  const PalestantesElementos = palestrantesFiltrados.map((palestrante) => (
     <CardPalestrante
       key={palestrante.prof}
       prof={palestrante.prof}
       image={palestrante.foto}
       empresa={palestrante.empresa}
-
       data1={`${palestrante.data}, das ${palestrante.hora}`}
       tema1={palestrante.tema}
-
       data2={`${palestrante.data2}, das ${palestrante.hora2}`}
       tema2={palestrante.tema2}
     />
-  )
+  ));
 
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${reverse && "flex-row-reverse"
-          }`}
+        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${
+          reverse && "flex-row-reverse"
+        }`}
       >
         {/* IMAGEM */}
         <div className="flex justify-center">
@@ -43,8 +39,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
               <figure className="flex w-full h-full items-center relative">
                 <img
                   src={
-                    (assunto.toLowerCase() === "tecnologia" && "tecnologia_thumb.png")
-                    ||
+                    (assunto.toLowerCase() === "tecnologia" &&
+                      "tecnologia_thumb.png") ||
                     (assunto.toLowerCase() === "gestão" && "gestão_thumb.png")
                   }
                   alt=""
@@ -66,7 +62,11 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
 
         {/* TEXTO */}
         <div className={!reverse && "flex flex-col items-end"}>
-          <p className={`text-lg font-light max-lg:text-center mb-4 ${!reverse && "text-right"}`}>
+          <p
+            className={`text-lg font-light max-lg:text-center mb-4 ${
+              !reverse && "text-right"
+            }`}
+          >
             {children}
           </p>
           <VerProgramacao />
@@ -76,7 +76,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
       {/* PALESTRANTES */}
       <div className="mt-24">
         <h2 className="font-semibold text-center mb-5 text-3xl mx-[5vw] sm:mx-[10vw]">
-          Palestrantes de {assunto} confirmados!
+          Palestrantes de {assunto == "gestão" ? "gestão e mercado" : assunto}{" "}
+          confirmados!
         </h2>
         <div>
           <CarrosselPalestrantes gestao={assunto.toLowerCase() === "gestão"}>

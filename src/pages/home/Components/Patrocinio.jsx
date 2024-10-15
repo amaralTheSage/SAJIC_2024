@@ -1,4 +1,3 @@
-import React from "react";
 import EmpresaCard from "./EmpresaCard";
 
 function Patrocinio() {
@@ -8,6 +7,8 @@ function Patrocinio() {
         Patrocinadores
       </h2>
       <div className="w-3/5 flex items-center grow-0 justify-evenly flex-wrap m-auto gap-x-20 gap-y-12">
+        <EmpresaCard img="/patrocinadores/aggrandize_logo.png" alt="Aggrandize" />
+        <EmpresaCard img="/patrocinadores/caputo_logo.png" alt="Caputo" />
         <EmpresaCard img="/patrocinadores/doutormultas_logo.png" alt="Doutormultas" />
         <EmpresaCard img="/patrocinadores/holz_logo.png" alt="Holz" />
         <EmpresaCard img="/patrocinadores/sebrae_logo.png" alt="Sebrae" />

@@ -14,9 +14,8 @@ export default function ProgramacaoHorario({
       <div className="flex flex-col md:flex-row gap-8 justify-center text-center md:text-left mt-20 text-xl md:text-2xl">
         <div>
           <p>Credenciamento</p>
-          <p className="font-light">
-            Horário: <span>{horarioCreden}</span>
-          </p>
+          <span className="font-light">Horário: </span>
+          <span>{horarioCreden}</span>
         </div>
 
         <hr className="border-white w-20 md:-rotate-90 m-auto" />

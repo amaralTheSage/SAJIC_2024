@@ -5,12 +5,17 @@ import VerProgramacao from "./VerProgramacao";
 import CarrosselPalestrantes from "./CarrosselPalestrantes";
 
 function SecoesDoCronograma({ assunto, reverse = false, children }) {
-  const palestrantesFiltrados = palestrantes.filter((palestrante) => {
-    if (palestrante.categoria == assunto) return true;
-    else return false;
-  });
 
-  const PalestantesElementos = palestrantesFiltrados.map((palestrante) => (
+  const palestrantesFiltrados = palestrantes.filter(palestrante => {
+    if (palestrante.categoria == assunto) {
+      return true
+    }
+    else {
+      return false
+    }
+  })
+
+  const PalestantesElementos = palestrantesFiltrados.map(palestrante =>
     <CardPalestrante
       key={palestrante.prof}
       prof={palestrante.prof}
@@ -21,14 +26,13 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
       data2={`${palestrante.data2}, das ${palestrante.hora2}`}
       tema2={palestrante.tema2}
     />
-  ));
+  )
 
   return (
     <div className="my-32">
       <div
-        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${
-          reverse && "flex-row-reverse"
-        }`}
+        className={`flex justify-center gap-16 flex-wrap mx-[8vw] md:mx-[12vw] lg:flex-nowrap ${reverse && "flex-row-reverse"
+          }`}
       >
         {/* IMAGEM */}
         <div className="flex justify-center">
@@ -63,9 +67,8 @@ function SecoesDoCronograma({ assunto, reverse = false, children }) {
         {/* TEXTO */}
         <div className={!reverse && "flex flex-col items-end"}>
           <p
-            className={`text-lg font-light max-lg:text-center mb-4 ${
-              !reverse && "text-right"
-            }`}
+            className={`text-lg font-light max-lg:text-center mb-4 ${!reverse && "text-right"
+              }`}
           >
             {children}
           </p>
